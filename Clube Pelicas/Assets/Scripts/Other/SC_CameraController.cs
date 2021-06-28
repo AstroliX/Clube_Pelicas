@@ -9,16 +9,22 @@ namespace Pelicas
         private float RotationSpeed = 1;
         public Transform Target, Player;
         float mouseX, mouseY;
+        public bool isInMenu;
 
         private void Start()
         {
             Cursor.visible = false;
             Cursor.lockState = CursorLockMode.Locked;
+            isInMenu = false;
         }
 
         private void LateUpdate()
         {
-            CamControl();
+            if (!isInMenu)
+            {
+                CamControl();
+            }
+            
         }
 
         void CamControl()

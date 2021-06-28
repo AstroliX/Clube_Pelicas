@@ -7,26 +7,30 @@ namespace Pelicas
     public class SC_CursorController : MonoBehaviour
     {
         [SerializeField] Texture2D cursorVEVO;
-        [SerializeField] GameObject playerCamera;
 
+        SC_CameraController cameraScript;
 
-
+        private void Awake()
+        {
+            cameraScript = FindObjectOfType<SC_CameraController>();
+        }
 
         public void ActivateCursor()
         {
-            //Cursor.SetCursor(cursorVEVO, Vector2.zero, CursorMode.Auto);
+            Cursor.SetCursor(cursorVEVO, Vector2.zero, CursorMode.Auto);
             Cursor.visible = true;
             Cursor.lockState = CursorLockMode.None;
-            //playerCamera.GetComponent<PlayerCamera>().enabled = false;
-
-
+            cameraScript.isInMenu = true;
 
         }
 
+
         public void DeactivateCursor()
         {
-            // playerCamera.GetComponent<PlayerCamera>().enabled = true;
+            cameraScript.isInMenu = false;
             Cursor.visible = false;
+            Cursor.SetCursor(cursorVEVO, Vector2.zero, CursorMode.Auto);
+            Cursor.lockState = CursorLockMode.Locked;
         }
     }
 }

@@ -22,6 +22,7 @@ namespace Pelicas
         private void Awake()
         {
             playerScript = FindObjectOfType<SC_PlayerController>();
+            cursorScript = FindObjectOfType<SC_CursorController>();
         }
 
         private void OnTriggerEnter(Collider other)
@@ -56,7 +57,7 @@ namespace Pelicas
         void SetupMiniGame()
         {
             playerScript.canMove = false;
-            //cursorScript.ActivateCursor();
+            cursorScript.ActivateCursor();
 
             beforeTalking_1.SetActive(false);
             beforeTalking_2.SetActive(false);
@@ -67,7 +68,7 @@ namespace Pelicas
         public void LeaveSetup()
         {
             
-            //cursorScript.DeactivateCursor();
+            cursorScript.DeactivateCursor();
 
             beforeTalking_1.SetActive(true);
             beforeTalking_2.SetActive(true);
