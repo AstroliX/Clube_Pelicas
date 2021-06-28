@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace Pelicas
 {
-    public class sc_CameraController : MonoBehaviour
+    public class SC_CameraController : MonoBehaviour
     {
         private float RotationSpeed = 1;
         public Transform Target, Player;

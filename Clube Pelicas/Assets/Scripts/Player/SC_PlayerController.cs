@@ -4,16 +4,22 @@ using UnityEngine;
 
 namespace Pelicas
 {
-    public class sc_PlayerController : MonoBehaviour
+    public class SC_PlayerController : MonoBehaviour
     {
+        [Header("Floats")]
         [SerializeField] private float movementSpeed;
         [SerializeField] private float damping = 5f;
-
-        CharacterController characterController;
         private float velocityY;
-        private Vector3 currentImpact;
-
         private readonly float gravity = Physics.gravity.y;
+
+        [Space]
+        [Header("Bools")]
+        public bool canMove;
+
+
+        private Vector3 currentImpact;
+       
+        CharacterController characterController;
 
         private void Awake()
         {
@@ -21,9 +27,18 @@ namespace Pelicas
             characterController = GetComponent<CharacterController>();
         }
 
+        private void Start()
+        {
+            canMove = true;
+        }
+
         private void Update()
         {
-            Move();
+            if (canMove)
+            {
+                Move();
+            }
+        
         }
 
 
