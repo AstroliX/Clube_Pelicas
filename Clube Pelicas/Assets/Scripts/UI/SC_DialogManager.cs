@@ -6,7 +6,7 @@ using TMPro;
 
 namespace Pelicas
 {
-    public class DialogManager : MonoBehaviour
+    public class SC_DialogManager : MonoBehaviour
     {
         public TextMeshProUGUI textDisplayDoorLocked;
         public string[] sentences;
