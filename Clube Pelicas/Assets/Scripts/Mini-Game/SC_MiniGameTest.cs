@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace Pelicas
 {
@@ -9,17 +10,26 @@ namespace Pelicas
         int points;
         [SerializeField] int amountNeeded;
 
+        [SerializeField] GameObject pointButton;
+        [SerializeField] GameObject youWonButton;
+
         private void Update()
         {
             if(points == amountNeeded)
             {
-                Debug.Log("You won gg wp");
+                pointButton.SetActive(false);
+                youWonButton.SetActive(true);
             }
         }
 
         public void AddPoint()
         {
             points++;
+        }
+
+        public void ReturnToCity(string levelName)
+        {
+            SceneManager.LoadScene(levelName);
         }
     }
 

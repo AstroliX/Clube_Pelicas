@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace Pelicas
 {
@@ -78,6 +79,11 @@ namespace Pelicas
             buttonPlay.SetActive(false);
 
             playerScript.canMove = true;
+        }
+
+        public void LaunchMiniGame(string levelName)
+        {            
+            SceneManager.LoadScene(levelName);
         }
     }
 
