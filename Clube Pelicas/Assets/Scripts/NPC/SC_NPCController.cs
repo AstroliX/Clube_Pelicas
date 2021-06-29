@@ -63,6 +63,7 @@ namespace Pelicas
             beforeTalking_2.SetActive(false);
             txt.SetActive(true);
             buttonReturn.SetActive(true);
+            buttonPlay.SetActive(true);
         }
 
         public void LeaveSetup()
@@ -74,6 +75,7 @@ namespace Pelicas
             beforeTalking_2.SetActive(true);
             txt.SetActive(false);
             buttonReturn.SetActive(false);
+            buttonPlay.SetActive(false);
 
             playerScript.canMove = true;
         }
