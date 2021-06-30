@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 5151bcef2f3c44a469d4021601d06d9f, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.4495908, g: 0.49966395, b: 0.57566667, a: 1}
+  m_IndirectSpecularColor: {r: 0.24890107, g: 0.24890107, b: 0.24890107, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: ec0ac31a77f8eec439091107630bb7fa, type: 2}
   m_LightingSettings: {fileID: 0}
 --- !u!196 &4
 NavMeshSettings:
@@ -160,8 +160,8 @@ Camera:
   m_GameObject: {fileID: 570205042}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0.254717, g: 0.254717, b: 0.254717, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -386,7 +386,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8bd2be105fe5bbf4aa58035692e13da5, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -1.013
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8bd2be105fe5bbf4aa58035692e13da5, type: 3}
       propertyPath: m_LocalPosition.y
@@ -447,7 +447,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8bd2be105fe5bbf4aa58035692e13da5, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -1.013
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8bd2be105fe5bbf4aa58035692e13da5, type: 3}
       propertyPath: m_LocalPosition.y
