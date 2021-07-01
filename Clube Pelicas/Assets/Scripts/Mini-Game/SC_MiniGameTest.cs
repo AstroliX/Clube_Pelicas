@@ -13,12 +13,21 @@ namespace Pelicas
         [SerializeField] GameObject pointButton;
         [SerializeField] GameObject youWonButton;
 
+
+        SC_MiniGameManager miniGameManagerScript;
+
+        private void Awake()
+        {
+            miniGameManagerScript = FindObjectOfType<SC_MiniGameManager>();
+        }
+
         private void Update()
         {
             if(points == amountNeeded)
             {
                 pointButton.SetActive(false);
                 youWonButton.SetActive(true);
+                miniGameManagerScript.HeWon();
             }
         }
 
@@ -31,6 +40,8 @@ namespace Pelicas
         {
             SceneManager.LoadScene(levelName);
         }
+
+        
     }
 
 }

@@ -15,6 +15,8 @@ namespace Pelicas
         [Space]
         [Header("Bools")]
         public bool canMove;
+        public bool wonMiniGame;
+        public bool lostMiniGame;
 
 
         private Vector3 currentImpact;
@@ -24,7 +26,7 @@ namespace Pelicas
         private void Awake()
         {
 
-            characterController = GetComponent<CharacterController>();
+            characterController = GetComponent<CharacterController>();          
         }
 
         private void Start()
