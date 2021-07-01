@@ -65,6 +65,8 @@ namespace Pelicas
 
             currentImpact = Vector3.Lerp(currentImpact, Vector3.zero, damping * Time.deltaTime);
         }
+
+
     }
 
 }
