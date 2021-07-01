@@ -15,11 +15,11 @@ D:/Rubika/Stage2021/GIT/Clube_Pelicas/Clube Pelicas
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-65182
+61122
 Successfully changed project path to: D:/Rubika/Stage2021/GIT/Clube_Pelicas/Clube Pelicas
 D:/Rubika/Stage2021/GIT/Clube_Pelicas/Clube Pelicas
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 66.91 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 66.73 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.12f1 (b3b2c6512326)
 [Subsystems] Discovering subsystems at path D:/Unity/2020.3.12f1/Editor/Data/Resources/UnitySubsystems
@@ -36,38 +36,38 @@ Initialize mono
 Mono path[0] = 'D:/Unity/2020.3.12f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity/2020.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/Unity/2020.3.12f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56460
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56344
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity/2020.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001517 seconds.
+Registered in 0.001518 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 59.78 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 63.89 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.634 seconds
+- Completed reload, in  1.645 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006796 seconds.
+Registered in 0.008138 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 68.10 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 65.49 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.595 seconds
+- Completed reload, in  1.458 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2693 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 122.8 MB.
-System memory in use after: 123.0 MB.
+System memory in use before: 122.9 MB.
+System memory in use after: 123.1 MB.
 
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3126.
-Total: 2.930300 ms (FindLiveObjects: 0.238500 ms CreateObjectMapping: 0.130400 ms MarkObjects: 2.419100 ms  DeleteObjects: 0.141300 ms)
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3129.
+Total: 2.962600 ms (FindLiveObjects: 0.488900 ms CreateObjectMapping: 0.343300 ms MarkObjects: 2.024300 ms  DeleteObjects: 0.105000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -82,41 +82,315 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Materials/M_PlaneColorSkybox.mat
-  artifactKey: Guid(5151bcef2f3c44a469d4021601d06d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/M_PlaneColorSkybox.mat using Guid(5151bcef2f3c44a469d4021601d06d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1c89b1c0e45b1dba6058be95ece3128') in 0.464774 seconds 
-  Import took 0.469136 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1662.972754 seconds.
-  path: Assets/Meshes/Chara/New Material.mat
-  artifactKey: Guid(35d957157206fbf4096f306dc2545dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Meshes/Chara/New Material.mat using Guid(35d957157206fbf4096f306dc2545dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8671fe7d6505e356155c816b642eba25') in 0.015881 seconds 
-  Import took 0.023416 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 17465.000527 seconds.
-  path: Assets/Meshes/Chara/SM_PeliSmooth 1.fbx
-  artifactKey: Guid(6830a87e186106c458eb29c1c41eed71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Meshes/Chara/SM_PeliSmooth 1.fbx using Guid(6830a87e186106c458eb29c1c41eed71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '610e0ad10cee375b09c6efbcac50aa26') in 0.851952 seconds 
-  Import took 0.904621 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3631.665019 seconds.
-  path: Assets/Meshes/Chara/SM_PeliSmooth 1.fbx
-  artifactKey: Guid(6830a87e186106c458eb29c1c41eed71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Meshes/Chara/SM_PeliSmooth 1.fbx using Guid(6830a87e186106c458eb29c1c41eed71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd3659bd394902a3d43d168bc7ac08c1') in 0.121488 seconds 
-  Import took 0.199732 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 148.349447 seconds.
   path: Assets/Textures/Chara/PeliSmooth/T_Peli_D.tga
   artifactKey: Guid(282ed153d4372594eb7f0a46af0fffcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Chara/PeliSmooth/T_Peli_D.tga using Guid(282ed153d4372594eb7f0a46af0fffcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b7bf52f440d0a1f30a894d9ff18fc62') in 0.059669 seconds 
-  Import took 0.069376 seconds .
+Start importing Assets/Textures/Chara/PeliSmooth/T_Peli_D.tga using Guid(282ed153d4372594eb7f0a46af0fffcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27077061c506e648203c403dda609dfa') in 0.118725 seconds 
+  Import took 0.123053 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 61.516785 seconds.
+  path: Assets/Rendering/UniversalRenderPipelineAsset.asset
+  artifactKey: Guid(469b82c702a5cfd4e84f9e4820e58f33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rendering/UniversalRenderPipelineAsset.asset using Guid(469b82c702a5cfd4e84f9e4820e58f33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7947d0d43b91d9c82ea8060bb2550996') in 0.009090 seconds 
+  Import took 0.014125 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.149234 seconds.
+  path: Assets/Materials/M_PlaneColorSkybox.mat
+  artifactKey: Guid(5151bcef2f3c44a469d4021601d06d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/M_PlaneColorSkybox.mat using Guid(5151bcef2f3c44a469d4021601d06d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dc3176384009d39760bf6993bf8dfa7') in 0.406803 seconds 
+  Import took 0.411272 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.775467 seconds.
+  path: Assets/Meshes/Chara/SM_PeliSmooth 1.fbx
+  artifactKey: Guid(6830a87e186106c458eb29c1c41eed71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Chara/SM_PeliSmooth 1.fbx using Guid(6830a87e186106c458eb29c1c41eed71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '641842a472b01fca8c4429f45ad0c127') in 0.292974 seconds 
+  Import took 0.298120 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.605422 seconds.
+  path: Assets/Meshes/Chara/SK_Peli.fbx
+  artifactKey: Guid(9e834e52c65fb9145b8621ceccb20738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Chara/SK_Peli.fbx using Guid(9e834e52c65fb9145b8621ceccb20738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff0bd4ff9905f51495e3fb4044040879') in 0.104663 seconds 
+  Import took 0.110713 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 97.956325 seconds.
+  path: Assets/Meshes/Chara/SK_Peli.fbx
+  artifactKey: Guid(9e834e52c65fb9145b8621ceccb20738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Chara/SK_Peli.fbx using Guid(9e834e52c65fb9145b8621ceccb20738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3e29bc2c306720e8e1981b0cd3675eb') in 0.117525 seconds 
+  Import took 0.124534 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.815280 seconds.
+  path: Assets/Meshes/Chara/SK_Peli.fbx
+  artifactKey: Guid(9e834e52c65fb9145b8621ceccb20738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Chara/SK_Peli.fbx using Guid(9e834e52c65fb9145b8621ceccb20738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7ca25d2b668b5729319cc6d891a4175') in 0.116240 seconds 
+  Import took 0.123662 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.284904 seconds.
+  path: Assets/Meshes/Chara/Materials/No Name.mat
+  artifactKey: Guid(df895e930ee219344a1dec19a2a4de08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Chara/Materials/No Name.mat using Guid(df895e930ee219344a1dec19a2a4de08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d803a642cd820785f1d2bdbe6e96de7') in 0.054537 seconds 
+  Import took 0.059080 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.145949 seconds.
+  path: Assets/Meshes/Chara/Materials/M_Peli.mat
+  artifactKey: Guid(df895e930ee219344a1dec19a2a4de08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Chara/Materials/M_Peli.mat using Guid(df895e930ee219344a1dec19a2a4de08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c7a915d52a139a2bb8e1e0f9b5a8369') in 0.014091 seconds 
+  Import took 0.021350 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.944517 seconds.
+  path: Assets/Scenes/AM_Sandbox/ReflectionProbe-0.exr
+  artifactKey: Guid(f0e7c6f876bc1c7458e8480626618a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/AM_Sandbox/ReflectionProbe-0.exr using Guid(f0e7c6f876bc1c7458e8480626618a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a89b6d482ba21d617d6fd4fa7d6fad69') in 0.091488 seconds 
+  Import took 0.098158 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000386 seconds.
+  path: Assets/Scenes/AM_Sandbox/ReflectionProbe-1.exr
+  artifactKey: Guid(64bc7385dc1f629488f3947b6445dd1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/AM_Sandbox/ReflectionProbe-1.exr using Guid(64bc7385dc1f629488f3947b6445dd1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6c6e02b4af68ae03251d033c3f285bf') in 0.036795 seconds 
+  Import took 0.042629 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008054 seconds.
+  path: Assets/Scenes/AM_Sandbox/ReflectionProbe-1.exr
+  artifactKey: Guid(64bc7385dc1f629488f3947b6445dd1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/AM_Sandbox/ReflectionProbe-1.exr using Guid(64bc7385dc1f629488f3947b6445dd1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6c6e02b4af68ae03251d033c3f285bf') in 0.015549 seconds 
+  Import took 0.022572 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 254.314923 seconds.
+  path: Assets/Textures/Chara/PeliSmooth/T_Peli_D.tga
+  artifactKey: Guid(282ed153d4372594eb7f0a46af0fffcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Chara/PeliSmooth/T_Peli_D.tga using Guid(282ed153d4372594eb7f0a46af0fffcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d652c5251aded7ec02798396f3033ad') in 0.010991 seconds 
+  Import took 0.017021 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002964 seconds.
+  path: Assets/Textures/Chara/PeliSmooth/T_Peli_D.tga
+  artifactKey: Guid(282ed153d4372594eb7f0a46af0fffcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Chara/PeliSmooth/T_Peli_D.tga using Guid(282ed153d4372594eb7f0a46af0fffcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d652c5251aded7ec02798396f3033ad') in 0.007832 seconds 
+  Import took 0.012956 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.865638 seconds.
+  path: Assets/Mael's Bazar/Mael Materials/mat_Mael Building.mat
+  artifactKey: Guid(657b858743acef34fbec7c7a961a8cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mael's Bazar/Mael Materials/mat_Mael Building.mat using Guid(657b858743acef34fbec7c7a961a8cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5851497b19b27c90fb84b8b0c5df498') in 0.071602 seconds 
+  Import took 0.080461 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000521 seconds.
+  path: Assets/Mael's Bazar/Mael Materials/mat_Mael Ground.mat
+  artifactKey: Guid(0c19e5dcec2deeb4fa502c0f392c8311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mael's Bazar/Mael Materials/mat_Mael Ground.mat using Guid(0c19e5dcec2deeb4fa502c0f392c8311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6812ef1da0c2654cb35a458a5579a16f') in 0.029731 seconds 
+  Import took 0.039678 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000910 seconds.
+  path: Assets/Mael's Bazar/Mael Materials/mat_Mael Building.mat
+  artifactKey: Guid(657b858743acef34fbec7c7a961a8cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mael's Bazar/Mael Materials/mat_Mael Building.mat using Guid(657b858743acef34fbec7c7a961a8cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5851497b19b27c90fb84b8b0c5df498') in 0.019787 seconds 
+  Import took 0.029459 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002298 seconds.
+  path: Assets/Mael's Bazar/Mael Materials/mat_Mael Ground.mat
+  artifactKey: Guid(0c19e5dcec2deeb4fa502c0f392c8311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mael's Bazar/Mael Materials/mat_Mael Ground.mat using Guid(0c19e5dcec2deeb4fa502c0f392c8311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6812ef1da0c2654cb35a458a5579a16f') in 0.015681 seconds 
+  Import took 0.031932 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000602 seconds.
+  path: Assets/Mael's Bazar/Mael Materials/mat_Mael Player.mat
+  artifactKey: Guid(23eb7908466de9c4f9926521df573ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mael's Bazar/Mael Materials/mat_Mael Player.mat using Guid(23eb7908466de9c4f9926521df573ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2670b5e5a8b0ee5b9151dfa2592da493') in 0.018004 seconds 
+  Import took 0.030111 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 63.422513 seconds.
+  path: Assets/Prefab
+  artifactKey: Guid(8177e8e0a25c2014888c7220a3a08074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab using Guid(8177e8e0a25c2014888c7220a3a08074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ebc357bc801ff156f5f8785ce2c48a9') in 0.002883 seconds 
+  Import took 0.010099 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.956951 seconds.
+  path: Assets/Prefab/Peli.prefab
+  artifactKey: Guid(02d15fecb44e350479cffbe14a63f7e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Peli.prefab using Guid(02d15fecb44e350479cffbe14a63f7e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2647db481dc33023e881669203b1ce9') in 0.031586 seconds 
+  Import took 0.039969 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 132.513539 seconds.
+  path: Assets/Meshes/Chara/SK_Peli.fbx
+  artifactKey: Guid(9e834e52c65fb9145b8621ceccb20738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Chara/SK_Peli.fbx using Guid(9e834e52c65fb9145b8621ceccb20738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27835b6820382118ded6a58d52b54324') in 0.073053 seconds 
+  Import took 0.079006 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.543568 seconds.
+  path: Assets/Meshes/Chara/Materials/M_Peli.mat
+  artifactKey: Guid(df895e930ee219344a1dec19a2a4de08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Chara/Materials/M_Peli.mat using Guid(df895e930ee219344a1dec19a2a4de08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2923e5ee29d5e03a95141e8b56435e0') in 0.011178 seconds 
+  Import took 0.016297 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000405 seconds.
+  path: Assets/Meshes/Chara/Materials/No Name.mat
+  artifactKey: Guid(1cff5deb5f3a06a42bbc6fcff0e5849b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Chara/Materials/No Name.mat using Guid(1cff5deb5f3a06a42bbc6fcff0e5849b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36689b7bdeab8a34a2cb0bb02e499470') in 0.009185 seconds 
+  Import took 0.013616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2874.132155 seconds.
+  path: Assets/Animation
+  artifactKey: Guid(9db7125671ee47b4a80ff7ffe8e2968e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation using Guid(9db7125671ee47b4a80ff7ffe8e2968e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7c854be638d47df4af9b7fa4e401175') in 0.003279 seconds 
+  Import took 0.009745 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 76.917095 seconds.
+  path: Assets/Animation/ACTRL_Peli.controller
+  artifactKey: Guid(faaadf0b80b76b84186cd6df2623f878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/ACTRL_Peli.controller using Guid(faaadf0b80b76b84186cd6df2623f878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6606811c4274e03792bda41df2b3a3b') in 0.008130 seconds 
+  Import took 0.013706 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 194.880213 seconds.
+  path: Assets/Prefab/Peli.prefab
+  artifactKey: Guid(02d15fecb44e350479cffbe14a63f7e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Peli.prefab using Guid(02d15fecb44e350479cffbe14a63f7e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (ACTRL_Peli) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (ACTRL_Peli) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (ACTRL_Peli) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (ACTRL_Peli) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: '8d62b890f446057950b4491a1ec5418b') in 0.088068 seconds 
+  Import took 0.093421 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012089 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.062 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2584 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 135.8 MB.
+System memory in use after: 136.0 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3220.
+Total: 3.780800 ms (FindLiveObjects: 0.416200 ms CreateObjectMapping: 0.195500 ms MarkObjects: 3.089800 ms  DeleteObjects: 0.077500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1194.416169 seconds.
+  path: Assets/Meshes/Chara/Materials/M_PeliSmoothOutlines.mat
+  artifactKey: Guid(b1b793317d9a6744daa52333f69ef36a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Chara/Materials/M_PeliSmoothOutlines.mat using Guid(b1b793317d9a6744daa52333f69ef36a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a50e25954a89fc362710336898c8be4') in 0.517680 seconds 
+  Import took 0.525053 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000410 seconds.
+  path: Assets/Meshes/Chara/Materials/No Name.mat
+  artifactKey: Guid(1cff5deb5f3a06a42bbc6fcff0e5849b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Chara/Materials/No Name.mat using Guid(1cff5deb5f3a06a42bbc6fcff0e5849b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cf06adbadad63e1d95334d3d3c84f2e') in 0.011586 seconds 
+  Import took 0.016077 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
