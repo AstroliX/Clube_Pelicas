@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/AM_Sandbox.unity
+- path: Assets/Scenes/MA_Scene_Test.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
