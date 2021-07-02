@@ -20,6 +20,18 @@ namespace Pelicas
         SC_PlayerController playerScript;
         SC_CursorController cursorScript;
 
+
+        #region UNITY_FUNCTIONS
+        #endregion
+
+
+        #region PUBLIC_FUNCTIONS
+        #endregion
+
+
+        #region PRIVATE_FUNCTIONS
+        #endregion
+
         private void Awake()
         {
             playerScript = FindObjectOfType<SC_PlayerController>();

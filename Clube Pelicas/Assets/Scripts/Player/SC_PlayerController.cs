@@ -22,11 +22,24 @@ namespace Pelicas
         private Vector3 currentImpact;
        
         CharacterController characterController;
+        Rigidbody rb;
+
+        #region UNITY_FUNCTIONS
+        #endregion
+
+
+        #region PUBLIC_FUNCTIONS
+        #endregion
+
+
+        #region PRIVATE_FUNCTIONS
+        #endregion
 
         private void Awake()
         {
 
-            characterController = GetComponent<CharacterController>();          
+            characterController = GetComponent<CharacterController>();
+            rb = GetComponent<Rigidbody>();
         }
 
         private void Start()
@@ -39,6 +52,8 @@ namespace Pelicas
             if (canMove)
             {
                 Move();
+
+                rb.useGravity = true;
             }
         
         }

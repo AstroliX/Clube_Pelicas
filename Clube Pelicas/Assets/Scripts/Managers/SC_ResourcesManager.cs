@@ -10,6 +10,17 @@ namespace Pelicas
         public int gold;
         public int wood;
 
+        #region UNITY_FUNCTIONS
+        #endregion
+
+
+        #region PUBLIC_FUNCTIONS
+        #endregion
+
+
+        #region PRIVATE_FUNCTIONS
+        #endregion
+
         private void Awake()
         {
             gold = PlayerPrefs.GetInt("gold");

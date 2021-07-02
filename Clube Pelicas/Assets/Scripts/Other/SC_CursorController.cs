@@ -10,6 +10,17 @@ namespace Pelicas
 
         SC_CameraController cameraScript;
 
+        #region UNITY_FUNCTIONS
+        #endregion
+
+
+        #region PUBLIC_FUNCTIONS
+        #endregion
+
+
+        #region PRIVATE_FUNCTIONS
+        #endregion
+
         private void Awake()
         {
             cameraScript = FindObjectOfType<SC_CameraController>();

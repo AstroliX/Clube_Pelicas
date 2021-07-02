@@ -13,6 +13,17 @@ namespace Pelicas
         SC_ResourcesManager resourcesScript;
 
 
+        #region UNITY_FUNCTIONS
+        #endregion
+
+
+        #region PUBLIC_FUNCTIONS
+        #endregion
+
+
+        #region PRIVATE_FUNCTIONS
+        #endregion
+
         private void Awake()
         {
             wonMiniGame = (PlayerPrefs.GetInt("wonMiniGame") != 0);
