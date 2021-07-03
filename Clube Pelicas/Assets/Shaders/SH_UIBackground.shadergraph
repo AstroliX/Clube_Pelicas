@@ -26,6 +26,9 @@
         },
         {
             "m_Id": "883d03a2ab62491790fb0254a2c988cc"
+        },
+        {
+            "m_Id": "124513ea7ad14e51b9537fbec7ebda4e"
         }
     ],
     "m_Keywords": [],
@@ -131,6 +134,9 @@
         },
         {
             "m_Id": "0e3e6d9cea004a44a656de543fcdec78"
+        },
+        {
+            "m_Id": "265a842059fc4de298b2ec26d1bc6706"
         }
     ],
     "m_GroupDatas": [],
@@ -190,6 +196,20 @@
                     "m_Id": "7cd995655a9c41b6b7013fa587128f42"
                 },
                 "m_SlotId": 0
+            }
+        },
+        {
+            "m_OutputSlot": {
+                "m_Node": {
+                    "m_Id": "265a842059fc4de298b2ec26d1bc6706"
+                },
+                "m_SlotId": 0
+            },
+            "m_InputSlot": {
+                "m_Node": {
+                    "m_Id": "2209d14bd71743daa8ac9850d5e675c0"
+                },
+                "m_SlotId": 2
             }
         },
         {
@@ -861,6 +881,29 @@
 }
 
 {
+    "m_SGVersion": 1,
+    "m_Type": "UnityEditor.ShaderGraph.Internal.Vector1ShaderProperty",
+    "m_ObjectId": "124513ea7ad14e51b9537fbec7ebda4e",
+    "m_Guid": {
+        "m_GuidSerialized": "d2243727-5d75-4daa-927d-c8d03af3b966"
+    },
+    "m_Name": "Rotation",
+    "m_DefaultReferenceName": "Vector1_124513ea7ad14e51b9537fbec7ebda4e",
+    "m_OverrideReferenceName": "",
+    "m_GeneratePropertyBlock": true,
+    "m_Precision": 0,
+    "overrideHLSLDeclaration": false,
+    "hlslDeclarationOverride": 0,
+    "m_Hidden": false,
+    "m_Value": 45.0,
+    "m_FloatType": 0,
+    "m_RangeValues": {
+        "x": 0.0,
+        "y": 1.0
+    }
+}
+
+{
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector3MaterialSlot",
     "m_ObjectId": "14b2195a6252403eabce29a291164e1c",
@@ -1067,7 +1110,7 @@
     },
     "m_Name": "Rotate",
     "m_DrawState": {
-        "m_Expanded": false,
+        "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
             "x": -1822.0,
@@ -1177,6 +1220,41 @@
     },
     "m_TextureType": 0,
     "m_NormalMapSpace": 0
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
+    "m_ObjectId": "265a842059fc4de298b2ec26d1bc6706",
+    "m_Group": {
+        "m_Id": ""
+    },
+    "m_Name": "Property",
+    "m_DrawState": {
+        "m_Expanded": true,
+        "m_Position": {
+            "serializedVersion": "2",
+            "x": -2072.0,
+            "y": 595.0000610351563,
+            "width": 120.00000762939453,
+            "height": 34.0
+        }
+    },
+    "m_Slots": [
+        {
+            "m_Id": "ae910af8dc3c45d191c5a45df90e7b9e"
+        }
+    ],
+    "synonyms": [],
+    "m_Precision": 0,
+    "m_PreviewExpanded": true,
+    "m_PreviewMode": 0,
+    "m_CustomColors": {
+        "m_SerializableColors": []
+    },
+    "m_Property": {
+        "m_Id": "124513ea7ad14e51b9537fbec7ebda4e"
+    }
 }
 
 {
@@ -2998,6 +3076,21 @@
     "m_CustomColors": {
         "m_SerializableColors": []
     }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
+    "m_ObjectId": "ae910af8dc3c45d191c5a45df90e7b9e",
+    "m_Id": 0,
+    "m_DisplayName": "Rotation",
+    "m_SlotType": 1,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "Out",
+    "m_StageCapability": 3,
+    "m_Value": 0.0,
+    "m_DefaultValue": 0.0,
+    "m_Labels": []
 }
 
 {
