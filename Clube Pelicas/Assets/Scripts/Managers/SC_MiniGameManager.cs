@@ -13,16 +13,7 @@ namespace Pelicas
         SC_ResourcesManager resourcesScript;
 
 
-        #region UNITY_FUNCTIONS
-        #endregion
-
-
-        #region PUBLIC_FUNCTIONS
-        #endregion
-
-
-        #region PRIVATE_FUNCTIONS
-        #endregion
+        #region - UNITY_FUNCTIONS -
 
         private void Awake()
         {
@@ -38,22 +29,37 @@ namespace Pelicas
             canGetResource = true;
         }
 
+        #endregion
+
+
+        #region - PUBLIC_FUNCTIONS -
+
         public void HeWon()
         {
-            
+
 
             PlayerPrefs.SetInt("wonMiniGame", (wonMiniGame ? 1 : 0));
             wonMiniGame = true;
 
             if (canGetResource)
             {
-                resourcesScript.gold ++;
+                resourcesScript.gold++;
                 canGetResource = false;
             }
-            
+
             PlayerPrefs.SetInt("gold", resourcesScript.gold);
-            
+
         }
+
+        #endregion
+
+
+        #region - PRIVATE_FUNCTIONS -
+        #endregion
+
+
+
+
     }
 }
 

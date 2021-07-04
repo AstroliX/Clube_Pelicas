@@ -13,17 +13,7 @@ namespace Pelicas
         Transform camera;
 
 
-        #region UNITY_FUNCTIONS
-        #endregion
-
-
-        #region PUBLIC_FUNCTIONS
-        #endregion
-
-
-        #region PRIVATE_FUNCTIONS
-        #endregion
-
+        #region - UNITY_FUNCTIONS -
 
         private void Awake()
         {
@@ -41,6 +31,15 @@ namespace Pelicas
             MakeObjectsTransparent();
         }
 
+        #endregion
+
+
+        #region - PUBLIC_FUNCTIONS -
+        #endregion
+
+
+        #region - PRIVATE_FUNCTIONS -
+
         void GetAllObjectsInTheWay()
         {
             currentlyInTheWay.Clear();
@@ -56,7 +55,7 @@ namespace Pelicas
 
             foreach (var hit in hits1_Backward)
             {
-                if(hit.collider.gameObject.TryGetComponent(out SC_BuildingTransparency bTransparency))
+                if (hit.collider.gameObject.TryGetComponent(out SC_BuildingTransparency bTransparency))
                 {
                     if (!currentlyInTheWay.Contains(bTransparency))
                     {
@@ -83,7 +82,7 @@ namespace Pelicas
 
         void MakeObjectsSolid()
         {
-            for (int i = alreadyTransparent.Count-1; i >= 0; i--)
+            for (int i = alreadyTransparent.Count - 1; i >= 0; i--)
             {
                 SC_BuildingTransparency bWasTransparent = alreadyTransparent[i];
 
@@ -94,6 +93,13 @@ namespace Pelicas
                 }
             }
         }
+
+        #endregion
+
+
+
+
+
     }
 }
 

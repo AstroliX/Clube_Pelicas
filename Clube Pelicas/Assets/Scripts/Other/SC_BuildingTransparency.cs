@@ -12,21 +12,17 @@ namespace Pelicas
 
 
 
-        #region UNITY_FUNCTIONS
-        #endregion
-
-
-        #region PUBLIC_FUNCTIONS
-        #endregion
-
-
-        #region PRIVATE_FUNCTIONS
-        #endregion
+        #region - UNITY_FUNCTIONS -
 
         private void Awake()
         {
             ShowSolid();
         }
+
+        #endregion
+
+
+        #region - PUBLIC_FUNCTIONS -
 
         public void ShowTransparency()
         {
@@ -39,6 +35,16 @@ namespace Pelicas
             solidBody.SetActive(true);
             transparentBody.SetActive(false);
         }
+
+        #endregion
+
+
+        #region - PRIVATE_FUNCTIONS -
+        #endregion
+
+
+
+
     }
 
 }

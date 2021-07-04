@@ -21,16 +21,7 @@ namespace Pelicas
         SC_CursorController cursorScript;
 
 
-        #region UNITY_FUNCTIONS
-        #endregion
-
-
-        #region PUBLIC_FUNCTIONS
-        #endregion
-
-
-        #region PRIVATE_FUNCTIONS
-        #endregion
+        #region - UNITY_FUNCTIONS -
 
         private void Awake()
         {
@@ -40,17 +31,17 @@ namespace Pelicas
 
         private void OnTriggerEnter(Collider other)
         {
-            if(other.gameObject.tag == "Player")
+            if (other.gameObject.tag == "Player")
             {
                 showResources.SetActive(true);
-            
+
             }
         }
 
 
         private void OnTriggerStay(Collider other)
         {
-            if(other.gameObject.tag == "Player")
+            if (other.gameObject.tag == "Player")
             {
                 if (Input.GetKeyDown(KeyCode.T))
                 {
@@ -67,21 +58,14 @@ namespace Pelicas
             }
         }
 
-        void SetupMiniGame()
-        {
-            playerScript.canMove = false;
-            cursorScript.ActivateCursor();
+        #endregion
 
-            beforeTalking_1.SetActive(false);
-            beforeTalking_2.SetActive(false);
-            txt.SetActive(true);
-            buttonReturn.SetActive(true);
-            buttonPlay.SetActive(true);
-        }
+
+        #region - PUBLIC_FUNCTIONS -
 
         public void LeaveSetup()
         {
-            
+
             cursorScript.DeactivateCursor();
 
             beforeTalking_1.SetActive(true);
@@ -94,9 +78,34 @@ namespace Pelicas
         }
 
         public void LaunchMiniGame(string levelName)
-        {            
+        {
             SceneManager.LoadScene(levelName);
         }
+
+        #endregion
+
+
+        #region - PRIVATE_FUNCTIONS -
+
+        void SetupMiniGame()
+        {
+            playerScript.canMove = false;
+            cursorScript.ActivateCursor();
+
+            beforeTalking_1.SetActive(false);
+            beforeTalking_2.SetActive(false);
+            txt.SetActive(true);
+            buttonReturn.SetActive(true);
+            buttonPlay.SetActive(true);
+        }
+
+        #endregion
+
+
+
+
+
+
     }
 
 }

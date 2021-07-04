@@ -13,12 +13,13 @@ namespace Pelicas
 
         Transform T_player;
 
+        [Header("Show amount of resources")]
         [SerializeField] TextMeshProUGUI goldScore;
 
         SC_ResourcesManager resourcesScript;
 
 
-        #region UNITY_FUNCTIONS
+        #region - UNITY_FUNCTIONS -
         private void Awake()
         {
             resourcesScript = FindObjectOfType<SC_ResourcesManager>();
@@ -42,11 +43,11 @@ namespace Pelicas
         #endregion
 
 
-        #region PUBLIC_FUNCTIONS
+        #region - PUBLIC_FUNCTIONS -
         #endregion
 
 
-        #region PRIVATE_FUNCTIONS
+        #region - PRIVATE_FUNCTIONS -
         #endregion
 
 
