@@ -1,21 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 
 namespace Pelicas
 {
     public class SC_NavigationBetweenScenes : MonoBehaviour
     {
 
-        [Header("Where are we sending the player ?")]
-        public bool isSendingToTown;
-        public bool isSendingToHarbor;
-        public bool isSendingToKing;
-
+        
         [Space]
         [Header("Where will the player arrived ?")]
-        [SerializeField] GameObject arrivedInHarbor;
+        [SerializeField] GameObject arrivedIn;
+
 
 
         Transform T_player;
@@ -25,49 +22,43 @@ namespace Pelicas
         private void Start()
         {
             T_player = GameObject.FindGameObjectWithTag("Player").transform;
+
         }
 
 
         public void OnTriggerEnter(Collider other)
         {
-            if (isSendingToHarbor)
-            {
-                if(other.gameObject.tag == "Player")
-                {
-                    GoToHarbor();
-                }
-            }
 
-            if (isSendingToKing)
+            if(other.gameObject.tag == "Player")
             {
-                if (other.gameObject.tag == "Player")
-                {
-                    Debug.Log("AAAAAAAAAAAAH");
-                }
+                Traveling();
             }
         }
         #endregion
 
 
         #region - PUBLIC_FUNCTIONS -
+
+        public void GoToSea(string levelName)
+        {
+
+            SceneManager.LoadScene(levelName);
+        }
+
+
+        public void ReturnToCity(string levelName)
+        {
+
+            SceneManager.LoadScene(levelName);
+        }
         #endregion
 
 
         #region - PRIVATE_FUNCTIONS -
 
-        void GoToTown()
+        void Traveling()
         {
-            
-        }
-
-        void GoToKing()
-        {
-
-        }
-
-        void GoToHarbor()
-        {
-            T_player.position = arrivedInHarbor.transform.position;
+            T_player.position = arrivedIn.transform.position;
         }
 
         #endregion
