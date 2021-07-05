@@ -10,7 +10,12 @@ namespace Pelicas
      
         [Header("Marchand")]
         [SerializeField] GameObject marchandPreview;
+        [SerializeField] GameObject marchandIsTalking;
 
+        [Space]
+        [Header("Cameras")]
+        [SerializeField] GameObject playerCam;
+        [SerializeField] GameObject npcCam;
 
         SC_PlayerController playerScript;
         SC_CursorController cursorScript;
@@ -62,19 +67,15 @@ namespace Pelicas
         {
 
             cursorScript.DeactivateCursor();
+            marchandIsTalking.SetActive(false);
 
+
+            playerCam.SetActive(true);
+            npcCam.SetActive(false);
             playerScript.canMove = true;
         }
 
-        public void TradeResource()
-        {
-
-        }
-
-        public void TradeRareResource()
-        {
-
-        }
+        
 
         #endregion
 
@@ -83,10 +84,14 @@ namespace Pelicas
 
         void NPCisTalking()
         {
+            playerCam.SetActive(false);
+            npcCam.SetActive(true);
+
             playerScript.canMove = false;
             cursorScript.ActivateCursor();
 
-            
+            marchandPreview.SetActive(false);
+            marchandIsTalking.SetActive(true);
         }
 
         #endregion
