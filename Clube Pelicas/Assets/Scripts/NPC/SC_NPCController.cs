@@ -7,14 +7,9 @@ namespace Pelicas
 {
     public class SC_NPCController : MonoBehaviour
     {
-        [Header("GameObjects")]
-        [SerializeField] GameObject showResources;
-
-        [SerializeField] GameObject beforeTalking_1;
-        [SerializeField] GameObject beforeTalking_2;
-        [SerializeField] GameObject txt;
-        [SerializeField] GameObject buttonReturn;
-        [SerializeField] GameObject buttonPlay;
+     
+        [Header("Marchand")]
+        [SerializeField] GameObject marchandPreview;
 
 
         SC_PlayerController playerScript;
@@ -33,7 +28,7 @@ namespace Pelicas
         {
             if (other.gameObject.tag == "Player")
             {
-                showResources.SetActive(true);
+                marchandPreview.SetActive(true);
 
             }
         }
@@ -45,7 +40,7 @@ namespace Pelicas
             {
                 if (Input.GetKeyDown(KeyCode.T))
                 {
-                    SetupMiniGame();
+                    NPCisTalking();
                 }
             }
         }
@@ -54,7 +49,7 @@ namespace Pelicas
         {
             if (other.gameObject.tag == "Player")
             {
-                showResources.SetActive(false);
+                marchandPreview.SetActive(false);
             }
         }
 
@@ -68,18 +63,17 @@ namespace Pelicas
 
             cursorScript.DeactivateCursor();
 
-            beforeTalking_1.SetActive(true);
-            beforeTalking_2.SetActive(true);
-            txt.SetActive(false);
-            buttonReturn.SetActive(false);
-            buttonPlay.SetActive(false);
-
             playerScript.canMove = true;
         }
 
-        public void LaunchMiniGame(string levelName)
+        public void TradeResource()
         {
-            SceneManager.LoadScene(levelName);
+
+        }
+
+        public void TradeRareResource()
+        {
+
         }
 
         #endregion
@@ -87,16 +81,12 @@ namespace Pelicas
 
         #region - PRIVATE_FUNCTIONS -
 
-        void SetupMiniGame()
+        void NPCisTalking()
         {
             playerScript.canMove = false;
             cursorScript.ActivateCursor();
 
-            beforeTalking_1.SetActive(false);
-            beforeTalking_2.SetActive(false);
-            txt.SetActive(true);
-            buttonReturn.SetActive(true);
-            buttonPlay.SetActive(true);
+            
         }
 
         #endregion
