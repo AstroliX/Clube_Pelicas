@@ -1,107 +1,125 @@
 Using pre-set license
 Built from '2020.3/release' branch; Version is '2020.3.12f1 (b3b2c6512326) revision 11776710'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19042.1052; Version 2009; 64bit' Language: 'pt' Physical Memory: 16267 MB
+OS: 'Windows 10 Home; OS build 19042.1052; Version 2009; 64bit' Language: 'en' Physical Memory: 16340 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-D:\Unity Hub baby\2020.3.12f1\Editor\Unity.exe
+D:\Unity\2020.3.12f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/Mayel/Desktop/Clube_Pelicas/Clube Pelicas
+D:/Rubika/Stage2021/GIT/Clube_Pelicas/Clube Pelicas
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-<<<<<<< HEAD
-60219
+54351
 Successfully changed project path to: D:/Rubika/Stage2021/GIT/Clube_Pelicas/Clube Pelicas
 D:/Rubika/Stage2021/GIT/Clube_Pelicas/Clube Pelicas
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 66.39 ms, found 2 plugins.
-=======
-62954
-Successfully changed project path to: C:/Users/Mayel/Desktop/Clube_Pelicas/Clube Pelicas
-C:/Users/Mayel/Desktop/Clube_Pelicas/Clube Pelicas
-Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 58.96 ms, found 2 plugins.
->>>>>>> develop
+Refreshing native plugins compatible for Editor in 67.57 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.12f1 (b3b2c6512326)
-[Subsystems] Discovering subsystems at path D:/Unity Hub baby/2020.3.12f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Mayel/Desktop/Clube_Pelicas/Clube Pelicas/Assets
+[Subsystems] Discovering subsystems at path D:/Unity/2020.3.12f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Rubika/Stage2021/GIT/Clube_Pelicas/Clube Pelicas/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1050 (ID=0x1c8d)
+    Renderer: NVIDIA GeForce GTX 1060 (ID=0x1c60)
     Vendor:   
-    VRAM:     1977 MB
-    Driver:   27.21.14.6140
+    VRAM:     6052 MB
+    Driver:   27.21.14.5167
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Initialize mono
-<<<<<<< HEAD
 Mono path[0] = 'D:/Unity/2020.3.12f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity/2020.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/Unity/2020.3.12f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56816
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56356
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity/2020.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001497 seconds.
+Registered in 0.001468 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 76.41 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 64.52 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.640 seconds
+- Completed reload, in  1.605 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006953 seconds.
+Registered in 0.006676 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-000001E50DC51C40 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E50CDB11A0 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E507B151C0 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E507B151C0 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E50C287020 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E507B287D0 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E507E9A420 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E50C1D6020 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E50C203A30 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E50D7CD010 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E5084DC580 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E507D39C30 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E50C211CC0 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E50C64F010 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E50C211CC0 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E508322640 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E50CF03010 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E507C12A50 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E50CBC3010 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E50CF03010 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E508322E00 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E508322640 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E50CF03010 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E507EA2430 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E50C2170D0 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E50CF29220 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 62.57 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 68.84 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.434 seconds
-=======
-Mono path[0] = 'D:/Unity Hub baby/2020.3.12f1/Editor/Data/Managed'
-Mono path[1] = 'D:/Unity Hub baby/2020.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'D:/Unity Hub baby/2020.3.12f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56520
-Begin MonoManager ReloadAssembly
-Registering precompiled unity dll's ...
-Register platform support module: D:/Unity Hub baby/2020.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001578 seconds.
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 59.43 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.850 seconds
-Platform modules already initialized, skipping
-Registering precompiled user dll's ...
-Registered in 0.007861 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 66.43 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.439 seconds
->>>>>>> develop
+- Completed reload, in  1.720 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-<<<<<<< HEAD
-Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2753 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 128.3 MB.
-System memory in use after: 128.5 MB.
+Unloading 2755 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.5 MB.
+System memory in use after: 128.7 MB.
 
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3191.
-Total: 3.654000 ms (FindLiveObjects: 0.517700 ms CreateObjectMapping: 0.321000 ms MarkObjects: 2.718200 ms  DeleteObjects: 0.095500 ms)
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3193.
+Total: 3.196000 ms (FindLiveObjects: 0.460900 ms CreateObjectMapping: 0.194600 ms MarkObjects: 2.457500 ms  DeleteObjects: 0.081200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -116,546 +134,815 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+  path: Assets/Scenes
+  artifactKey: Guid(7069d7f4b51f5f248ad67419a7817a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(7069d7f4b51f5f248ad67419a7817a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9a3f04d5d41ead61828b334a59ecd66') in 0.007089 seconds 
+  Import took 0.012916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Scenes/MA_Scene_TestSea.unity
+  artifactKey: Guid(f67d6acc22642c344a56dcbc6eafd503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MA_Scene_TestSea.unity using Guid(f67d6acc22642c344a56dcbc6eafd503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9b34b3c59b58c7fddd237dd9db90dfd') in 0.014016 seconds 
+  Import took 0.020311 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/Scenes/AM_Sandbox.unity
+  artifactKey: Guid(734957c8c409eda4fbe0c9c7960403aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/AM_Sandbox.unity using Guid(734957c8c409eda4fbe0c9c7960403aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bafcc4ab20bf35fb18e7a75a29f681a1') in 0.004935 seconds 
+  Import took 0.010980 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010964 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001E508202DC0 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E51464BB10 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E507B151C0 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E507AE5010 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E507E52820 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E507D52650 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E510AB6020 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E514C7BC40 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E50E13C020 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E507CB3030 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E514716080 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E50C8DD020 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E508590E50 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E50C50F020 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E50C287020 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E51156BBD0 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E50D973020 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E507C12790 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E5083E3010 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E50D973020 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E51156BBD0 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E51156B030 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E50C1D6020 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E510AB6020 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E507D4D630 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E50D973020 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.334 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2628 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 119.7 MB.
+System memory in use after: 119.9 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3196.
+Total: 2.599400 ms (FindLiveObjects: 0.256000 ms CreateObjectMapping: 0.111000 ms MarkObjects: 2.113000 ms  DeleteObjects: 0.118400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007617 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001E50FA65E40 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E53673CBC0 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E514B3BCB0 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E50DD09020 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E51041D030 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E510AB6020 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E507AE5010 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E507D1FC20 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E50C206040 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E50D90E030 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E536828A00 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E50C8DD020 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E51041D030 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E50CF03010 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E50C287020 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E51156B410 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E50DD5B010 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E507C12790 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E5083E3010 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E50DD5B010 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E51156B410 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E51156B410 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E50DDF7250 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E50C418020 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E502AA57D0 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E50D973020 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.294 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2628 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 119.8 MB.
+System memory in use after: 120.0 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3199.
+Total: 2.646000 ms (FindLiveObjects: 0.274300 ms CreateObjectMapping: 0.140200 ms MarkObjects: 2.157200 ms  DeleteObjects: 0.073000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 212.197668 seconds.
+  path: Assets/Mael's Bazar/Mael Materials/M_Mael Building Test Transparent.mat
+  artifactKey: Guid(7441c4ed9e2208548ad2bc5139c77174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mael's Bazar/Mael Materials/M_Mael Building Test Transparent.mat using Guid(7441c4ed9e2208548ad2bc5139c77174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8523d97cc1bae19631f3d313007dd122') in 0.319674 seconds 
+  Import took 0.325180 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/Mael's Bazar/Mael Materials/M_Mael Building Test.mat
+  artifactKey: Guid(9ca2c90a0c797474187bd2797723ae6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mael's Bazar/Mael Materials/M_Mael Building Test.mat using Guid(9ca2c90a0c797474187bd2797723ae6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e012976b84c8a76d5d19b9ae1bee093a') in 0.012577 seconds 
+  Import took 0.017289 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000420 seconds.
+  path: Assets/Mael's Bazar/Mael Materials/M_Mael NPC.mat
+  artifactKey: Guid(b3916439c169b544c9162d49b5fd2666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mael's Bazar/Mael Materials/M_Mael NPC.mat using Guid(b3916439c169b544c9162d49b5fd2666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82750aa6dfed542466f5c65c8680af02') in 0.052861 seconds 
+  Import took 0.058528 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000391 seconds.
+  path: Assets/Mael's Bazar/Mael Materials/M_Mael White.mat
+  artifactKey: Guid(993593c4eda57374da37cdcbd443500c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mael's Bazar/Mael Materials/M_Mael White.mat using Guid(993593c4eda57374da37cdcbd443500c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51c5a93251ea69c40df6d1e07b7b42ee') in 0.009566 seconds 
+  Import took 0.015098 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.884619 seconds.
+  path: Assets/Font/BrandonBld SDF Button Marchand.mat
+  artifactKey: Guid(bf925ad38de4c074a8f1c962039f854c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Font/BrandonBld SDF Button Marchand.mat using Guid(bf925ad38de4c074a8f1c962039f854c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce05e0dd69ba0e97fac5d41e329bd395') in 0.088668 seconds 
+  Import took 0.094631 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.582776 seconds.
   path: Assets/Prefab/Peli.prefab
   artifactKey: Guid(02d15fecb44e350479cffbe14a63f7e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Peli.prefab using Guid(02d15fecb44e350479cffbe14a63f7e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aa023c31631d691197590a916623ecd') in 0.604935 seconds 
-  Import took 0.613124 seconds .
+Start importing Assets/Prefab/Peli.prefab using Guid(02d15fecb44e350479cffbe14a63f7e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '936d5e4f81e096398379c499ca43016c') in 0.092222 seconds 
+  Import took 0.098307 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000630 seconds.
-  path: Assets/Textures/Chara/PeliSmooth/T_Peli_D.tga
-  artifactKey: Guid(282ed153d4372594eb7f0a46af0fffcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Chara/PeliSmooth/T_Peli_D.tga using Guid(282ed153d4372594eb7f0a46af0fffcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08534539c8463c0a627914b9e8d59056') in 0.113590 seconds 
-  Import took 0.120048 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000699 seconds.
-  path: Assets/Textures/Chara/PeliSmooth/T_Peli_D.tga
-  artifactKey: Guid(282ed153d4372594eb7f0a46af0fffcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Chara/PeliSmooth/T_Peli_D.tga using Guid(282ed153d4372594eb7f0a46af0fffcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08534539c8463c0a627914b9e8d59056') in 0.006619 seconds 
-  Import took 0.011926 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.203420 seconds.
-  path: Assets/Meshes/Chara
-  artifactKey: Guid(190e344c7b062c849a782f6925255e6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Meshes/Chara using Guid(190e344c7b062c849a782f6925255e6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1971a7318b4b6455c7401fe516428ac5') in 0.003517 seconds 
-  Import took 0.009777 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.157639 seconds.
+  Time since last request: 57.328391 seconds.
   path: Assets/Meshes/Chara/SK_Peli.fbx
   artifactKey: Guid(9e834e52c65fb9145b8621ceccb20738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Meshes/Chara/SK_Peli.fbx using Guid(9e834e52c65fb9145b8621ceccb20738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e560075565aa65f4fafb9c7e1e747590') in 0.226178 seconds 
-  Import took 0.231831 seconds .
+Start importing Assets/Meshes/Chara/SK_Peli.fbx using Guid(9e834e52c65fb9145b8621ceccb20738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52fd6a7d72f0b2fe3d2fd85ef52179ba') in 0.181197 seconds 
+  Import took 0.187864 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 58.971178 seconds.
+  Time since last request: 465.005255 seconds.
   path: Assets/Meshes/Chara/SK_Peli.fbx
   artifactKey: Guid(9e834e52c65fb9145b8621ceccb20738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Meshes/Chara/SK_Peli.fbx using Guid(9e834e52c65fb9145b8621ceccb20738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36ef4df9bd2043cc3e65578a52afe366') in 0.087263 seconds 
-  Import took 0.092729 seconds .
+Start importing Assets/Meshes/Chara/SK_Peli.fbx using Guid(9e834e52c65fb9145b8621ceccb20738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '054d8142f2981809b11fadda45ade226') in 0.098680 seconds 
+  Import took 0.105740 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 155.312027 seconds.
+  Time since last request: 16.275107 seconds.
+  path: Assets/Animation/ANIM_Run.anim
+  artifactKey: Guid(3b497137e840fb54d9f983e1bfa7d355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/ANIM_Run.anim using Guid(3b497137e840fb54d9f983e1bfa7d355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b6315d7a53da3e51d80863ce784e1ba') in 0.017998 seconds 
+  Import took 0.024124 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.954136 seconds.
+  path: Assets/Meshes
+  artifactKey: Guid(eb05a8f9cf21c4b488eab76861c1dc93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes using Guid(eb05a8f9cf21c4b488eab76861c1dc93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb628a9ee5b4660cbbc6d3769045a1a6') in 0.003353 seconds 
+  Import took 0.008245 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.442892 seconds.
   path: Assets/Meshes/Chara/Materials/No Name 1.mat
-  artifactKey: Guid(40697ada8f8a9854c8e8ded6889861af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Meshes/Chara/Materials/No Name 1.mat using Guid(40697ada8f8a9854c8e8ded6889861af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19bef4ae7593da255bf5b150ee8882d9') in 0.078755 seconds 
-  Import took 0.087751 seconds .
+  artifactKey: Guid(940c98ed4750b8247ad52e9c21d5693b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Chara/Materials/No Name 1.mat using Guid(940c98ed4750b8247ad52e9c21d5693b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '297fd5d5b69f3ef758c045781d9a8204') in 0.009436 seconds 
+  Import took 0.015460 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000488 seconds.
-  path: Assets/Meshes/Chara/Materials/No Name 3.mat
-  artifactKey: Guid(e3f8e8af9d5ce5041868c0485ebb99d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Meshes/Chara/Materials/No Name 3.mat using Guid(e3f8e8af9d5ce5041868c0485ebb99d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a36ad0d582f0eb07922851646ce35542') in 0.015150 seconds 
-  Import took 0.024028 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000317 seconds.
-  path: Assets/Meshes/Chara/Materials/No Name 2.mat
-  artifactKey: Guid(0d2d8b79a1f3e12408dbb31d1cd9aa69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Meshes/Chara/Materials/No Name 2.mat using Guid(0d2d8b79a1f3e12408dbb31d1cd9aa69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fda33891d6c1a61ff0a743e6b311fba') in 0.013848 seconds 
-  Import took 0.021099 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000459 seconds.
-  path: Assets/Meshes/Chara/Materials/No Name 4.mat
-  artifactKey: Guid(31a93d4682a8f344e982abb40c228bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Meshes/Chara/Materials/No Name 4.mat using Guid(31a93d4682a8f344e982abb40c228bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2135d83f85bc17061faefc23aef33bd4') in 0.011804 seconds 
-  Import took 0.018769 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000296 seconds.
-  path: Assets/Meshes/Chara/Materials/No Name 1.mat
-  artifactKey: Guid(40697ada8f8a9854c8e8ded6889861af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Meshes/Chara/Materials/No Name 1.mat using Guid(40697ada8f8a9854c8e8ded6889861af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19bef4ae7593da255bf5b150ee8882d9') in 0.010137 seconds 
-  Import took 0.017576 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.024454 seconds.
-  path: Assets/Meshes/Chara/Materials/No Name 2.mat
-  artifactKey: Guid(0d2d8b79a1f3e12408dbb31d1cd9aa69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Meshes/Chara/Materials/No Name 2.mat using Guid(0d2d8b79a1f3e12408dbb31d1cd9aa69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fda33891d6c1a61ff0a743e6b311fba') in 0.010924 seconds 
-  Import took 0.018607 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 127.440675 seconds.
-  path: Assets/Textures/Chara/T_Peli_D 1.tga
-  artifactKey: Guid(8a69ecfccab5a3947ad0da77c70b7daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Chara/T_Peli_D 1.tga using Guid(8a69ecfccab5a3947ad0da77c70b7daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d02ac6c8a262e9ec617840c26d205c6') in 0.008180 seconds 
-  Import took 0.013709 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.460060 seconds.
-  path: Assets/Textures/Chara/T_Peli_D.tga
-  artifactKey: Guid(8a69ecfccab5a3947ad0da77c70b7daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Chara/T_Peli_D.tga using Guid(8a69ecfccab5a3947ad0da77c70b7daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32f26cd3446bd10eb9573bcb7336d2dc') in 0.007788 seconds 
-  Import took 0.013627 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008117 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.07 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.651 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.05 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2626 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 138.9 MB.
-System memory in use after: 139.1 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3277.
-Total: 3.735400 ms (FindLiveObjects: 0.292700 ms CreateObjectMapping: 0.123300 ms MarkObjects: 3.190300 ms  DeleteObjects: 0.127900 ms)
-=======
-Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2754 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 127.5 MB.
-System memory in use after: 127.6 MB.
-
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3190.
-Total: 2.846200 ms (FindLiveObjects: 0.283800 ms CreateObjectMapping: 0.137400 ms MarkObjects: 2.316500 ms  DeleteObjects: 0.107100 ms)
->>>>>>> develop
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-<<<<<<< HEAD
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006379 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.347 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2626 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 138.9 MB.
-System memory in use after: 139.1 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3280.
-Total: 4.693700 ms (FindLiveObjects: 0.394100 ms CreateObjectMapping: 0.223900 ms MarkObjects: 3.952400 ms  DeleteObjects: 0.121900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 7492.505691 seconds.
-  path: Assets/Rendering/UniversalRenderPipelineAsset.asset
-  artifactKey: Guid(469b82c702a5cfd4e84f9e4820e58f33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rendering/UniversalRenderPipelineAsset.asset using Guid(469b82c702a5cfd4e84f9e4820e58f33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aca54a46bed07403110809c8f487a5f0') in 0.335447 seconds 
-  Import took 0.451157 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.748150 seconds.
-  path: Assets/Meshes/Chara/Materials/No Name 5.mat
-  artifactKey: Guid(7aafcc83a49020a4498b28444441bea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Meshes/Chara/Materials/No Name 5.mat using Guid(7aafcc83a49020a4498b28444441bea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '762138a79bd72c39583b06dfc1ea104e') in 0.334944 seconds 
-  Import took 0.341282 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000526 seconds.
-  path: Assets/Meshes/Chara/Materials/No Name 17.mat
-  artifactKey: Guid(d096bf68759c17848b86378931a223c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Meshes/Chara/Materials/No Name 17.mat using Guid(d096bf68759c17848b86378931a223c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1faa97705c79dfa9a276fa9f8d81e2b') in 0.011739 seconds 
-  Import took 0.019050 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000419 seconds.
-  path: Assets/Meshes/Chara/Materials/No Name 19.mat
-  artifactKey: Guid(09f4f4531c70d5a41b95dbb47d29ada9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Meshes/Chara/Materials/No Name 19.mat using Guid(09f4f4531c70d5a41b95dbb47d29ada9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25158e21824757517d9bf32a7bcfe080') in 0.012001 seconds 
-  Import took 0.020519 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000427 seconds.
-  path: Assets/Meshes/Chara/Materials/No Name 15.mat
-  artifactKey: Guid(9ef84ab3e70a6b640b0313265ff6db82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Meshes/Chara/Materials/No Name 15.mat using Guid(9ef84ab3e70a6b640b0313265ff6db82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '374be4670f909929ac1f2a14a2f4607d') in 0.011418 seconds 
-  Import took 0.017431 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000390 seconds.
-  path: Assets/Meshes/Chara/Materials/No Name 10.mat
-  artifactKey: Guid(0b8ae5621649e5247ab859395289d45e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Meshes/Chara/Materials/No Name 10.mat using Guid(0b8ae5621649e5247ab859395289d45e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '785802277a63cbe8103f2e34dd89fe67') in 0.011231 seconds 
-  Import took 0.017112 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000388 seconds.
-  path: Assets/Meshes/Chara/Materials/No Name 16.mat
-  artifactKey: Guid(b30532241eb9b98498d3cdf7194eefd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Meshes/Chara/Materials/No Name 16.mat using Guid(b30532241eb9b98498d3cdf7194eefd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad3639d9e6d7a6322faed8fb8f0db6fb') in 0.012124 seconds 
-  Import took 0.019823 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000337 seconds.
-  path: Assets/Meshes/Chara/Materials/No Name 6.mat
-  artifactKey: Guid(782d0b5201644b843992c126012add25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Meshes/Chara/Materials/No Name 6.mat using Guid(782d0b5201644b843992c126012add25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b112068ae536dad033797b70f8b761bc') in 0.010405 seconds 
-  Import took 0.017191 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000380 seconds.
-  path: Assets/Meshes/Chara/Materials/No Name 21.mat
-  artifactKey: Guid(60fe0ef0e6bfbf04194266f7ff7098f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Meshes/Chara/Materials/No Name 21.mat using Guid(60fe0ef0e6bfbf04194266f7ff7098f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ac37eef83621aa39d287b4326f8432c') in 0.010255 seconds 
-  Import took 0.016448 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000371 seconds.
-  path: Assets/Meshes/Chara/Materials/No Name 8.mat
-  artifactKey: Guid(2423952ff49df414193c7617ce2127c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Meshes/Chara/Materials/No Name 8.mat using Guid(2423952ff49df414193c7617ce2127c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dea4be9ff2655dbb15f25327ebd5a085') in 0.013056 seconds 
-  Import took 0.022149 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000402 seconds.
-  path: Assets/Meshes/Chara/Materials/No Name 18.mat
-  artifactKey: Guid(88a05bab4f7e4784ba815ab7915b0b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Meshes/Chara/Materials/No Name 18.mat using Guid(88a05bab4f7e4784ba815ab7915b0b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd2d2cf3c8701d0246664dc09002d747') in 0.013562 seconds 
-  Import took 0.020919 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000344 seconds.
-  path: Assets/Meshes/Chara/Materials/No Name 11.mat
-  artifactKey: Guid(bb9191401bbaa564a9ec828ba16d373d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Meshes/Chara/Materials/No Name 11.mat using Guid(bb9191401bbaa564a9ec828ba16d373d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bee97ae0a82e4b8f07f4d6ddfe682df') in 0.010876 seconds 
-  Import took 0.017428 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000336 seconds.
-  path: Assets/Meshes/Chara/Materials/No Name 12.mat
-  artifactKey: Guid(1d536fac43e5b3040a41dc30127c54bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Meshes/Chara/Materials/No Name 12.mat using Guid(1d536fac43e5b3040a41dc30127c54bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7afe0915fc4f7f8c027ff61f904baa68') in 0.010027 seconds 
-  Import took 0.016409 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000290 seconds.
-  path: Assets/Meshes/Chara/SK_Peli.fbx
-  artifactKey: Guid(9e834e52c65fb9145b8621ceccb20738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Meshes/Chara/SK_Peli.fbx using Guid(9e834e52c65fb9145b8621ceccb20738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fff929d7441af20bf0437933eb4beec') in 0.125283 seconds 
-  Import took 0.131327 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000334 seconds.
-  path: Assets/Meshes/Chara/Materials/No Name 20.mat
-  artifactKey: Guid(17f8bac506d463f4eaf088a2a5788931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Meshes/Chara/Materials/No Name 20.mat using Guid(17f8bac506d463f4eaf088a2a5788931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a5d8d6a0ced79aebac8e8dd1c35d22f') in 0.009154 seconds 
-  Import took 0.014207 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000315 seconds.
-  path: Assets/Meshes/Chara/Materials/No Name 14.mat
-  artifactKey: Guid(8eadbb85596152d4eb013dd24cec4261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Meshes/Chara/Materials/No Name 14.mat using Guid(8eadbb85596152d4eb013dd24cec4261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3953fc365228f18bd0160ce227866d2d') in 0.011478 seconds 
-  Import took 0.016511 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000312 seconds.
-  path: Assets/Meshes/Chara/Materials/No Name 13.mat
-  artifactKey: Guid(4ead42af41a30524d8968fd17c02566f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Meshes/Chara/Materials/No Name 13.mat using Guid(4ead42af41a30524d8968fd17c02566f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9128ffd455a8eea17327848a393372e7') in 0.012353 seconds 
-  Import took 0.019449 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000317 seconds.
-  path: Assets/Meshes/Chara/Materials/No Name 9.mat
-  artifactKey: Guid(e87505543b32096429d19961f514d360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Meshes/Chara/Materials/No Name 9.mat using Guid(e87505543b32096429d19961f514d360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7811fca42d49fbbbb01a996c7254b0e2') in 0.009684 seconds 
-  Import took 0.014892 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000319 seconds.
+  Time since last request: 0.000400 seconds.
   path: Assets/Meshes/Chara/Materials/No Name 22.mat
-  artifactKey: Guid(d2c14515bad86444da698e9ba7597e94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Meshes/Chara/Materials/No Name 22.mat using Guid(d2c14515bad86444da698e9ba7597e94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72837c1ea378c278ad0a3fe2eb4c0d2f') in 0.010565 seconds 
-  Import took 0.015858 seconds .
+  artifactKey: Guid(ccdd644b5bc2d1643afe0db7f55ae2ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Chara/Materials/No Name 22.mat using Guid(ccdd644b5bc2d1643afe0db7f55ae2ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38a24b8a87a5299f1a4b979bf8027031') in 0.070312 seconds 
+  Import took 0.075235 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000277 seconds.
-  path: Assets/Meshes/Chara/Materials/No Name 7.mat
-  artifactKey: Guid(73ff9d0a2140d3f4993e46aa8f80f3c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Meshes/Chara/Materials/No Name 7.mat using Guid(73ff9d0a2140d3f4993e46aa8f80f3c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76f56213a72e3e206eb212aa4f0fa1f1') in 0.011207 seconds 
-  Import took 0.020566 seconds .
+  Time since last request: 0.000396 seconds.
+  path: Assets/Meshes/Chara/Materials/No Name 11.mat
+  artifactKey: Guid(1c1e9a0070a3fd748a385cc4ef7edac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Chara/Materials/No Name 11.mat using Guid(1c1e9a0070a3fd748a385cc4ef7edac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52509ac34ce6c4def96534986549cd57') in 0.009800 seconds 
+  Import took 0.015188 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.845508 seconds.
-  path: Assets/Meshes/Chara/Materials/No Name 23.mat
-  artifactKey: Guid(0c2f885df04cafe438f47623da97e915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Meshes/Chara/Materials/No Name 23.mat using Guid(0c2f885df04cafe438f47623da97e915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff05145d8f5a51a5c7ece84fb7831daa') in 0.009060 seconds 
-  Import took 0.014167 seconds .
+  Time since last request: 0.000720 seconds.
+  path: Assets/Meshes/Chara/Materials/No Name 6.mat
+  artifactKey: Guid(c4a5531b83b6c4b45aa929c82e032d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Chara/Materials/No Name 6.mat using Guid(c4a5531b83b6c4b45aa929c82e032d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '409e40b05f1e352095d4ba12b7d20bea') in 0.012174 seconds 
+  Import took 0.018875 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000445 seconds.
-  path: Assets/Meshes/Chara/Materials/No Name 24.mat
-  artifactKey: Guid(b915a896f7d79634eac40536084750d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Meshes/Chara/Materials/No Name 24.mat using Guid(b915a896f7d79634eac40536084750d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '546a58a39d95ccca78d4e30abc423d02') in 0.010422 seconds 
-  Import took 0.016649 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.364635 seconds.
-  path: Assets/Meshes/Chara/Materials/No Name 25.mat
-  artifactKey: Guid(458418d77b578ea44bd37ea8e3e2b461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Meshes/Chara/Materials/No Name 25.mat using Guid(458418d77b578ea44bd37ea8e3e2b461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c76e16a856d0dc024b73ab598cf69116') in 0.009984 seconds 
-  Import took 0.017512 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000381 seconds.
-  path: Assets/Meshes/Chara/Materials/No Name 26.mat
-  artifactKey: Guid(81cf3c4a7d050584ba0287e3d4a4a7b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Meshes/Chara/Materials/No Name 26.mat using Guid(81cf3c4a7d050584ba0287e3d4a4a7b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e62e32cfd38440db1a8b9b3215061f3') in 0.008497 seconds 
-  Import took 0.013809 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.161867 seconds.
-  path: Assets/Meshes/Chara/Materials/No Name 27.mat
-  artifactKey: Guid(74b0abbf914d92d4998768aeb4904ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Meshes/Chara/Materials/No Name 27.mat using Guid(74b0abbf914d92d4998768aeb4904ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8786064fd31cec422a0e9fc4e123947') in 0.009268 seconds 
-  Import took 0.014311 seconds .
+  Time since last request: 0.000397 seconds.
+  path: Assets/Meshes/Chara/Materials/No Name 19.mat
+  artifactKey: Guid(a68392cde6bab2f42b5289ac08501268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Chara/Materials/No Name 19.mat using Guid(a68392cde6bab2f42b5289ac08501268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c4b1f75ae581b01ccaf7dce2f8fff18') in 0.010925 seconds 
+  Import took 0.016987 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000340 seconds.
-  path: Assets/Meshes/Chara/Materials/No Name 28.mat
-  artifactKey: Guid(74d6783424511f24bb6ad773d2a33834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Meshes/Chara/Materials/No Name 28.mat using Guid(74d6783424511f24bb6ad773d2a33834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9b8a5a503abfc826ffc1fc72cbd8f35') in 0.010718 seconds 
-  Import took 0.016923 seconds .
+  path: Assets/Meshes/Chara/Materials/No Name 21.mat
+  artifactKey: Guid(84cff272834e17749bf36e0543b9eb53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Chara/Materials/No Name 21.mat using Guid(84cff272834e17749bf36e0543b9eb53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a796203fce85b8ea4a3b8e8a39c747a8') in 0.010032 seconds 
+  Import took 0.015756 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.118064 seconds.
-  path: Assets/Meshes/Chara/Materials/No Name 29.mat
-  artifactKey: Guid(06093aa834048ab439c54124dc442aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Meshes/Chara/Materials/No Name 29.mat using Guid(06093aa834048ab439c54124dc442aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2828d2f2ecbb4aeabb1e8d15c0eea786') in 0.008016 seconds 
-  Import took 0.013077 seconds .
+  Time since last request: 0.000454 seconds.
+  path: Assets/Meshes/Chara/Materials/No Name 17.mat
+  artifactKey: Guid(6df984c8a6614f5449a1974754958030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Chara/Materials/No Name 17.mat using Guid(6df984c8a6614f5449a1974754958030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aa359669ee549cf86081f7e5e6e9ca5') in 0.012229 seconds 
+  Import took 0.019805 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000458 seconds.
-  path: Assets/Meshes/Chara/Materials/No Name 30.mat
-  artifactKey: Guid(2f06746902cc6864ea5118f946a92c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Meshes/Chara/Materials/No Name 30.mat using Guid(2f06746902cc6864ea5118f946a92c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc83655648ba40bf83de411dbd5b3da0') in 0.009479 seconds 
-  Import took 0.014591 seconds .
+  Time since last request: 0.000408 seconds.
+  path: Assets/Meshes/Chara/Materials/No Name 20.mat
+  artifactKey: Guid(671032b4afef0124595625ba997323a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Chara/Materials/No Name 20.mat using Guid(671032b4afef0124595625ba997323a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad697d77c0e24646db3aac32528f83e0') in 0.009370 seconds 
+  Import took 0.015357 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.338478 seconds.
-  path: Assets/Meshes/Chara/Materials/No Name 31.mat
-  artifactKey: Guid(79784af2f7bed0546843a0a6cfb1e47c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Meshes/Chara/Materials/No Name 31.mat using Guid(79784af2f7bed0546843a0a6cfb1e47c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cbaccab1d30f8c8ee0145705d31707c') in 0.009111 seconds 
-  Import took 0.015402 seconds .
+  Time since last request: 0.000299 seconds.
+  path: Assets/Meshes/Chara/Materials/No Name 3.mat
+  artifactKey: Guid(07f0e8cc82740d144ae0aa59c1319005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Chara/Materials/No Name 3.mat using Guid(07f0e8cc82740d144ae0aa59c1319005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54f5c47c1bc0e9cb6e731b3028bc2375') in 0.010446 seconds 
+  Import took 0.016308 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000415 seconds.
-  path: Assets/Meshes/Chara/Materials/No Name 32.mat
-  artifactKey: Guid(61beb8c8de012f145ac173a3060484fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Meshes/Chara/Materials/No Name 32.mat using Guid(61beb8c8de012f145ac173a3060484fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcf0c2e34178686ef4ad394641ab6efe') in 0.008976 seconds 
-  Import took 0.014801 seconds .
+  Time since last request: 0.000302 seconds.
+  path: Assets/Meshes/Chara/Materials/No Name 14.mat
+  artifactKey: Guid(707356cc2595a414e8d485d39780f6d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Chara/Materials/No Name 14.mat using Guid(707356cc2595a414e8d485d39780f6d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d667cc449200cb27bea825dcd0a7d0d') in 0.009617 seconds 
+  Import took 0.015785 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.304434 seconds.
-  path: Assets/Meshes/Chara/Materials/No Name 33.mat
-  artifactKey: Guid(4faf79425ab1d6d449c223e458f41fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Meshes/Chara/Materials/No Name 33.mat using Guid(4faf79425ab1d6d449c223e458f41fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a18c4a4303f884f4a37397e0a053320') in 0.008942 seconds 
-  Import took 0.014112 seconds .
+  Time since last request: 0.000273 seconds.
+  path: Assets/Meshes/Chara/Materials/No Name 4.mat
+  artifactKey: Guid(2749cba028f915d40b3472f7e1182109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Chara/Materials/No Name 4.mat using Guid(2749cba028f915d40b3472f7e1182109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecf646b74d2f44de363fde4543bce57c') in 0.010436 seconds 
+  Import took 0.017177 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000356 seconds.
-  path: Assets/Meshes/Chara/Materials/No Name 34.mat
-  artifactKey: Guid(04b1283a2b3c4dc42be95c9119d65bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Meshes/Chara/Materials/No Name 34.mat using Guid(04b1283a2b3c4dc42be95c9119d65bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11f5265b93fdbfbaf936ec6648116960') in 0.009458 seconds 
-  Import took 0.014197 seconds .
+  Time since last request: 0.000300 seconds.
+  path: Assets/Meshes/Chara/Materials/No Name 12.mat
+  artifactKey: Guid(fe05acb58d7c0f04d9a9529b0627c406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Chara/Materials/No Name 12.mat using Guid(fe05acb58d7c0f04d9a9529b0627c406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0876fbef25e8e981b3bda328de7c5d70') in 0.008816 seconds 
+  Import took 0.015094 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.015129 seconds.
-  path: Assets/Meshes/Chara/Materials/No Name 35.mat
-  artifactKey: Guid(7ab3021822cfc6a4fa84dbeffdcc4c14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Meshes/Chara/Materials/No Name 35.mat using Guid(7ab3021822cfc6a4fa84dbeffdcc4c14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96679181dbad79197be40c5dba7f3490') in 0.010883 seconds 
-  Import took 0.016754 seconds .
-
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
-=======
-Received Import Request.
-  path: Assets/Textures/UI/T_ButtonClick.tga
-  artifactKey: Guid(ebac63d5d00c5a041819e84c4fd7ec82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/UI/T_ButtonClick.tga using Guid(ebac63d5d00c5a041819e84c4fd7ec82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44276bd0f93a77309ddd3ae303ff8434') in 0.193918 seconds 
-  Import took 0.200066 seconds .
+  Time since last request: 0.000276 seconds.
+  path: Assets/Meshes/Chara/Materials/No Name 15.mat
+  artifactKey: Guid(23726992b0fe5af44be1bb28d8676222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Chara/Materials/No Name 15.mat using Guid(23726992b0fe5af44be1bb28d8676222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2ba4f1fdfe04e44776d5fd2dcbf6ee1') in 0.010128 seconds 
+  Import took 0.016979 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000343 seconds.
-  path: Assets/Textures/UI/T_Button.tga
-  artifactKey: Guid(4d3e18624823227429674e9af834ef3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/UI/T_Button.tga using Guid(4d3e18624823227429674e9af834ef3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '911efbc03c179abaa5fbf09cb022c435') in 0.015807 seconds 
-  Import took 0.020791 seconds .
+  Time since last request: 0.000313 seconds.
+  path: Assets/Meshes/Chara/Materials/No Name 2.mat
+  artifactKey: Guid(32b70ffeabd488246be92b6f43ad28d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Chara/Materials/No Name 2.mat using Guid(32b70ffeabd488246be92b6f43ad28d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d6c84090ad1e6a79c771a9cc6236ba0') in 0.010328 seconds 
+  Import took 0.016242 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000372 seconds.
-  path: Assets/Textures/UI/T_Cadre.png
-  artifactKey: Guid(89d99b2aa54a69b458ec55c72042032b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/UI/T_Cadre.png using Guid(89d99b2aa54a69b458ec55c72042032b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b3c675c6c01a4c9ef389107c7860a9e') in 0.088909 seconds 
-  Import took 0.096253 seconds .
+  Time since last request: 0.000346 seconds.
+  path: Assets/Meshes/Chara/Materials/No Name 7.mat
+  artifactKey: Guid(954752cfc2df392498cb1d58b0b74a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Chara/Materials/No Name 7.mat using Guid(954752cfc2df392498cb1d58b0b74a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3aac36d4abd8b426978712457304431d') in 0.012379 seconds 
+  Import took 0.018817 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000377 seconds.
+  path: Assets/Meshes/Chara/Materials/No Name 10.mat
+  artifactKey: Guid(22880624294bea944b31bdd9e69d1c03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Chara/Materials/No Name 10.mat using Guid(22880624294bea944b31bdd9e69d1c03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83d1c957ccd84243ce61a23e3411cae5') in 0.010363 seconds 
+  Import took 0.016557 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Meshes/Chara/Materials/No Name 9.mat
+  artifactKey: Guid(742b78e8536ecb041b8e2b56d0479293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Chara/Materials/No Name 9.mat using Guid(742b78e8536ecb041b8e2b56d0479293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c175314da294ede796824604b69e168e') in 0.011860 seconds 
+  Import took 0.017491 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000345 seconds.
-  path: Assets/Textures/UI/T_LogoCarpenter.png
-  artifactKey: Guid(8059bdf2a751a024d87a1ad9ab21ca02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/UI/T_LogoCarpenter.png using Guid(8059bdf2a751a024d87a1ad9ab21ca02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dae78ede46e5c567189e599eee9f0053') in 0.041161 seconds 
-  Import took 0.048417 seconds .
+  path: Assets/Meshes/Chara/Materials/No Name 16.mat
+  artifactKey: Guid(7d92cd5d7687c9b4da0fe1fbff8ac40d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Chara/Materials/No Name 16.mat using Guid(7d92cd5d7687c9b4da0fe1fbff8ac40d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e019a2fd56ca429e0f310ab873c7c6be') in 0.010754 seconds 
+  Import took 0.017812 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000284 seconds.
-  path: Assets/Mael's Bazar/Mael Sprites/T_cursor.png
-  artifactKey: Guid(3ec8856db9f520e45b85f08756bdab1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mael's Bazar/Mael Sprites/T_cursor.png using Guid(3ec8856db9f520e45b85f08756bdab1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4ac0cf281d36671e3ebe756c3005fce') in 0.013995 seconds 
-  Import took 0.019191 seconds .
+  Time since last request: 0.000300 seconds.
+  path: Assets/Meshes/Chara/Materials/No Name 8.mat
+  artifactKey: Guid(2e5ca8215a7c9b54bb28c48f58f5d80d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Chara/Materials/No Name 8.mat using Guid(2e5ca8215a7c9b54bb28c48f58f5d80d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ba4e2fada908f3db99cd5d51298830c') in 0.011811 seconds 
+  Import took 0.018763 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.005630 seconds.
-  path: Assets/Textures/UI/T_LogoCarpenter.png
-  artifactKey: Guid(8059bdf2a751a024d87a1ad9ab21ca02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/UI/T_LogoCarpenter.png using Guid(8059bdf2a751a024d87a1ad9ab21ca02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dae78ede46e5c567189e599eee9f0053') in 0.014728 seconds 
-  Import took 0.020175 seconds .
+  Time since last request: 0.000365 seconds.
+  path: Assets/Meshes/Chara/Materials/No Name 18.mat
+  artifactKey: Guid(59c268bec3efd6c4d9c506a3980b4e17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Chara/Materials/No Name 18.mat using Guid(59c268bec3efd6c4d9c506a3980b4e17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '767cdb89a5ab65146fcf0073da24148c') in 0.011249 seconds 
+  Import took 0.017852 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 27.834493 seconds.
-  path: Assets/Shaders/SH_Button.shadergraph
-  artifactKey: Guid(aacc15d06fa7f32488e5511d042bf2b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/SH_Button.shadergraph using Guid(aacc15d06fa7f32488e5511d042bf2b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37a971b1b1684fbc4c8868d550bdc389') in 0.010374 seconds 
-  Import took 0.014724 seconds .
+  Time since last request: 0.000360 seconds.
+  path: Assets/Meshes/Chara/Materials/No Name 13.mat
+  artifactKey: Guid(94faff5c27d893341b52db00112c1201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Chara/Materials/No Name 13.mat using Guid(94faff5c27d893341b52db00112c1201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05bab5ffb18b255fca8012a5c27a04bd') in 0.010828 seconds 
+  Import took 0.016913 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.314798 seconds.
-  path: Assets/Shaders/SH_Button.shadergraph
-  artifactKey: Guid(aacc15d06fa7f32488e5511d042bf2b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/SH_Button.shadergraph using Guid(aacc15d06fa7f32488e5511d042bf2b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37a971b1b1684fbc4c8868d550bdc389') in 0.003429 seconds 
-  Import took 0.008981 seconds .
+  Time since last request: 0.000336 seconds.
+  path: Assets/Meshes/Chara/Materials/No Name 5.mat
+  artifactKey: Guid(f03f2aee02cc2e94eab67fc8994e58b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Chara/Materials/No Name 5.mat using Guid(f03f2aee02cc2e94eab67fc8994e58b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5985184ab2e7e433feb1771c619de985') in 0.012538 seconds 
+  Import took 0.019183 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 73.910703 seconds.
-  path: Assets/Scripts/NPC/SC_MarchandManager.cs
-  artifactKey: Guid(e8c42ce84a425ed44af3b3718b148989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/NPC/SC_MarchandManager.cs using Guid(e8c42ce84a425ed44af3b3718b148989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7061584978f1b73101f527c0e68de640') in 0.020921 seconds 
-  Import took 0.025765 seconds .
+  Time since last request: 43.143150 seconds.
+  path: Assets/Meshes/Chara/Thanks RO.anim
+  artifactKey: Guid(7934c3ca31a7f6f45b6c566897996339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Chara/Thanks RO.anim using Guid(7934c3ca31a7f6f45b6c566897996339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bca1094a6f8b3609277ce1868afec3da') in 0.009831 seconds 
+  Import took 0.017265 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.031030 seconds.
+  path: Assets/Meshes/Chara/Bye RO.anim
+  artifactKey: Guid(c3f26ad33a5547140a115b8e15305c72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Chara/Bye RO.anim using Guid(c3f26ad33a5547140a115b8e15305c72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '113af025de877a3270ac8053954ce437') in 0.013785 seconds 
+  Import took 0.019051 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.441473 seconds.
+  path: Assets/Meshes/Chara/ANIM_Bye.anim
+  artifactKey: Guid(c3f26ad33a5547140a115b8e15305c72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Chara/ANIM_Bye.anim using Guid(c3f26ad33a5547140a115b8e15305c72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab4339221dc7ef98443f8f88528abda2') in 0.011551 seconds 
+  Import took 0.016907 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.265853 seconds.
+  path: Assets/Meshes/Chara/Happy RO.anim
+  artifactKey: Guid(ba8283f2777c9434bbc78e76e8672e9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Chara/Happy RO.anim using Guid(ba8283f2777c9434bbc78e76e8672e9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83cef3a70de3e7c5a05afe7bf546a5f1') in 0.008351 seconds 
+  Import took 0.013161 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.129036 seconds.
+  path: Assets/Meshes/Chara/ANIM_Happy.anim
+  artifactKey: Guid(ba8283f2777c9434bbc78e76e8672e9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Chara/ANIM_Happy.anim using Guid(ba8283f2777c9434bbc78e76e8672e9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6650b1c58fa88b6cb478c8cfdf101684') in 0.008614 seconds 
+  Import took 0.014559 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.607493 seconds.
+  path: Assets/Meshes/Chara/Idle RO.anim
+  artifactKey: Guid(f0a7e3b066f32804f93de7d04e8baa03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Chara/Idle RO.anim using Guid(f0a7e3b066f32804f93de7d04e8baa03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfc026597ac2981c015f50e3c67150d7') in 0.006639 seconds 
+  Import took 0.013231 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.039531 seconds.
+  path: Assets/Meshes/Chara/ANIM_Idle.anim
+  artifactKey: Guid(f0a7e3b066f32804f93de7d04e8baa03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Chara/ANIM_Idle.anim using Guid(f0a7e3b066f32804f93de7d04e8baa03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc8d76d242179eda99672f3579143284') in 0.005755 seconds 
+  Import took 0.010261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.577081 seconds.
+  path: Assets/Meshes/Chara/King Idle RO.anim
+  artifactKey: Guid(8c2a240c76d0ef747a9a92127bcabffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Chara/King Idle RO.anim using Guid(8c2a240c76d0ef747a9a92127bcabffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2cfd708953aa77f5a7c0dc6f260ba69') in 0.007394 seconds 
+  Import took 0.012884 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.586714 seconds.
+  path: Assets/Meshes/Chara/ANIM_KingIdle.anim
+  artifactKey: Guid(8c2a240c76d0ef747a9a92127bcabffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Chara/ANIM_KingIdle.anim using Guid(8c2a240c76d0ef747a9a92127bcabffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afe83e030e6f6c8ca437a523907b3372') in 0.005365 seconds 
+  Import took 0.011738 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.475683 seconds.
+  path: Assets/Meshes/Chara/King Talk RO.anim
+  artifactKey: Guid(c819cebe41d751345b8584e32dc290ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Chara/King Talk RO.anim using Guid(c819cebe41d751345b8584e32dc290ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cf42f511acf88ca7626f628b83b1779') in 0.005995 seconds 
+  Import took 0.011862 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.166423 seconds.
+  path: Assets/Meshes/Chara/ANIM_KingTalk.anim
+  artifactKey: Guid(c819cebe41d751345b8584e32dc290ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Chara/ANIM_KingTalk.anim using Guid(c819cebe41d751345b8584e32dc290ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '697a4c69198f32ade7e759c001b3ec17') in 0.008021 seconds 
+  Import took 0.015074 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.731183 seconds.
+  path: Assets/Meshes/Chara/King Thanks RO.anim
+  artifactKey: Guid(9cc645a1b6bfd904ca46a001e09529e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Chara/King Thanks RO.anim using Guid(9cc645a1b6bfd904ca46a001e09529e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b21a0aa741c7b1e3ef35eca94c6d7af') in 0.006372 seconds 
+  Import took 0.010942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.018357 seconds.
+  path: Assets/Meshes/Chara/ANIM_KingThanks.anim
+  artifactKey: Guid(9cc645a1b6bfd904ca46a001e09529e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Chara/ANIM_KingThanks.anim using Guid(9cc645a1b6bfd904ca46a001e09529e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae217c51930fd967ad9539d79c66c71f') in 0.006780 seconds 
+  Import took 0.013047 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.433109 seconds.
+  path: Assets/Meshes/Chara/Run RO.anim
+  artifactKey: Guid(0c146bf0555e73340a3e0392003d5c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Chara/Run RO.anim using Guid(0c146bf0555e73340a3e0392003d5c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1300d541ca3d17924cc0c227e8252b9') in 0.009491 seconds 
+  Import took 0.015939 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.218201 seconds.
+  path: Assets/Meshes/Chara/ANIM_Run.anim
+  artifactKey: Guid(0c146bf0555e73340a3e0392003d5c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Chara/ANIM_Run.anim using Guid(0c146bf0555e73340a3e0392003d5c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebaafc0d2f278cabb37d978264aee58b') in 0.007118 seconds 
+  Import took 0.012239 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.948567 seconds.
+  path: Assets/Meshes/Chara/Sad RO.anim
+  artifactKey: Guid(876689bcba6613e47a14b13cde1d0619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Chara/Sad RO.anim using Guid(876689bcba6613e47a14b13cde1d0619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2058c4d581f14eb8653a846173a9a9b') in 0.006674 seconds 
+  Import took 0.012665 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.040311 seconds.
+  path: Assets/Meshes/Chara/ANIM_Sad.anim
+  artifactKey: Guid(876689bcba6613e47a14b13cde1d0619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Chara/ANIM_Sad.anim using Guid(876689bcba6613e47a14b13cde1d0619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd597eec321467605ab47c8ad730a2e4') in 0.006422 seconds 
+  Import took 0.012478 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.568712 seconds.
+  path: Assets/Meshes/Chara/T pose RO.anim
+  artifactKey: Guid(218c3701567c3f747b110084db83b2ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Chara/T pose RO.anim using Guid(218c3701567c3f747b110084db83b2ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d76967a94d7647206d59a9ba9124ae5') in 0.005313 seconds 
+  Import took 0.010395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.939165 seconds.
+  path: Assets/Meshes/Chara/T pose.anim
+  artifactKey: Guid(218c3701567c3f747b110084db83b2ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Chara/T pose.anim using Guid(218c3701567c3f747b110084db83b2ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daff9188a77b6ea58a91ba421f05903e') in 0.004939 seconds 
+  Import took 0.011549 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.461436 seconds.
+  path: Assets/Meshes/Chara/Talk RO.anim
+  artifactKey: Guid(17186bf90db417d4c902e0948b4da03b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Chara/Talk RO.anim using Guid(17186bf90db417d4c902e0948b4da03b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da127f30c81e70f23575abb182340335') in 0.006821 seconds 
+  Import took 0.012320 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.078011 seconds.
+  path: Assets/Meshes/Chara/ANIM_Talk.anim
+  artifactKey: Guid(17186bf90db417d4c902e0948b4da03b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Chara/ANIM_Talk.anim using Guid(17186bf90db417d4c902e0948b4da03b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0ff228ca0188601c7ace0bcf116a103') in 0.005882 seconds 
+  Import took 0.010779 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.226051 seconds.
+  path: Assets/Meshes/Chara/ANIM_Thanks.anim
+  artifactKey: Guid(7934c3ca31a7f6f45b6c566897996339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Chara/ANIM_Thanks.anim using Guid(7934c3ca31a7f6f45b6c566897996339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '636a849993f6412f5bad5c460efa2051') in 0.006360 seconds 
+  Import took 0.013643 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 107.201313 seconds.
+  path: Assets/Animation/ACTRL_Peli.controller
+  artifactKey: Guid(faaadf0b80b76b84186cd6df2623f878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/ACTRL_Peli.controller using Guid(faaadf0b80b76b84186cd6df2623f878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91b2246b9354d4bbcdf5c85406d878a6') in 0.011717 seconds 
+  Import took 0.016564 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026299 seconds.
+  path: Assets/Animation/ACTRL_Peli.controller
+  artifactKey: Guid(faaadf0b80b76b84186cd6df2623f878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/ACTRL_Peli.controller using Guid(faaadf0b80b76b84186cd6df2623f878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91b2246b9354d4bbcdf5c85406d878a6') in 0.013149 seconds 
+  Import took 0.020161 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.007846 seconds.
+Registered in 0.010713 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-000001E50C1E38D0 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E51464ADF0 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E507E7B010 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E5137D0080 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E535B9E6F0 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E50FD57010 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E50C1B6010 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E5113DAB60 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E514FEA020 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E50D66C710 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E5147018C0 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E50C8DD020 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E51463F010 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E51152F2D0 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E511402010 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E51156C580 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E5115137A0 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E507C12790 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E51126F1C0 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E5114A2610 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E51156C390 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E51156BBD0 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E50DE9ED40 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E50FD57010 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E50FF94F00 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E5110C0560 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.572 seconds
+- Completed reload, in  1.408 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2628 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 139.1 MB.
+System memory in use after: 139.3 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3284.
+Total: 5.084100 ms (FindLiveObjects: 0.566700 ms CreateObjectMapping: 0.290500 ms MarkObjects: 4.121600 ms  DeleteObjects: 0.103400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 434.228138 seconds.
+  path: Assets/Materials/Chara/M_Peli.mat
+  artifactKey: Guid(df895e930ee219344a1dec19a2a4de08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Chara/M_Peli.mat using Guid(df895e930ee219344a1dec19a2a4de08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c48e5d9e1cb4e6817981df44286c4ae') in 0.263890 seconds 
+  Import took 0.273374 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/Materials/UI/M_StripMarchand.mat
+  artifactKey: Guid(cb917780eb30d9042a7d48df257b2335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/UI/M_StripMarchand.mat using Guid(cb917780eb30d9042a7d48df257b2335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6196b9001cd8b726419a80334310d28') in 0.348758 seconds 
+  Import took 0.354266 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009248 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001E51399F0A0 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E53673D520 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E507E7B010 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E5102D3020 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E514C9D020 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E50F746030 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E50FD57010 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E51429D020 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E50E11A020 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E50D90E030 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E5368278C0 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E510B1D010 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E51463F010 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E513ADA010 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E514439020 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E51126BC50 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E50F570080 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E538781FD0 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E5083E3010 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E50D973020 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E51126BC50 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E51126C7F0 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E50FA6FF40 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E51154F4B0 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E50C3D7380 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E5110C0560 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.321 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2628 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 121.7 MB.
-System memory in use after: 121.9 MB.
+System memory in use before: 139.3 MB.
+System memory in use after: 139.4 MB.
 
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3201.
-Total: 2.747400 ms (FindLiveObjects: 0.290300 ms CreateObjectMapping: 0.167800 ms MarkObjects: 2.204700 ms  DeleteObjects: 0.083300 ms)
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3323.
+Total: 3.050000 ms (FindLiveObjects: 0.295100 ms CreateObjectMapping: 0.172800 ms MarkObjects: 2.501200 ms  DeleteObjects: 0.079800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -664,38 +951,270 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009079 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001E513940470 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E50F74B6C0 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E507E7B010 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E536CB5020 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E50DCEB020 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E508587020 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E5084CA9E0 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E51429D020 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E50E11A020 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E511404020 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E538805E40 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E50C8DD020 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E51463F010 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E513ADA010 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E514439020 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E51064E260 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E514A91030 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E538781FD0 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E5083E3010 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E514A91030 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E51064FB90 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E51064EA20 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E50FA6FF40 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E508587020 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E50C3DD970 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E5110C0560 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.963 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2628 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 139.3 MB.
+System memory in use after: 139.5 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3326.
+Total: 6.593700 ms (FindLiveObjects: 0.837900 ms CreateObjectMapping: 0.373100 ms MarkObjects: 5.240700 ms  DeleteObjects: 0.139600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1424.993874 seconds.
-  path: Assets/Scripts/NPC/SC_MarchandManager.cs
-  artifactKey: Guid(e8c42ce84a425ed44af3b3718b148989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/NPC/SC_MarchandManager.cs using Guid(e8c42ce84a425ed44af3b3718b148989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f01b170c2dabe75c0bf76c35e936d32') in 0.006080 seconds 
-  Import took 0.010794 seconds .
+  Time since last request: 5899.736153 seconds.
+  path: Assets/Prefab/Peli.prefab
+  artifactKey: Guid(02d15fecb44e350479cffbe14a63f7e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Peli.prefab using Guid(02d15fecb44e350479cffbe14a63f7e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7df2b60e583df4dc4416f41629d8ec18') in 0.708223 seconds 
+  Import took 0.832618 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1132.475059 seconds.
+  path: Assets/Textures/VFX
+  artifactKey: Guid(1f29e8d3cc5dd894981b6fe2196e3664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/VFX using Guid(1f29e8d3cc5dd894981b6fe2196e3664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0b340435edc5938c917948eee4dd0de') in 0.003514 seconds 
+  Import took 0.010565 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003269 seconds.
+  path: Assets/Textures/VFX
+  artifactKey: Guid(1f29e8d3cc5dd894981b6fe2196e3664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/VFX using Guid(1f29e8d3cc5dd894981b6fe2196e3664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0b340435edc5938c917948eee4dd0de') in 0.002091 seconds 
+  Import took 0.007643 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 122.900481 seconds.
+  path: Assets/Textures/VFX/T_Star.tga
+  artifactKey: Guid(9c8160c194d461844a0fba6fa43eea3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/VFX/T_Star.tga using Guid(9c8160c194d461844a0fba6fa43eea3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88d3991c4ce24858338cb0afa1adf747') in 0.049932 seconds 
+  Import took 0.058311 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010021 seconds.
+  path: Assets/Textures/VFX/T_Star.tga
+  artifactKey: Guid(9c8160c194d461844a0fba6fa43eea3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/VFX/T_Star.tga using Guid(9c8160c194d461844a0fba6fa43eea3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88d3991c4ce24858338cb0afa1adf747') in 0.009431 seconds 
+  Import took 0.016286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.345933 seconds.
+  path: Assets/Textures/VFX/T_Star.tga
+  artifactKey: Guid(9c8160c194d461844a0fba6fa43eea3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/VFX/T_Star.tga using Guid(9c8160c194d461844a0fba6fa43eea3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0f3f2c5143d36e58ea74260032a1b78') in 0.052331 seconds 
+  Import took 0.059172 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.981646 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/ParticlesUnlit.mat
+  artifactKey: Guid(e823cd5b5d27c0f4b8256e7c12ee3e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/ParticlesUnlit.mat using Guid(e823cd5b5d27c0f4b8256e7c12ee3e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01204c7124f010b97b6ad71538ee1bbe') in 0.030966 seconds 
+  Import took 0.037810 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 163.111566 seconds.
+  path: Assets/Materials/VFX/M_Star.mat
+  artifactKey: Guid(184f8ce934c74d54c9acae5c9996cc87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/VFX/M_Star.mat using Guid(184f8ce934c74d54c9acae5c9996cc87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05e0e396bdb211b7662535111154d79a') in 0.058953 seconds 
+  Import took 0.067883 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 647.288781 seconds.
+  path: Assets/Meshes/Chara/Materials/No Name 23.mat
+  artifactKey: Guid(c23029332ae672444b0e334329eeeb14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Chara/Materials/No Name 23.mat using Guid(c23029332ae672444b0e334329eeeb14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eef8918cb0eaae264915fa0e84e767f1') in 0.018764 seconds 
+  Import took 0.025452 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 258.355634 seconds.
+  path: Assets/VFX/VFX_Sad.prefab
+  artifactKey: Guid(a1bb72cc3fa70f34db5171f3ca94ca54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/VFX_Sad.prefab using Guid(a1bb72cc3fa70f34db5171f3ca94ca54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa49d1af259a4ba9b1aa23b19ea91597') in 0.010544 seconds 
+  Import took 0.017904 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/VFX/VFX_WalkSmoke.prefab
+  artifactKey: Guid(8c8672f0732595c4380410912946f656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/VFX_WalkSmoke.prefab using Guid(8c8672f0732595c4380410912946f656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fa26234d6aa36e1a0f129f47f563d4a') in 0.006985 seconds 
+  Import took 0.011912 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.165775 seconds.
+  path: Assets/VFX/VFX_Happy.prefab
+  artifactKey: Guid(798a2c60761235d44b9535fca6711e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/VFX_Happy.prefab using Guid(798a2c60761235d44b9535fca6711e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '151dde1eb5849964ee544660bc357e6c') in 0.006747 seconds 
+  Import took 0.014395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002832 seconds.
+  path: Assets/VFX/VFX_Happy.prefab
+  artifactKey: Guid(798a2c60761235d44b9535fca6711e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/VFX_Happy.prefab using Guid(798a2c60761235d44b9535fca6711e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '151dde1eb5849964ee544660bc357e6c') in 0.005001 seconds 
+  Import took 0.010823 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.009246 seconds.
+Registered in 0.014895 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-000001E510B284B0 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E53673E240 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E507E7B010 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E536D49010 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E514C9D020 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E51124BDC0 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E50C1B6010 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E50C3F1010 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E514FEA020 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E513E15010 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E50DF5F590 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E50F570080 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E51463F010 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E537E600F0 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E50FFAF4F0 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E51576A380 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E50F570080 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E536D61030 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E5083E3010 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E50CEB3020 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E515769FA0 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E51576AD30 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E50C64F010 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E535C2A030 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E50C3D47D0 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E50F570080 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.90 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.559 seconds
+- Completed reload, in  3.029 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.30 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2628 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 121.8 MB.
-System memory in use after: 122.0 MB.
+System memory in use before: 139.5 MB.
+System memory in use after: 139.7 MB.
 
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3204.
-Total: 2.815500 ms (FindLiveObjects: 0.281900 ms CreateObjectMapping: 0.148900 ms MarkObjects: 2.310800 ms  DeleteObjects: 0.072500 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3367.
+Total: 5.812200 ms (FindLiveObjects: 0.686400 ms CreateObjectMapping: 0.344700 ms MarkObjects: 4.660600 ms  DeleteObjects: 0.118700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -704,30 +1223,82 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006770 seconds.
+Registered in 0.008248 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-000001E5377B7880 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E507C5AF00 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E507E7B010 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E50CC30C50 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E50F5CC020 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E5138FF010 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E536367010 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E50C3F1010 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E50E11A020 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E514B55020 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E5143F8EB0 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E510B1D010 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E51463F010 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E537E600F0 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E535CD5630 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E51576BCB0 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E51475E030 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E538781FD0 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E5083E3010 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E51475E030 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E51576BCB0 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E51576BCB0 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E50E00BD90 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E5138FF010 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E50C3D0D90 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E50F570080 doesn't match image D:\Rubika\Stage2021\GIT\Clube_Pelicas\Clube Pelicas\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.570 seconds
+- Completed reload, in  1.792 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2628 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 121.8 MB.
-System memory in use after: 122.0 MB.
+System memory in use before: 139.5 MB.
+System memory in use after: 139.7 MB.
 
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3207.
-Total: 6.011900 ms (FindLiveObjects: 0.441000 ms CreateObjectMapping: 0.229000 ms MarkObjects: 5.225800 ms  DeleteObjects: 0.114000 ms)
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3370.
+Total: 3.769600 ms (FindLiveObjects: 0.356100 ms CreateObjectMapping: 0.176900 ms MarkObjects: 3.116200 ms  DeleteObjects: 0.116400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -736,8 +1307,15 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
->>>>>>> develop
+========================================================================
+Received Import Request.
+  Time since last request: 302.098349 seconds.
+  path: Assets/Meshes/Chara/SK_Peli.fbx
+  artifactKey: Guid(9e834e52c65fb9145b8621ceccb20738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Chara/SK_Peli.fbx using Guid(9e834e52c65fb9145b8621ceccb20738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfade3d595b63409d88faf4263703117') in 0.395913 seconds 
+  Import took 0.402931 seconds .
+
