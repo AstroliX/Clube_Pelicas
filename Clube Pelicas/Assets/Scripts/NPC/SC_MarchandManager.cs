@@ -51,7 +51,7 @@ namespace Pelicas
         #region Items Value
 
         [SerializeField] int tomatoValue;
-        [[SerializeField] int pepperValue;
+        [SerializeField] int pepperValue;
         [SerializeField] int nativeGiftValue;
         [SerializeField] int vanillaPlantValue;
         [SerializeField] int coconutValue;
