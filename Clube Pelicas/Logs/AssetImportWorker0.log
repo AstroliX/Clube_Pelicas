@@ -740,4 +740,72 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+<<<<<<< Updated upstream
 >>>>>>> develop
+=======
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007767 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.351 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2628 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 121.8 MB.
+System memory in use after: 122.0 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3210.
+Total: 5.183000 ms (FindLiveObjects: 0.507700 ms CreateObjectMapping: 0.239800 ms MarkObjects: 4.343400 ms  DeleteObjects: 0.090500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3373.555411 seconds.
+  path: Assets/Textures/UI/T_LogoCarpenterSmall.png
+  artifactKey: Guid(aa718a5148f74a44f96cfd3163465f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/UI/T_LogoCarpenterSmall.png using Guid(aa718a5148f74a44f96cfd3163465f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd088e7c0c1467c3a8f2e65c9eab577c7') in 0.078668 seconds 
+  Import took 0.086643 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002935 seconds.
+  path: Assets/Textures/UI/T_LogoCarpenterSmall.png
+  artifactKey: Guid(aa718a5148f74a44f96cfd3163465f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/UI/T_LogoCarpenterSmall.png using Guid(aa718a5148f74a44f96cfd3163465f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd088e7c0c1467c3a8f2e65c9eab577c7') in 0.011527 seconds 
+  Import took 0.021162 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.623604 seconds.
+  path: Assets/Textures/UI/T_LogoKingSmall.png
+  artifactKey: Guid(5d731816c5492a6419fa529d29cc4e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/UI/T_LogoKingSmall.png using Guid(5d731816c5492a6419fa529d29cc4e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e8b4b3f2746e63c5625efb194c1a337') in 0.009517 seconds 
+  Import took 0.017126 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.066408 seconds.
+  path: Assets/Mael's Bazar/Mael Materials
+  artifactKey: Guid(ecc345010ce13484f9de1bb6a2ff6b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mael's Bazar/Mael Materials using Guid(ecc345010ce13484f9de1bb6a2ff6b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1290486ad59fc5e7643210e1e4f1394b') in 0.004282 seconds 
+  Import took 0.012081 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+>>>>>>> Stashed changes
