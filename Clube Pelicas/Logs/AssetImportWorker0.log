@@ -519,3 +519,4 @@ Received Import Request.
 Start importing Assets/Meshes/Chara/Materials/No Name 35.mat using Guid(7ab3021822cfc6a4fa84dbeffdcc4c14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96679181dbad79197be40c5dba7f3490') in 0.010883 seconds 
   Import took 0.016754 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
