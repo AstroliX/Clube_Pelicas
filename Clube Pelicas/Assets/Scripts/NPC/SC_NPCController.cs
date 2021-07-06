@@ -7,18 +7,21 @@ namespace Pelicas
 {
     public class SC_NPCController : MonoBehaviour
     {
-        [Header("GameObjects")]
-        [SerializeField] GameObject showResources;
+     
+        [Header("Marchand")]
+        [SerializeField] GameObject marchandPreview;
+        [SerializeField] GameObject marchandIsTalking;
 
-        [SerializeField] GameObject beforeTalking_1;
-        [SerializeField] GameObject beforeTalking_2;
-        [SerializeField] GameObject txt;
-        [SerializeField] GameObject buttonReturn;
-        [SerializeField] GameObject buttonPlay;
-
+        [Space]
+        [Header("Cameras")]
+        [SerializeField] GameObject playerCam;
+        [SerializeField] GameObject npcCam;
 
         SC_PlayerController playerScript;
         SC_CursorController cursorScript;
+
+
+        #region - UNITY_FUNCTIONS -
 
         private void Awake()
         {
@@ -28,21 +31,21 @@ namespace Pelicas
 
         private void OnTriggerEnter(Collider other)
         {
-            if(other.gameObject.tag == "Player")
+            if (other.gameObject.tag == "Player")
             {
-                showResources.SetActive(true);
-            
+                marchandPreview.SetActive(true);
+
             }
         }
 
 
         private void OnTriggerStay(Collider other)
         {
-            if(other.gameObject.tag == "Player")
+            if (other.gameObject.tag == "Player")
             {
                 if (Input.GetKeyDown(KeyCode.T))
                 {
-                    SetupMiniGame();
+                    NPCisTalking();
                 }
             }
         }
@@ -51,40 +54,54 @@ namespace Pelicas
         {
             if (other.gameObject.tag == "Player")
             {
-                showResources.SetActive(false);
+                marchandPreview.SetActive(false);
             }
         }
 
-        void SetupMiniGame()
-        {
-            playerScript.canMove = false;
-            cursorScript.ActivateCursor();
+        #endregion
 
-            beforeTalking_1.SetActive(false);
-            beforeTalking_2.SetActive(false);
-            txt.SetActive(true);
-            buttonReturn.SetActive(true);
-            buttonPlay.SetActive(true);
-        }
+
+        #region - PUBLIC_FUNCTIONS -
 
         public void LeaveSetup()
         {
-            
+
             cursorScript.DeactivateCursor();
+            marchandIsTalking.SetActive(false);
 
-            beforeTalking_1.SetActive(true);
-            beforeTalking_2.SetActive(true);
-            txt.SetActive(false);
-            buttonReturn.SetActive(false);
-            buttonPlay.SetActive(false);
 
+            playerCam.SetActive(true);
+            npcCam.SetActive(false);
             playerScript.canMove = true;
         }
 
-        public void LaunchMiniGame(string levelName)
-        {            
-            SceneManager.LoadScene(levelName);
+        
+        
+
+        #endregion
+
+
+        #region - PRIVATE_FUNCTIONS -
+
+        void NPCisTalking()
+        {
+            playerCam.SetActive(false);
+            npcCam.SetActive(true);
+
+            playerScript.canMove = false;
+            cursorScript.ActivateCursor();
+
+            marchandPreview.SetActive(false);
+            marchandIsTalking.SetActive(true);
         }
+
+        #endregion
+
+
+
+
+
+
     }
 
 }

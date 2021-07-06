@@ -8,9 +8,11 @@ namespace Pelicas
     {
         [Header("Floats")]
         [SerializeField] private float movementSpeed;
+        //[SerializeField] private float mass = 1f;
         [SerializeField] private float damping = 5f;
         private float velocityY;
         private readonly float gravity = Physics.gravity.y;
+
 
         [Space]
         [Header("Bools")]
@@ -19,14 +21,20 @@ namespace Pelicas
         public bool lostMiniGame;
 
 
+
         private Vector3 currentImpact;
-       
+
+
         CharacterController characterController;
+        Rigidbody rb;
+
+        #region - UNITY_FUNCTIONS -
 
         private void Awake()
         {
 
-            characterController = GetComponent<CharacterController>();          
+            characterController = GetComponent<CharacterController>();
+            rb = GetComponent<Rigidbody>();
         }
 
         private void Start()
@@ -36,14 +44,18 @@ namespace Pelicas
 
         private void Update()
         {
+
             if (canMove)
             {
                 Move();
             }
-        
+         
         }
 
+        #endregion
 
+
+        #region - PUBLIC_FUNCTIONS -
 
         public void Move()
         {
@@ -52,8 +64,12 @@ namespace Pelicas
 
             movementInput = transform.TransformDirection(movementInput);
 
-           
-            
+            if (characterController.isGrounded && velocityY < 0f)
+            {
+                velocityY = 0f;
+            }
+
+            velocityY += gravity * Time.deltaTime;
 
             Vector3 velocity = movementInput * movementSpeed + Vector3.up * velocityY;
             if (currentImpact.magnitude > 0.2f)
@@ -65,6 +81,21 @@ namespace Pelicas
 
             currentImpact = Vector3.Lerp(currentImpact, Vector3.zero, damping * Time.deltaTime);
         }
+
+        #endregion
+
+
+        #region - PRIVATE_FUNCTIONS -
+
+
+
+        #endregion
+
+
+
+
+
+
 
 
     }

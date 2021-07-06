@@ -19,14 +19,14 @@ namespace Pelicas
 
         SC_PlayerController playerScript;
 
-        
+        #region - UNITY_FUNCTIONS -
 
         private void Start()
         {
             StartCoroutine(Type());
             playerScript = FindObjectOfType<SC_PlayerController>();
             playerScript.canMove = false;
-            
+
         }
 
         private void Update()
@@ -34,7 +34,7 @@ namespace Pelicas
             if (textDisplayDoorLocked.text == sentences[index])
             {
                 continueButton.SetActive(true);
-                
+
             }
         }
 
@@ -44,13 +44,15 @@ namespace Pelicas
             foreach (char letter in sentences[index].ToCharArray())
             {
                 textDisplayDoorLocked.text += letter;
-                
+
                 yield return new WaitForSeconds(typingSpeed);
             }
 
         }
 
+        #endregion
 
+        #region - PUBLIC_FUNCTIONS -
 
         public void NextSentence()
         {
@@ -69,6 +71,17 @@ namespace Pelicas
                 textDisplayDoorLocked.text = "";
             }
         }
+
+        #endregion
+
+        #region - PRIVATE_FUNCTIONS -
+        #endregion
+
+
+
+
+
+
     }
 }
 

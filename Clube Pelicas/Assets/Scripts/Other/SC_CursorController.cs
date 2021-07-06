@@ -10,10 +10,17 @@ namespace Pelicas
 
         SC_CameraController cameraScript;
 
+        #region - UNITY_FUNCTIONS -
+
         private void Awake()
         {
             cameraScript = FindObjectOfType<SC_CameraController>();
         }
+
+        #endregion
+
+
+        #region - PUBLIC_FUNCTIONS -
 
         public void ActivateCursor()
         {
@@ -32,6 +39,16 @@ namespace Pelicas
             Cursor.SetCursor(cursorVEVO, Vector2.zero, CursorMode.Auto);
             Cursor.lockState = CursorLockMode.Locked;
         }
+
+        #endregion
+
+
+        #region - PRIVATE_FUNCTIONS -
+        #endregion
+
+
+
+
     }
 }
 

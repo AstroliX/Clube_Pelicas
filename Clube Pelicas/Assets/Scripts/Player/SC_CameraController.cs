@@ -11,6 +11,9 @@ namespace Pelicas
         float mouseX, mouseY;
         public bool isInMenu;
 
+        #region - UNITY_FUNCTIONS -
+
+
         private void Start()
         {
             Cursor.visible = false;
@@ -24,8 +27,15 @@ namespace Pelicas
             {
                 CamControl();
             }
-            
+
         }
+
+        #endregion
+
+        #region - PUBLIC_FUNCTIONS -
+        #endregion
+
+        #region - PRIVATE_FUNCTIONS -
 
         void CamControl()
         {
@@ -38,6 +48,11 @@ namespace Pelicas
             Target.rotation = Quaternion.Euler(mouseY, mouseX, 0);
             Player.rotation = Quaternion.Euler(0, mouseX, 0);
         }
+
+
+        #endregion
+
+
 
     }
 }
