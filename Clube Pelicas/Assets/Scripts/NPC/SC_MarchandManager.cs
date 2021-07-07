@@ -26,8 +26,7 @@ namespace Pelicas
         [SerializeField] GameObject button_wasRareItemNowReturn_SELL;
         [SerializeField] GameObject button_wasItemNowReturn_SELL;
 
-        [SerializeField] GameObject button_wasRareItemNowReturn_BUY;
-        [SerializeField] GameObject button_wasItemNowReturn_BUY;
+        
 
         [Space]
         [Header("MENU SELL 1")]
@@ -37,7 +36,20 @@ namespace Pelicas
 
         [Space]
         [Header("MENU BUY 1")]
+        [SerializeField] GameObject menu_rareItem_BUY;
+        [SerializeField] GameObject menu_item_BUY;
         [SerializeField] GameObject fb_YouDontHaveEnoughGold;
+
+
+        [Space]
+        [Header("MENU BUY 1: BUTTON")]
+        [SerializeField] GameObject button_rareItems_BUY;
+        [SerializeField] GameObject button_items_BUY;
+
+        [Space]
+        [Header("RETURN TO MENU BUY 1")]
+        [SerializeField] GameObject button_wasRareItemNowReturn_BUY;
+        [SerializeField] GameObject button_wasItemNowReturn_BUY;
 
         #endregion
 
@@ -110,6 +122,8 @@ namespace Pelicas
             menu_BUY.SetActive(true);
         }
 
+        #region Menu SELL
+
         public void WasSellingNowReturn()
         {
             menu_SELL.SetActive(false);
@@ -117,12 +131,7 @@ namespace Pelicas
             button_SELL.SetActive(true);
         }
 
-        public void WasBuyingNowReturn()
-        {
-            menu_BUY.SetActive(false);
-            button_BUY.SetActive(true);
-            button_SELL.SetActive(true);
-        }
+        
 
         public void GoingToSellRareItems()
         {
@@ -159,6 +168,56 @@ namespace Pelicas
             button_wasRareItemNowReturn_SELL.SetActive(false);
             menu_rareItem_SELL.SetActive(false);
         }
+        #endregion
+
+        #region Menu BUY
+
+        public void WasBuyingNowReturn()
+        {
+            menu_BUY.SetActive(false);
+            button_BUY.SetActive(true);
+            button_SELL.SetActive(true);
+        }
+
+
+
+        public void GoingToBuyRareItems()
+        {
+            button_rareItems_BUY.SetActive(false);
+            button_items_BUY.SetActive(false);
+
+            button_wasRareItemNowReturn_BUY.SetActive(true);
+            menu_rareItem_BUY.SetActive(true);
+        }
+
+        public void GoingToBuyItems()
+        {
+            button_rareItems_BUY.SetActive(false);
+            button_items_BUY.SetActive(false);
+
+            button_wasItemNowReturn_BUY.SetActive(true);
+            menu_item_BUY.SetActive(true);
+        }
+
+        public void WasBuyingRareItemNowReturn()
+        {
+            button_rareItems_BUY.SetActive(true);
+            button_items_BUY.SetActive(true);
+
+            button_wasRareItemNowReturn_BUY.SetActive(false);
+            menu_rareItem_BUY.SetActive(false);
+        }
+
+        public void WasBuyingItemNowReturn()
+        {
+            button_rareItems_BUY.SetActive(true);
+            button_items_BUY.SetActive(true);
+
+            button_wasItemNowReturn_BUY.SetActive(false);
+            menu_item_BUY.SetActive(false);
+        }
+
+        #endregion
 
         #endregion
 
