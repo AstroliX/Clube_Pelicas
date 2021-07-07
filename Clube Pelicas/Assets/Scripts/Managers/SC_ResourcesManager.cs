@@ -7,6 +7,7 @@ namespace Pelicas
 {
     public class SC_ResourcesManager : MonoBehaviour
     {
+        [Header("Resources")]
         #region Rare Resources
         public int diamond;
         public int pearl;
@@ -29,6 +30,28 @@ namespace Pelicas
         public int iron;
         #endregion
 
+        [Space]
+        [Header("Ãmount of resources per loot")]
+        #region Amount
+        //Amount of resources per loot
+        public int diamondAmount;
+        public int pearlAmount;
+        public int exoFruit_1Amount;
+        public int exoFruit_2Amount;
+        public int exoLeaf_1Amount;
+        public int exoLeaf_2Amount;
+        public int reputPointAmount;
+
+        public int tomatoAmount;
+        public int pepperAmount;
+        public int goldAmount;
+        public float crewAmount;
+        public int nativeGiftAmount;
+        public int vanillaPlantAmount;
+        public int coconutAmount;
+        public int woodAmount;
+        public int ironAmount;
+        #endregion
 
         #region - UNITY_FUNCTIONS- 
 

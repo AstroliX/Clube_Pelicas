@@ -187,7 +187,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &175912018
 GameObject:
@@ -219,28 +219,36 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemToSpawn:
-  - item: {fileID: 3814559695677937773, guid: c262ed4d39bf70d4bbe9da8561a0c890, type: 3}
-    spawnRate: 20
+  - item: {fileID: 6142748291957210505, guid: bd8813eb4cb577d44b6df6a329ca9dae, type: 3}
+    spawnRate: 15
     minSpawnProb: 0
     maxSpawnProb: 0
-  - item: {fileID: 6405590101655214931, guid: 2ad315474f43cd04eb313f1cccc5ae42, type: 3}
-    spawnRate: 10
+  - item: {fileID: 860757482479878669, guid: d238c284936cde74791405d6924b6d53, type: 3}
+    spawnRate: 15
     minSpawnProb: 0
     maxSpawnProb: 0
-  - item: {fileID: 2051216604745731056, guid: daf4cf9a3fa7c9249a4288417b3b0f34, type: 3}
-    spawnRate: 10
+  - item: {fileID: 582013010720752469, guid: ceb61afde8230fc4f8aa7ed419c15d65, type: 3}
+    spawnRate: 15
     minSpawnProb: 0
     maxSpawnProb: 0
-  - item: {fileID: 543363626984514269, guid: 8a26aa55970be2e4d9997101653f47d2, type: 3}
-    spawnRate: 20
+  - item: {fileID: 3041523420134008111, guid: b90b471d5bff2074ea9efa426468e9a0, type: 3}
+    spawnRate: 15
     minSpawnProb: 0
     maxSpawnProb: 0
-  - item: {fileID: 6436951712660023564, guid: 2295c481314b00740a275f56446a24a7, type: 3}
-    spawnRate: 20
+  - item: {fileID: 7327103707540166797, guid: 7aaea84b353b8e443968a07f2309d80d, type: 3}
+    spawnRate: 15
     minSpawnProb: 0
     maxSpawnProb: 0
-  - item: {fileID: 3389809082413262951, guid: 46d5f0c031887d54bbae0d0f7d83670f, type: 3}
-    spawnRate: 20
+  - item: {fileID: 3603729753159194034, guid: e002777712692e145a9e8cd40652e4b5, type: 3}
+    spawnRate: 15
+    minSpawnProb: 0
+    maxSpawnProb: 0
+  - item: {fileID: 3640295122240303727, guid: d4e2853441d34e54ba68f472a16ee0d4, type: 3}
+    spawnRate: 5
+    minSpawnProb: 0
+    maxSpawnProb: 0
+  - item: {fileID: 8365665780552153141, guid: 9a32cabaa86a5084aa5603dab373c6fe, type: 3}
+    spawnRate: 5
     minSpawnProb: 0
     maxSpawnProb: 0
 --- !u!4 &175912020
@@ -251,11 +259,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 175912018}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -126.19318, y: -84.27731, z: -708.14923}
+  m_LocalPosition: {x: 833.8068, y: 455.7227, z: -708.14923}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 251982318}
-  m_RootOrder: 0
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &251982314
 GameObject:
@@ -348,12 +356,11 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
-  - {fileID: 175912020}
   - {fileID: 629304878}
   - {fileID: 861324260}
   - {fileID: 366764644}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -399,7 +406,7 @@ RectTransform:
   - {fileID: 906352401}
   - {fileID: 1091289993}
   m_Father: {fileID: 251982318}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -571,7 +578,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 251982318}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -801,7 +808,7 @@ RectTransform:
   m_Children:
   - {fileID: 979407028}
   m_Father: {fileID: 251982318}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1424,6 +1431,81 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1225025137}
   m_CullTransparentMesh: 1
+--- !u!1 &1489586718
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1489586720}
+  - component: {fileID: 1489586719}
+  m_Layer: 0
+  m_Name: ResourcesManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1489586719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1489586718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbcdb08c1b5f35140b0db59712d11c11, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  diamond: 0
+  pearl: 0
+  exoFruit_1: 0
+  exoFruit_2: 0
+  exoLeaf_1: 0
+  exoLeaf_2: 0
+  reputPoint: 0
+  tomato: 0
+  pepper: 0
+  gold: 0
+  crew: 0
+  nativeGift: 0
+  vanillaPlant: 0
+  coconut: 0
+  wood: 0
+  iron: 0
+  diamondAmount: 5
+  pearlAmount: 5
+  exoFruit_1Amount: 5
+  exoFruit_2Amount: 5
+  exoLeaf_1Amount: 5
+  exoLeaf_2Amount: 5
+  reputPointAmount: 5
+  tomatoAmount: 5
+  pepperAmount: 5
+  goldAmount: 5
+  crewAmount: 5
+  nativeGiftAmount: 5
+  vanillaPlantAmount: 5
+  coconutAmount: 5
+  woodAmount: 5
+  ironAmount: 5
+--- !u!4 &1489586720
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1489586718}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1604398991
 GameObject:
   m_ObjectHideFlags: 0
