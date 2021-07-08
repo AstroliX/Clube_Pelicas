@@ -16211,7 +16211,7 @@ GameObject:
   - component: {fileID: 811211061}
   m_Layer: 0
   m_Name: Go to King
-  m_TagString: Untagged
+  m_TagString: TownLimit
   m_Icon: {fileID: 2488908585195742037, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19684,7 +19684,10 @@ MonoBehaviour:
   npcIsTalking: {fileID: 604662554}
   playerCam: {fileID: 1940156233}
   npcCam: {fileID: 1267373343}
+  canInteract: 0
   kingPalace: {fileID: 2036065102}
+  goToKingTarget: {fileID: 811211063}
+  speed: 3
 --- !u!4 &990099815
 Transform:
   m_ObjectHideFlags: 0
@@ -33480,11 +33483,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c538ad02b96d37c42a1d1f3b34849a4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  npcPreview: {fileID: 0}
-  npcIsTalking: {fileID: 0}
+  npcPreview: {fileID: 1726659354748000714}
+  npcIsTalking: {fileID: 9210603086737313624}
   playerCam: {fileID: 1940156233}
   npcCam: {fileID: 1481454599}
+  canInteract: 0
   kingPalace: {fileID: 0}
+  goToKingTarget: {fileID: 0}
+  speed: 0
 --- !u!65 &1685654750
 BoxCollider:
   m_ObjectHideFlags: 0

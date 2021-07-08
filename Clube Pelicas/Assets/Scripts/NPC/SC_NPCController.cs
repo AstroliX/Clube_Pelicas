@@ -17,7 +17,19 @@ namespace Pelicas
         [SerializeField] GameObject playerCam;
         [SerializeField] GameObject npcCam;
 
+        [Space]
+        [Header("Bools")]
+        public bool canInteract;
+
+        [Space]
+        [Header("King's taxi random shit")]
         [SerializeField] GameObject kingPalace;
+        [SerializeField] Transform goToKingTarget;
+        [SerializeField] float speed;
+        bool isTraveling;
+        
+
+        
 
         Transform T_player;
 
@@ -35,12 +47,36 @@ namespace Pelicas
             T_player = GameObject.FindGameObjectWithTag("Player").transform;
         }
 
+        private void Start()
+        {
+            canInteract = true;
+        }
+
+        private void Update()
+        {
+            if (isTraveling)
+            {
+                canInteract = false;
+                transform.position = Vector2.MoveTowards(transform.position, goToKingTarget.position, speed * Time.deltaTime);
+                T_player.position = Vector2.MoveTowards(T_player.position, goToKingTarget.position, speed * Time.deltaTime);
+            }
+        }
+
         private void OnTriggerEnter(Collider other)
         {
             if (other.gameObject.tag == "Player")
             {
                 npcPreview.SetActive(true);
 
+            }
+
+            if(other.gameObject.tag == "TownLimit")
+            {
+                Debug.Log("On touche le bail");
+                isTraveling = false;
+                T_player.position = kingPalace.transform.position;
+                canInteract = true;
+                playerScript.enabled = true;
             }
         }
 
@@ -90,8 +126,10 @@ namespace Pelicas
 
         public void Traveling()
         {
-           
-            T_player.position = kingPalace.transform.position;
+            LeaveSetup();
+            isTraveling = true;
+            playerScript.enabled = false;
+            
 
             StartCoroutine(Wait());
         }
