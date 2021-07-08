@@ -8,14 +8,18 @@ namespace Pelicas
     public class SC_NPCController : MonoBehaviour
     {
      
-        [Header("Marchand")]
-        [SerializeField] GameObject marchandPreview;
-        [SerializeField] GameObject marchandIsTalking;
+        [Header("UI")]
+        [SerializeField] GameObject npcPreview;
+        [SerializeField] GameObject npcIsTalking;
 
         [Space]
         [Header("Cameras")]
         [SerializeField] GameObject playerCam;
         [SerializeField] GameObject npcCam;
+
+        [SerializeField] GameObject kingPalace;
+
+        Transform T_player;
 
         SC_PlayerController playerScript;
         SC_CursorController cursorScript;
@@ -27,13 +31,15 @@ namespace Pelicas
         {
             playerScript = FindObjectOfType<SC_PlayerController>();
             cursorScript = FindObjectOfType<SC_CursorController>();
+
+            T_player = GameObject.FindGameObjectWithTag("Player").transform;
         }
 
         private void OnTriggerEnter(Collider other)
         {
             if (other.gameObject.tag == "Player")
             {
-                marchandPreview.SetActive(true);
+                npcPreview.SetActive(true);
 
             }
         }
@@ -54,8 +60,14 @@ namespace Pelicas
         {
             if (other.gameObject.tag == "Player")
             {
-                marchandPreview.SetActive(false);
+                npcPreview.SetActive(false);
             }
+        }
+
+        IEnumerator Wait()
+        {
+            yield return new WaitForSeconds(2);
+            LeaveSetup();
         }
 
         #endregion
@@ -67,7 +79,7 @@ namespace Pelicas
         {
 
             cursorScript.DeactivateCursor();
-            marchandIsTalking.SetActive(false);
+            npcIsTalking.SetActive(false);
 
 
             playerCam.SetActive(true);
@@ -75,8 +87,14 @@ namespace Pelicas
             playerScript.canMove = true;
         }
 
-        
-        
+
+        public void Traveling()
+        {
+           
+            T_player.position = kingPalace.transform.position;
+
+            StartCoroutine(Wait());
+        }
 
         #endregion
 
@@ -91,8 +109,8 @@ namespace Pelicas
             playerScript.canMove = false;
             cursorScript.ActivateCursor();
 
-            marchandPreview.SetActive(false);
-            marchandIsTalking.SetActive(true);
+            npcPreview.SetActive(false);
+            npcIsTalking.SetActive(true);
         }
 
         #endregion
