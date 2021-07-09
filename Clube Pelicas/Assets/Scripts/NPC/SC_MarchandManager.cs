@@ -26,18 +26,36 @@ namespace Pelicas
         [SerializeField] GameObject button_wasRareItemNowReturn_SELL;
         [SerializeField] GameObject button_wasItemNowReturn_SELL;
 
-        [SerializeField] GameObject button_wasRareItemNowReturn_BUY;
-        [SerializeField] GameObject button_wasItemNowReturn_BUY;
+        
 
         [Space]
         [Header("MENU SELL 1")]
         [SerializeField] GameObject menu_rareItem_SELL;
         [SerializeField] GameObject menu_item_SELL;
         [SerializeField] GameObject fb_YouDontHaveThisItem;
+
+        [Space]
+        [Header("MENU BUY 1")]
+        [SerializeField] GameObject menu_rareItem_BUY;
+        [SerializeField] GameObject menu_item_BUY;
+        [SerializeField] GameObject fb_YouDontHaveEnoughGold;
+
+
+        [Space]
+        [Header("MENU BUY 1: BUTTON")]
+        [SerializeField] GameObject button_rareItems_BUY;
+        [SerializeField] GameObject button_items_BUY;
+
+        [Space]
+        [Header("RETURN TO MENU BUY 1")]
+        [SerializeField] GameObject button_wasRareItemNowReturn_BUY;
+        [SerializeField] GameObject button_wasItemNowReturn_BUY;
+
         #endregion
 
         #region Rare Items Value
-
+        [Space]
+        [Header("Rare Items Value")]
         [SerializeField] int diamondValue;
         [SerializeField] int pearlValue;
         [SerializeField] int exoFruit_1Value;
@@ -49,7 +67,8 @@ namespace Pelicas
         #endregion
 
         #region Items Value
-
+        [Space]
+        [Header("Items Value")]
         [SerializeField] int tomatoValue;
         [SerializeField] int pepperValue;
         [SerializeField] int nativeGiftValue;
@@ -76,6 +95,13 @@ namespace Pelicas
             fb_YouDontHaveThisItem.SetActive(false);
         }
 
+        IEnumerator YouDontHaveEnoughGold()
+        {
+            fb_YouDontHaveEnoughGold.SetActive(true);
+            yield return new WaitForSecondsRealtime(2);
+            fb_YouDontHaveEnoughGold.SetActive(false);
+        }
+
         #endregion
 
         #region - PUBLIC_FUNCTIONS -
@@ -96,6 +122,8 @@ namespace Pelicas
             menu_BUY.SetActive(true);
         }
 
+        #region Menu SELL
+
         public void WasSellingNowReturn()
         {
             menu_SELL.SetActive(false);
@@ -103,12 +131,7 @@ namespace Pelicas
             button_SELL.SetActive(true);
         }
 
-        public void WasBuyingNowReturn()
-        {
-            menu_BUY.SetActive(false);
-            button_BUY.SetActive(true);
-            button_SELL.SetActive(true);
-        }
+        
 
         public void GoingToSellRareItems()
         {
@@ -145,6 +168,56 @@ namespace Pelicas
             button_wasRareItemNowReturn_SELL.SetActive(false);
             menu_rareItem_SELL.SetActive(false);
         }
+        #endregion
+
+        #region Menu BUY
+
+        public void WasBuyingNowReturn()
+        {
+            menu_BUY.SetActive(false);
+            button_BUY.SetActive(true);
+            button_SELL.SetActive(true);
+        }
+
+
+
+        public void GoingToBuyRareItems()
+        {
+            button_rareItems_BUY.SetActive(false);
+            button_items_BUY.SetActive(false);
+
+            button_wasRareItemNowReturn_BUY.SetActive(true);
+            menu_rareItem_BUY.SetActive(true);
+        }
+
+        public void GoingToBuyItems()
+        {
+            button_rareItems_BUY.SetActive(false);
+            button_items_BUY.SetActive(false);
+
+            button_wasItemNowReturn_BUY.SetActive(true);
+            menu_item_BUY.SetActive(true);
+        }
+
+        public void WasBuyingRareItemNowReturn()
+        {
+            button_rareItems_BUY.SetActive(true);
+            button_items_BUY.SetActive(true);
+
+            button_wasRareItemNowReturn_BUY.SetActive(false);
+            menu_rareItem_BUY.SetActive(false);
+        }
+
+        public void WasBuyingItemNowReturn()
+        {
+            button_rareItems_BUY.SetActive(true);
+            button_items_BUY.SetActive(true);
+
+            button_wasItemNowReturn_BUY.SetActive(false);
+            menu_item_BUY.SetActive(false);
+        }
+
+        #endregion
 
         #endregion
 
@@ -402,6 +475,270 @@ namespace Pelicas
             else
             {
                 StartCoroutine(YouDontHaveThisItem());
+            }
+
+
+        }
+
+
+
+
+        #endregion
+
+        #region Buying Rare Items
+
+        public void BuyDiamond()
+        {
+            if (resourceManager.gold >= diamondValue)
+            {
+                resourceManager.diamond += 1;
+
+                resourceManager.gold -= diamondValue;
+
+                PlayerPrefs.SetInt("diamond", resourceManager.diamond);
+                PlayerPrefs.SetInt("gold", resourceManager.gold);
+            }
+            else
+            {
+                StartCoroutine(YouDontHaveEnoughGold());
+            }
+
+
+        }
+
+        public void BuyPearl()
+        {
+            if (resourceManager.gold >= pearlValue)
+            {
+                resourceManager.pearl += 1;
+
+                resourceManager.gold -= pearlValue;
+
+                PlayerPrefs.SetInt("pearl", resourceManager.pearl);
+                PlayerPrefs.SetInt("gold", resourceManager.gold);
+            }
+            else
+            {
+                StartCoroutine(YouDontHaveEnoughGold());
+            }
+
+
+        }
+
+        public void BuyExoFruit1()
+        {
+            if (resourceManager.gold >= exoFruit_1Value)
+            {
+                resourceManager.exoFruit_1 += 1;
+
+                resourceManager.gold -= exoFruit_1Value;
+
+                PlayerPrefs.SetInt("exoFruit_1", resourceManager.exoFruit_1);
+                PlayerPrefs.SetInt("gold", resourceManager.gold);
+            }
+            else
+            {
+                StartCoroutine(YouDontHaveEnoughGold());
+            }
+
+
+        }
+
+        public void BuyExoFruit2()
+        {
+            if (resourceManager.gold >= exoFruit_2Value)
+            {
+                resourceManager.exoFruit_2 += 1;
+
+                resourceManager.gold -= exoFruit_2Value;
+
+                PlayerPrefs.SetInt("exoFruit_2", resourceManager.exoFruit_2);
+                PlayerPrefs.SetInt("gold", resourceManager.gold);
+            }
+            else
+            {
+                StartCoroutine(YouDontHaveEnoughGold());
+            }
+
+
+        }
+
+        public void BuyExoLeaf_1()
+        {
+            if (resourceManager.gold >= exoLeaf_1Value)
+            {
+                resourceManager.exoLeaf_1 += 1;
+
+                resourceManager.gold -= exoLeaf_1Value;
+
+                PlayerPrefs.SetInt("exoLeaf_1", resourceManager.exoLeaf_1);
+                PlayerPrefs.SetInt("gold", resourceManager.gold);
+            }
+            else
+            {
+                StartCoroutine(YouDontHaveEnoughGold());
+            }
+
+
+        }
+
+        public void BuyExoLeaf_2()
+        {
+            if (resourceManager.gold >= exoLeaf_2Value)
+            {
+                resourceManager.exoLeaf_2 += 1;
+
+                resourceManager.gold -= exoLeaf_2Value;
+
+                PlayerPrefs.SetInt("exoLeaf_2", resourceManager.exoLeaf_2);
+                PlayerPrefs.SetInt("gold", resourceManager.gold);
+            }
+            else
+            {
+                StartCoroutine(YouDontHaveEnoughGold());
+            }
+
+
+        }
+
+
+        public void BuyReputPoint()
+        {
+            if (resourceManager.gold >= reputPointValue)
+            {
+                resourceManager.reputPoint += 1;
+
+                resourceManager.gold -= reputPointValue;
+
+                PlayerPrefs.SetInt("reputPoint", resourceManager.reputPoint);
+                PlayerPrefs.SetInt("gold", resourceManager.gold);
+            }
+            else
+            {
+                StartCoroutine(YouDontHaveEnoughGold());
+            }
+
+
+        }
+
+
+        #endregion
+
+        #region Buying Items
+
+
+        public void BuyTomato()
+        {
+            if (resourceManager.gold >= tomatoValue)
+            {
+                resourceManager.tomato += 1;
+
+                resourceManager.gold -= tomatoValue;
+
+                PlayerPrefs.SetInt("tomato", resourceManager.tomato);
+                PlayerPrefs.SetInt("gold", resourceManager.gold);
+            }
+            else
+            {
+                StartCoroutine(YouDontHaveEnoughGold());
+            }
+
+
+        }
+
+        public void BuyPepper()
+        {
+            if (resourceManager.gold >= pepperValue)
+            {
+                resourceManager.pepper += 1;
+
+                resourceManager.gold -= pepperValue;
+
+                PlayerPrefs.SetInt("pepper", resourceManager.pepper);
+                PlayerPrefs.SetInt("gold", resourceManager.gold);
+            }
+            else
+            {
+                StartCoroutine(YouDontHaveEnoughGold());
+            }
+
+
+        }
+
+
+        public void BuyVanillaPlant()
+        {
+            if (resourceManager.gold >= vanillaPlantValue)
+            {
+                resourceManager.vanillaPlant += 1;
+
+                resourceManager.gold -= vanillaPlantValue;
+
+                PlayerPrefs.SetInt("vanillaPlant", resourceManager.vanillaPlant);
+                PlayerPrefs.SetInt("gold", resourceManager.gold);
+            }
+            else
+            {
+                StartCoroutine(YouDontHaveEnoughGold());
+            }
+
+
+        }
+
+        public void BuyCoconut()
+        {
+            if (resourceManager.gold >= coconutValue)
+            {
+                resourceManager.coconut += 1;
+
+                resourceManager.gold -= coconutValue;
+
+                PlayerPrefs.SetInt("coconut", resourceManager.coconut);
+                PlayerPrefs.SetInt("gold", resourceManager.gold);
+            }
+            else
+            {
+                StartCoroutine(YouDontHaveEnoughGold());
+            }
+
+
+        }
+
+
+        public void BuyWood()
+        {
+            if (resourceManager.gold >= woodValue)
+            {
+                resourceManager.wood += 1;
+
+                resourceManager.gold -= woodValue;
+
+                PlayerPrefs.SetInt("wood", resourceManager.wood);
+                PlayerPrefs.SetInt("gold", resourceManager.gold);
+            }
+            else
+            {
+                StartCoroutine(YouDontHaveEnoughGold());
+            }
+
+
+        }
+
+
+        public void BuyIron()
+        {
+            if (resourceManager.gold >= ironValue)
+            {
+                resourceManager.iron += 1;
+
+                resourceManager.gold -= ironValue;
+
+                PlayerPrefs.SetInt("iron", resourceManager.iron);
+                PlayerPrefs.SetInt("gold", resourceManager.gold);
+            }
+            else
+            {
+                StartCoroutine(YouDontHaveEnoughGold());
             }
 
 
