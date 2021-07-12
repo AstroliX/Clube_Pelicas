@@ -10,6 +10,7 @@ namespace Pelicas
         [SerializeField] GameObject text_mainMenu;
         [SerializeField] GameObject buttonYes_mainMenu;
         [SerializeField] GameObject buttonNo_mainMenu;
+        [SerializeField] GameObject resourcesAsked_mainMenu;
 
         [Space]
         [SerializeField] GameObject tradingMenu;
@@ -49,6 +50,7 @@ namespace Pelicas
             text_mainMenu.SetActive(false);
             buttonNo_mainMenu.SetActive(false);
             buttonYes_mainMenu.SetActive(false);
+            resourcesAsked_mainMenu.SetActive(false);
             tradingMenu.SetActive(true);
         }
 
@@ -58,7 +60,8 @@ namespace Pelicas
             text_mainMenu.SetActive(true);
             buttonNo_mainMenu.SetActive(true);
             buttonYes_mainMenu.SetActive(true);
-            
+            resourcesAsked_mainMenu.SetActive(true);
+
         }
 
         public void SellDiamond_1()
