@@ -29686,8 +29686,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c538ad02b96d37c42a1d1f3b34849a4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  npcPreview: {fileID: 6094164083858063415}
-  npcIsTalking: {fileID: 604662554}
+  npcPreview: {fileID: 2129794952}
+  npcIsTalking: {fileID: 2891164149547279425}
   playerCam: {fileID: 1940156233}
   npcCam: {fileID: 757426441}
   canInteract: 0
@@ -52629,7 +52629,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2891164149547279426
 RectTransform:
   m_ObjectHideFlags: 0
@@ -53290,7 +53290,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &9210603086737313626
 MonoBehaviour:
   m_ObjectHideFlags: 0
