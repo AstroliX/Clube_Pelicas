@@ -58,7 +58,7 @@ namespace Pelicas
             {
                 canInteract = false;
                 transform.position = Vector2.MoveTowards(transform.position, goToKingTarget.position, speed * Time.deltaTime);
-                T_player.position = Vector2.MoveTowards(T_player.position, goToKingTarget.position, speed * Time.deltaTime);
+                //T_player.position = Vector2.MoveTowards(T_player.position, goToKingTarget.position, speed * Time.deltaTime);
             }
         }
 
@@ -72,9 +72,9 @@ namespace Pelicas
 
             if(other.gameObject.tag == "TownLimit")
             {
-                Debug.Log("On touche le bail");
+                
                 isTraveling = false;
-                T_player.position = kingPalace.transform.position;
+                //T_player.position = kingPalace.transform.position;
                 canInteract = true;
                 playerScript.enabled = true;
             }
