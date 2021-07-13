@@ -218,39 +218,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c9d6e5decf6f734aaa0b5f0e491a0f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemToSpawn:
-  - item: {fileID: 6142748291957210505, guid: bd8813eb4cb577d44b6df6a329ca9dae, type: 3}
-    spawnRate: 15
-    minSpawnProb: 0
-    maxSpawnProb: 0
-  - item: {fileID: 860757482479878669, guid: d238c284936cde74791405d6924b6d53, type: 3}
-    spawnRate: 15
-    minSpawnProb: 0
-    maxSpawnProb: 0
-  - item: {fileID: 582013010720752469, guid: ceb61afde8230fc4f8aa7ed419c15d65, type: 3}
-    spawnRate: 15
-    minSpawnProb: 0
-    maxSpawnProb: 0
-  - item: {fileID: 3041523420134008111, guid: b90b471d5bff2074ea9efa426468e9a0, type: 3}
-    spawnRate: 15
-    minSpawnProb: 0
-    maxSpawnProb: 0
+  itemToSpawn_1:
   - item: {fileID: 7327103707540166797, guid: 7aaea84b353b8e443968a07f2309d80d, type: 3}
-    spawnRate: 15
+    spawnRate: 80
     minSpawnProb: 0
     maxSpawnProb: 0
   - item: {fileID: 3603729753159194034, guid: e002777712692e145a9e8cd40652e4b5, type: 3}
-    spawnRate: 15
-    minSpawnProb: 0
-    maxSpawnProb: 0
-  - item: {fileID: 3640295122240303727, guid: d4e2853441d34e54ba68f472a16ee0d4, type: 3}
     spawnRate: 5
     minSpawnProb: 0
     maxSpawnProb: 0
-  - item: {fileID: 8365665780552153141, guid: 9a32cabaa86a5084aa5603dab373c6fe, type: 3}
+  - item: {fileID: 6142748291957210505, guid: bd8813eb4cb577d44b6df6a329ca9dae, type: 3}
     spawnRate: 5
     minSpawnProb: 0
     maxSpawnProb: 0
+  - item: {fileID: 5191777751196111888, guid: 36112fccc18940f438204b89f141603c, type: 3}
+    spawnRate: 10
+    minSpawnProb: 0
+    maxSpawnProb: 0
+  itemToSpawn_2: []
+  itemToSpawn_3: []
 --- !u!4 &175912020
 Transform:
   m_ObjectHideFlags: 0
@@ -463,16 +449,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b49b84f8339d5a408771e33a26977cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isFull: 0000000000000000
-  slots:
-  - {fileID: 1096341782}
-  - {fileID: 1895805081}
-  - {fileID: 1958965236}
-  - {fileID: 1124321783}
-  - {fileID: 405176284}
-  - {fileID: 1225025137}
-  - {fileID: 906352400}
-  - {fileID: 1091289992}
+  isFull_1: 
+  slots_1: []
+  isFull_2: 
+  slots_2: []
+  isFull_3: 
+  slots_3: []
 --- !u!1 &405176284
 GameObject:
   m_ObjectHideFlags: 0
