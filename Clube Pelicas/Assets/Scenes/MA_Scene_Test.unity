@@ -19943,6 +19943,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MarchandIsTeasing
       objectReference: {fileID: 0}
+    - target: {fileID: 73730128919847580, guid: 9f399ffdcaf066747bbe6d0fcfb98fdd, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 73730128919847583, guid: 9f399ffdcaf066747bbe6d0fcfb98fdd, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
