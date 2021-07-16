@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
 
 namespace Pelicas
 {
@@ -23,6 +25,9 @@ namespace Pelicas
         [SerializeField] int rareValue;
         [SerializeField] int normalValue;
 
+        int reputP;
+        [SerializeField] TextMeshProUGUI reputAmount;
+
 
         SC_ResourcesManager resource;
 
@@ -31,6 +36,12 @@ namespace Pelicas
         private void Awake()
         {
             resource = FindObjectOfType<SC_ResourcesManager>();
+        }
+
+        private void Update()
+        {
+            reputP = resource.reputPoint;
+            reputAmount.text = reputP + "";
         }
 
         IEnumerator YouDontHaveEnough()

@@ -69,12 +69,137 @@ namespace Pelicas
 
             tomato = PlayerPrefs.GetInt("tomato");
             pepper = PlayerPrefs.GetInt("pepper");
-            crew = PlayerPrefs.GetInt("crew");
+            crew = PlayerPrefs.GetFloat("crew");
             nativeGift = PlayerPrefs.GetInt("nativeGift");
             vanillaPlant = PlayerPrefs.GetInt("vanillaPlant");
             coconut = PlayerPrefs.GetInt("coconut");
             wood = PlayerPrefs.GetInt("wood");
             iron = PlayerPrefs.GetInt("iron");
+        }
+
+        private void Update()
+        {
+            #region if resource is less than 0 then set the value to 0
+            if(diamond < 0)
+            {
+                diamond = 0;
+                PlayerPrefs.SetInt("diamond", 0);
+
+            }
+
+            if (pearl < 0)
+            {
+                pearl = 0;
+                PlayerPrefs.SetInt("pearl", 0);
+
+            }
+
+            if (exoFruit_1 < 0)
+            {
+                exoFruit_1 = 0;
+                PlayerPrefs.SetInt("exoFruit_1", 0);
+
+            }
+
+            if (exoFruit_2 < 0)
+            {
+                exoFruit_2 = 0;
+                PlayerPrefs.SetInt("exoFruit_2", 0);
+
+            }
+
+            if (exoLeaf_1 < 0)
+            {
+                exoLeaf_1 = 0;
+                PlayerPrefs.SetInt("exoLeaf_1", 0);
+
+            }
+
+            if (exoLeaf_2 < 0)
+            {
+                exoLeaf_2 = 0;
+                PlayerPrefs.SetInt("exoLeaf_2", 0);
+
+            }
+
+            if (reputPoint < 0)
+            {
+                reputPoint = 0;
+                PlayerPrefs.SetInt("reputPoint", 0);
+
+            }
+
+            if (gold < 0)
+            {
+                gold = 0;
+                PlayerPrefs.SetInt("gold", 0);
+
+            }
+
+            if (tomato < 0)
+            {
+                tomato = 0;
+                PlayerPrefs.SetInt("tomato", 0);
+
+            }
+
+            if (pepper < 0)
+            {
+                pepper = 0;
+                PlayerPrefs.SetInt("pepper", 0);
+
+            }
+
+            if (crew < 0)
+            {
+                crew = 0;
+                PlayerPrefs.SetFloat("crew", 0);
+
+            }
+
+            if (nativeGift < 0)
+            {
+                nativeGift = 0;
+                PlayerPrefs.SetInt("nativeGift", 0);
+
+            }
+
+            if (vanillaPlant < 0)
+            {
+                vanillaPlant = 0;
+                PlayerPrefs.SetInt("vanillaPlant", 0);
+
+            }
+
+
+            if (coconut < 0)
+            {
+                coconut = 0;
+                PlayerPrefs.SetInt("coconut", 0);
+
+            }
+
+
+            if (wood < 0)
+            {
+                wood = 0;
+                PlayerPrefs.SetInt("wood", 0);
+
+            }
+
+
+
+            if (iron < 0)
+            {
+                iron = 0;
+                PlayerPrefs.SetInt("iron", 0);
+
+            }
+
+            #endregion
+
+
+
         }
 
         #endregion
