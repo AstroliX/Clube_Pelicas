@@ -27,8 +27,9 @@ namespace Pelicas
         [SerializeField] Transform goToKingTarget;
         [SerializeField] float speed;
         bool isTraveling;
-        
 
+        [Space]
+        [SerializeField] bool isOnSea;
         
 
         Transform T_player;
@@ -56,8 +57,8 @@ namespace Pelicas
         {
             if (isTraveling)
             {
-                canInteract = false;
-                transform.position = Vector2.MoveTowards(transform.position, goToKingTarget.position, speed * Time.deltaTime);
+                //canInteract = false;
+                //transform.position = Vector2.MoveTowards(transform.position, goToKingTarget.position, speed * Time.deltaTime);
                 //T_player.position = Vector2.MoveTowards(T_player.position, goToKingTarget.position, speed * Time.deltaTime);
             }
         }
@@ -113,8 +114,12 @@ namespace Pelicas
 
         public void LeaveSetup()
         {
-
-            cursorScript.DeactivateCursor();
+            if (!isOnSea)
+            {
+                cursorScript.DeactivateCursor();
+                playerCam.SetActive(true);
+            }
+            
             npcIsTalking.SetActive(false);
 
 
@@ -141,11 +146,17 @@ namespace Pelicas
 
         void NPCisTalking()
         {
-            playerCam.SetActive(false);
-            npcCam.SetActive(true);
+            if (!isOnSea)
+            {
+                playerCam.SetActive(false);
+                npcCam.SetActive(true);
+                cursorScript.ActivateCursor();
+            }
+
+            
 
             playerScript.canMove = false;
-            cursorScript.ActivateCursor();
+            
 
             npcPreview.SetActive(false);
             npcIsTalking.SetActive(true);
