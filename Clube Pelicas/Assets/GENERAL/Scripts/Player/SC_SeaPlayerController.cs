@@ -8,7 +8,7 @@ namespace Pelicas
     {
         [SerializeField] float speed;
         private float inputHorizontal;
-
+        public bool canMove;
         Rigidbody rb;
 
 
@@ -21,54 +21,59 @@ namespace Pelicas
            
         }
 
+        private void Start()
+        {
+            canMove = true;
+        }
+
         void Update()
         {
+
+
+            if (canMove)
+            {
+                if (Input.GetKey(KeyCode.D))
+                {
+
+                    transform.rotation = Quaternion.Euler(0, 90, 0);
+                }
+                if (Input.GetKey(KeyCode.A))
+                {
+
+                    transform.rotation = Quaternion.Euler(0, -90, 0);
+                }
+
+
+                if (Input.GetKey(KeyCode.LeftArrow))
+                {
+
+                    transform.rotation = Quaternion.Euler(0, 90, 0);
+                }
+                if (Input.GetKey(KeyCode.RightArrow))
+                {
+
+                    transform.rotation = Quaternion.Euler(0, -90, 0);
+                }
+
+                inputHorizontal = Input.GetAxisRaw("Horizontal");
+                rb.velocity = new Vector2(inputHorizontal * speed, rb.velocity.y);
+            }
+
             
-
-            
-
-           
-            if (Input.GetKey(KeyCode.D))
-            {
-                
-                transform.rotation = Quaternion.Euler(0, 90, 0);
-            }
-            if (Input.GetKey(KeyCode.A))
-            {
-                
-                transform.rotation = Quaternion.Euler(0, -90, 0);
-            }
-
-
-            if (Input.GetKey(KeyCode.LeftArrow))
-            {
-
-                transform.rotation = Quaternion.Euler(0, 90, 0);
-            }
-            if (Input.GetKey(KeyCode.RightArrow))
-            {
-
-                transform.rotation = Quaternion.Euler(0, -90, 0);
-            }
-
-            inputHorizontal = Input.GetAxisRaw("Horizontal");
-            rb.velocity = new Vector2(inputHorizontal * speed, rb.velocity.y);
-
-            #endregion
-
-
-            #region - PUBLIC_FUNCTIONS -
-
-
-
-
-            #endregion
-
-            #region - PRIVATE_FUNCTIONS -
-
-
-            #endregion
         }
+        #endregion
+
+        #region - PUBLIC_FUNCTIONS -
+
+
+
+
+        #endregion
+
+        #region - PRIVATE_FUNCTIONS -
+
+
+        #endregion
     }
 }
 

@@ -35,6 +35,7 @@ namespace Pelicas
         Transform T_player;
 
         SC_PlayerController playerScript;
+        SC_SeaPlayerController seaPlayerScript;
         SC_CursorController cursorScript;
 
 
@@ -43,6 +44,7 @@ namespace Pelicas
         private void Awake()
         {
             playerScript = FindObjectOfType<SC_PlayerController>();
+            seaPlayerScript = FindObjectOfType<SC_SeaPlayerController>();
             cursorScript = FindObjectOfType<SC_CursorController>();
 
             T_player = GameObject.FindGameObjectWithTag("Player").transform;
@@ -118,6 +120,11 @@ namespace Pelicas
             {
                 cursorScript.DeactivateCursor();
                 playerCam.SetActive(true);
+                playerScript.canMove = true;
+            }
+            else
+            {
+                seaPlayerScript.canMove = true;
             }
             
             npcIsTalking.SetActive(false);
@@ -125,7 +132,7 @@ namespace Pelicas
 
             playerCam.SetActive(true);
             npcCam.SetActive(false);
-            playerScript.canMove = true;
+            
         }
 
 
@@ -148,15 +155,20 @@ namespace Pelicas
         {
             if (!isOnSea)
             {
-                playerCam.SetActive(false);
-                npcCam.SetActive(true);
+                
                 cursorScript.ActivateCursor();
+                playerScript.canMove = false;
+            }
+            else
+            {
+                seaPlayerScript.canMove = false;
             }
 
-            
 
-            playerScript.canMove = false;
-            
+            playerCam.SetActive(false);
+            npcCam.SetActive(true);
+
+
 
             npcPreview.SetActive(false);
             npcIsTalking.SetActive(true);
