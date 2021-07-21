@@ -1,9 +1,5 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/GENERAL/Scenes/Scene_Sea.unity
-=======
-- path: Assets/Scenes/AM_Sandbox.unity
->>>>>>> develop
+- path: Assets/GENERAL/Scenes/Scene_Main.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

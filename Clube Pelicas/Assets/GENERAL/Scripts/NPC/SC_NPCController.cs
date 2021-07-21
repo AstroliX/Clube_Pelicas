@@ -24,8 +24,11 @@ namespace Pelicas
         [Space]
         [Header("King's taxi random shit")]
         [SerializeField] GameObject kingPalace;
-        [SerializeField] Transform goToKingTarget;
-        [SerializeField] float speed;
+        [SerializeField] GameObject taxiTown;
+        /*[SerializeField] Transform goToKingTarget;
+        [SerializeField] float speed;*/
+        [SerializeField] GameObject town;
+        [SerializeField] GameObject palace;
         bool isTraveling;
 
         [Space]
@@ -57,12 +60,12 @@ namespace Pelicas
 
         private void Update()
         {
-            if (isTraveling)
+            /*if (isTraveling)
             {
-                //canInteract = false;
-                //transform.position = Vector2.MoveTowards(transform.position, goToKingTarget.position, speed * Time.deltaTime);
-                //T_player.position = Vector2.MoveTowards(T_player.position, goToKingTarget.position, speed * Time.deltaTime);
-            }
+                canInteract = false;
+                transform.position = Vector2.MoveTowards(transform.position, goToKingTarget.position, speed * Time.deltaTime);
+                T_player.position = Vector2.MoveTowards(T_player.position, goToKingTarget.position, speed * Time.deltaTime);
+            }*/
         }
 
         private void OnTriggerEnter(Collider other)
@@ -73,14 +76,14 @@ namespace Pelicas
 
             }
 
-            if(other.gameObject.tag == "TownLimit")
+           /* if(other.gameObject.tag == "TownLimit")
             {
                 
                 isTraveling = false;
                 //T_player.position = kingPalace.transform.position;
                 canInteract = true;
                 playerScript.enabled = true;
-            }
+            }*/
         }
 
 
@@ -105,8 +108,9 @@ namespace Pelicas
 
         IEnumerator Wait()
         {
+            
             yield return new WaitForSeconds(2);
-            LeaveSetup();
+            playerScript.enabled = true;
         }
 
         #endregion
@@ -128,15 +132,48 @@ namespace Pelicas
             }
             
             npcIsTalking.SetActive(false);
-
+            Debug.Log("Frer");
 
             playerCam.SetActive(true);
             npcCam.SetActive(false);
             
         }
 
+        public void GoToPalace()
+        {
+            //T_player.position = kingPalace.transform.position;
+            playerScript.enabled = false;
+            T_player.position = new Vector3(0, 0, 380);
+            
+            LeaveSetup();
+            //animation / transition
 
-        public void Traveling()
+
+            palace.SetActive(true);
+            
+            town.SetActive(false);
+            StartCoroutine(Wait());
+        }
+
+        public void ReturnToTown()
+        {
+            //T_player.position = kingPalace.transform.position;
+            LeaveSetup();
+            playerScript.enabled = false;
+            T_player.position = new Vector3(-5, 0.70f, -34);
+
+            
+            //animation / transition
+
+
+            palace.SetActive(false);
+
+            town.SetActive(true);
+            StartCoroutine(Wait());
+        }
+
+
+        /*public void Traveling()
         {
             LeaveSetup();
             isTraveling = true;
@@ -144,7 +181,7 @@ namespace Pelicas
             
 
             StartCoroutine(Wait());
-        }
+        }*/
 
         #endregion
 
