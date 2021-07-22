@@ -44,16 +44,19 @@ namespace Pelicas
             if (PlayerPrefs.GetInt("stock") == 0)
             {
                 rCollector_1.SetActive(true);
+                Debug.Log("Stock is 0");
             }
 
             if (PlayerPrefs.GetInt("stock") == 1)
             {
                 rCollector_2.SetActive(true);
+                Debug.Log("Stock is 1");
             }
 
             if (PlayerPrefs.GetInt("stock") == 2)
             {
                 rCollector_3.SetActive(true);
+                Debug.Log("Stock is 2");
             }
             #endregion
 
@@ -79,6 +82,7 @@ namespace Pelicas
                         itemToSpawn_1[i].maxSpawnProb = itemToSpawn_1[i].minSpawnProb + itemToSpawn_1[i].spawnRate - 1;
                     }
                 }
+                Debug.Log("Hull is 0");
             }
 
             if (PlayerPrefs.GetInt("hull") == 1)
@@ -97,6 +101,7 @@ namespace Pelicas
                         itemToSpawn_2[i].maxSpawnProb = itemToSpawn_2[i].minSpawnProb + itemToSpawn_2[i].spawnRate - 1;
                     }
                 }
+                Debug.Log("Hull is 0");
             }
 
 
@@ -116,6 +121,8 @@ namespace Pelicas
                         itemToSpawn_3[i].maxSpawnProb = itemToSpawn_3[i].minSpawnProb + itemToSpawn_3[i].spawnRate - 1;
                     }
                 }
+
+                Debug.Log("Hull is 0");
             }
             #endregion
 
@@ -141,11 +148,13 @@ namespace Pelicas
             if (PlayerPrefs.GetInt("hull") == 1)
             {
                 SpawnnerHull_2();
+                nbrOfResource += 1;
             }
 
             if (PlayerPrefs.GetInt("hull") == 2)
             {
                 SpawnnerHull_3();
+                nbrOfResource += 1;
             }
         }
 
@@ -195,7 +204,7 @@ namespace Pelicas
                                 if(nbrOfResource < nbrNeeded_1)
                                 {
                                     Instantiate(itemToSpawn_1[i].item, lootedItem.slots_1[e].transform, false);
-                                    Debug.Log("Oh yeah we at 0");
+                                    Debug.Log("[Hull 0 & Stock 0] Item Spawned");
                                     lootedItem.isFull_1[e] = true;
                                     StartCoroutine(CollectingResources());
                                 }
@@ -212,9 +221,14 @@ namespace Pelicas
                         {
                             if (lootedItem.isFull_2[e] == false)
                             {
-                                Instantiate(itemToSpawn_1[i].item, lootedItem.slots_2[e].transform, false);
-                                Debug.Log("Oh yeah we at 1");
-                                lootedItem.isFull_2[e] = true;
+                                if(nbrOfResource < nbrNeeded_2)
+                                {
+                                    Instantiate(itemToSpawn_1[i].item, lootedItem.slots_2[e].transform, false);
+                                    Debug.Log("[Hull 0 & Stock 1] Item Spawned");
+                                    lootedItem.isFull_2[e] = true;
+                                    StartCoroutine(CollectingResources());
+                                }
+                                
                                 break;
                             }
                         }
@@ -227,9 +241,14 @@ namespace Pelicas
                         {
                             if (lootedItem.isFull_3[e] == false)
                             {
-                                Instantiate(itemToSpawn_1[i].item, lootedItem.slots_3[e].transform, false);
-                                Debug.Log("Oh yeah we at 2");
-                                lootedItem.isFull_3[e] = true;
+                                if(nbrOfResource < nbrNeeded_3)
+                                {
+                                    Instantiate(itemToSpawn_1[i].item, lootedItem.slots_3[e].transform, false);
+                                    Debug.Log("[Hull 0 & Stock 3] Item Spawned");
+                                    lootedItem.isFull_3[e] = true;
+                                    StartCoroutine(CollectingResources());
+                                }
+                                
                                 break;
                             }
                         }
@@ -255,9 +274,14 @@ namespace Pelicas
                         {
                             if (lootedItem.isFull_1[e] == false)
                             {
-                                Instantiate(itemToSpawn_2[i].item, lootedItem.slots_1[e].transform, false);
-                                Debug.Log("Oh yeah we at 0 from 2");
-                                lootedItem.isFull_1[e] = true;
+                                if(nbrOfResource < nbrNeeded_1)
+                                {
+                                    Instantiate(itemToSpawn_2[i].item, lootedItem.slots_1[e].transform, false);
+                                    Debug.Log("[Hull 1 & Stock 0] Item Spawned");
+                                    lootedItem.isFull_1[e] = true;
+                                    StartCoroutine(CollectingResources());
+                                }
+                                
                                 break;
                             }
                         }
@@ -270,9 +294,14 @@ namespace Pelicas
                         {
                             if (lootedItem.isFull_2[e] == false)
                             {
-                                Instantiate(itemToSpawn_2[i].item, lootedItem.slots_2[e].transform, false);
-                                Debug.Log("Oh yeah we at 1 from 2");
-                                lootedItem.isFull_2[e] = true;
+                                if(nbrOfResource < nbrNeeded_2)
+                                {
+                                    Instantiate(itemToSpawn_2[i].item, lootedItem.slots_2[e].transform, false);
+                                    Debug.Log("[Hull 1 & Stock 1] Item Spawned");
+                                    lootedItem.isFull_2[e] = true;
+                                    StartCoroutine(CollectingResources());
+                                }
+                                
                                 break;
                             }
                         }
@@ -285,9 +314,14 @@ namespace Pelicas
                         {
                             if (lootedItem.isFull_3[e] == false)
                             {
-                                Instantiate(itemToSpawn_2[i].item, lootedItem.slots_3[e].transform, false);
-                                Debug.Log("Oh yeah we at 2 from 2");
-                                lootedItem.isFull_3[e] = true;
+                                if(nbrOfResource < nbrNeeded_3)
+                                {
+                                    Instantiate(itemToSpawn_2[i].item, lootedItem.slots_3[e].transform, false);
+                                    Debug.Log("[Hull 1 & Stock 2] Item Spawned");
+                                    lootedItem.isFull_3[e] = true;
+                                    StartCoroutine(CollectingResources());
+                                }
+                                
                                 break;
                             }
                         }
@@ -313,9 +347,14 @@ namespace Pelicas
                         {
                             if (lootedItem.isFull_1[e] == false)
                             {
-                                Instantiate(itemToSpawn_3[i].item, lootedItem.slots_1[e].transform, false);
-                                Debug.Log("Oh yeah we at 0 from 3");
-                                lootedItem.isFull_1[e] = true;
+                                if(nbrOfResource < nbrNeeded_1)
+                                {
+                                    Instantiate(itemToSpawn_3[i].item, lootedItem.slots_1[e].transform, false);
+                                    Debug.Log("Oh yeah we at 0 from 3");
+                                    lootedItem.isFull_1[e] = true;
+                                    StartCoroutine(CollectingResources());
+                                }
+                                
                                 break;
                             }
                         }
@@ -328,9 +367,14 @@ namespace Pelicas
                         {
                             if (lootedItem.isFull_2[e] == false)
                             {
-                                Instantiate(itemToSpawn_3[i].item, lootedItem.slots_2[e].transform, false);
-                                Debug.Log("Oh yeah we at 1 from 3");
-                                lootedItem.isFull_2[e] = true;
+                                if(nbrOfResource < nbrNeeded_2)
+                                {
+                                    Instantiate(itemToSpawn_3[i].item, lootedItem.slots_2[e].transform, false);
+                                    Debug.Log("Oh yeah we at 1 from 3");
+                                    lootedItem.isFull_2[e] = true;
+                                    StartCoroutine(CollectingResources());
+                                }
+                                
                                 break;
                             }
                         }
@@ -343,9 +387,14 @@ namespace Pelicas
                         {
                             if (lootedItem.isFull_3[e] == false)
                             {
-                                Instantiate(itemToSpawn_3[i].item, lootedItem.slots_3[e].transform, false);
-                                Debug.Log("Oh yeah we at 2 from 3");
-                                lootedItem.isFull_3[e] = true;
+                                if(nbrOfResource < nbrNeeded_3)
+                                {
+                                    Instantiate(itemToSpawn_3[i].item, lootedItem.slots_3[e].transform, false);
+                                    Debug.Log("Oh yeah we at 2 from 3");
+                                    lootedItem.isFull_3[e] = true;
+                                    StartCoroutine(CollectingResources());
+                                }
+                               
                                 break;
                             }
                         }

@@ -187,6 +187,7 @@ namespace Pelicas
         public void GoToTradingMenu()
         {
             isTrading = true;
+            askingMenu.SetActive(false);
             
             if (PlayerPrefs.GetInt("King_Asking") == 0)
             {

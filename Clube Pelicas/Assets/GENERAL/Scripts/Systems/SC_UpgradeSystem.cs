@@ -18,7 +18,13 @@ namespace Pelicas
             quarters = PlayerPrefs.GetInt("quarters");
             hull = PlayerPrefs.GetInt("hull");
         }
-        
+
+        private void Start()
+        {
+
+
+        }
+
 
         #endregion
 

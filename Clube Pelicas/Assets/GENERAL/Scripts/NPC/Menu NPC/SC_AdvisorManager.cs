@@ -80,7 +80,7 @@ namespace Pelicas
 
         public void YesGoToSea(string levelName)
         {
-            king.PlayerInSea();
+            
             SceneManager.LoadScene(levelName);
         }
 
