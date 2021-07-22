@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 namespace Pelicas
 {
@@ -134,9 +135,9 @@ namespace Pelicas
             areYouSure.SetActive(true);
         }
 
-        public void YesIAmSure()
+        public void YesGoToSea(string levelName)
         {
-            Debug.Log("change scene");
+            SceneManager.LoadScene(levelName);
         }
 
         public void NoIAmNotSure()

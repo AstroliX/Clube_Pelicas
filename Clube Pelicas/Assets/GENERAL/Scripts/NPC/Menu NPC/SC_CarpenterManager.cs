@@ -252,12 +252,18 @@ namespace Pelicas
         {
             if(PlayerPrefs.GetInt("hull") == 0)
             {
-                if(resource.wood >= woodNeeded_1 && resource.iron >= ironNeeded_1 && resource.gold >= goldNeeded_1)
+                if(PlayerPrefs.GetInt("wood") >= woodNeeded_1 && PlayerPrefs.GetInt("iron") >= ironNeeded_1 && resource.gold >= goldNeeded_1)
                 {
                     upgrade.hull += 1;
                     PlayerPrefs.SetInt("hull", 1);
                     hullUpgrade_1.SetActive(false);
                     hullUpgrade_2.SetActive(true);
+
+                    resource.wood -= woodNeeded_1;
+                    resource.iron -= ironNeeded_1;
+
+                    PlayerPrefs.SetInt("wood", resource.wood);
+                    PlayerPrefs.SetInt("iron", resource.iron);
                 }
                 else
                 {
@@ -273,6 +279,12 @@ namespace Pelicas
                     PlayerPrefs.SetInt("hull", 2);
                     hullUpgrade_2.SetActive(false);
                     hullUpgrade_3.SetActive(true);
+
+                    resource.wood -= woodNeeded_2;
+                    resource.iron -= ironNeeded_2;
+
+                    PlayerPrefs.SetInt("wood", resource.wood);
+                    PlayerPrefs.SetInt("iron", resource.iron);
                 }
                 else
                 {
@@ -287,7 +299,12 @@ namespace Pelicas
                 {
                     upgrade.hull += 1;
                     PlayerPrefs.SetInt("hull", 2);
-                    
+
+                    resource.wood -= woodNeeded_3;
+                    resource.iron -= ironNeeded_3;
+
+                    PlayerPrefs.SetInt("wood", resource.wood);
+                    PlayerPrefs.SetInt("iron", resource.iron);
                 }
                 else
                 {
@@ -312,6 +329,12 @@ namespace Pelicas
                     PlayerPrefs.SetInt("stock", 1);
                     stockUpgrade_1.SetActive(false);
                     stockUpgrade_2.SetActive(true);
+
+                    resource.wood -= woodNeeded_1;
+                    resource.iron -= ironNeeded_1;
+
+                    PlayerPrefs.SetInt("wood", resource.wood);
+                    PlayerPrefs.SetInt("iron", resource.iron);
                 }
                 else
                 {
@@ -327,6 +350,12 @@ namespace Pelicas
                     PlayerPrefs.SetInt("stock", 2);
                     stockUpgrade_2.SetActive(false);
                     stockUpgrade_3.SetActive(true);
+
+                    resource.wood -= woodNeeded_2;
+                    resource.iron -= ironNeeded_2;
+
+                    PlayerPrefs.SetInt("wood", resource.wood);
+                    PlayerPrefs.SetInt("iron", resource.iron);
                 }
                 else
                 {
@@ -365,6 +394,12 @@ namespace Pelicas
                     PlayerPrefs.SetInt("quarters", 1);
                     quartersUpgrade_1.SetActive(false);
                     quartersUpgrade_2.SetActive(true);
+
+                    resource.wood -= woodNeeded_1;
+                    resource.iron -= ironNeeded_1;
+
+                    PlayerPrefs.SetInt("wood", resource.wood);
+                    PlayerPrefs.SetInt("iron", resource.iron);
                 }
                 else
                 {
@@ -380,6 +415,12 @@ namespace Pelicas
                     PlayerPrefs.SetInt("quarters", 2);
                     quartersUpgrade_2.SetActive(false);
                     quartersUpgrade_3.SetActive(true);
+
+                    resource.wood -= woodNeeded_2;
+                    resource.iron -= ironNeeded_2;
+
+                    PlayerPrefs.SetInt("wood", resource.wood);
+                    PlayerPrefs.SetInt("iron", resource.iron);
                 }
                 else
                 {
@@ -395,6 +436,11 @@ namespace Pelicas
                     upgrade.quarters += 1;
                     PlayerPrefs.SetInt("quarters", 2);
 
+                    resource.wood -= woodNeeded_3;
+                    resource.iron -= ironNeeded_3;
+
+                    PlayerPrefs.SetInt("wood", resource.wood);
+                    PlayerPrefs.SetInt("iron", resource.iron);
                 }
                 else
                 {

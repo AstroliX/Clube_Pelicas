@@ -7162,8 +7162,9 @@ MonoBehaviour:
   npcCam: {fileID: 1954438967}
   canInteract: 0
   kingPalace: {fileID: 0}
-  goToKingTarget: {fileID: 0}
-  speed: 0
+  taxiTown: {fileID: 0}
+  town: {fileID: 0}
+  palace: {fileID: 0}
   isOnSea: 1
 --- !u!1 &1720361593
 GameObject:
@@ -12312,14 +12313,14 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 3391550257827803504}
         m_TargetAssemblyTypeName: Pelicas.SC_SeaAdvisorManager, Assembly-CSharp
-        m_MethodName: YesIAmSure
-        m_Mode: 1
+        m_MethodName: YesGoToSea
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Scene_Main
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!95 &489681319855368961
@@ -28569,6 +28570,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3
+  canMove: 0
 --- !u!65 &4401191723345612717
 BoxCollider:
   m_ObjectHideFlags: 0

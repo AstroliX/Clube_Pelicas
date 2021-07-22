@@ -57,7 +57,7 @@ namespace Pelicas
 
         private void Awake()
         {
-            diamond = PlayerPrefs.GetInt("diamond");
+            /*diamond = PlayerPrefs.GetInt("diamond");
             pearl = PlayerPrefs.GetInt("pearl");
             exoFruit_1 = PlayerPrefs.GetInt("exoFruit_1");
             exoFruit_2 = PlayerPrefs.GetInt("exoFruit_2");
@@ -74,7 +74,7 @@ namespace Pelicas
             vanillaPlant = PlayerPrefs.GetInt("vanillaPlant");
             coconut = PlayerPrefs.GetInt("coconut");
             wood = PlayerPrefs.GetInt("wood");
-            iron = PlayerPrefs.GetInt("iron");
+            iron = PlayerPrefs.GetInt("iron");*/
         }
 
         private void Update()
@@ -198,7 +198,24 @@ namespace Pelicas
 
             #endregion
 
+            diamond = PlayerPrefs.GetInt("diamond");
+            pearl = PlayerPrefs.GetInt("pearl");
+            exoFruit_1 = PlayerPrefs.GetInt("exoFruit_1");
+            exoFruit_2 = PlayerPrefs.GetInt("exoFruit_2");
+            exoLeaf_1 = PlayerPrefs.GetInt("exoLeaf_1");
+            exoLeaf_2 = PlayerPrefs.GetInt("exoLeaf_2");
+            reputPoint = PlayerPrefs.GetInt("reputPoint");
 
+            gold = PlayerPrefs.GetInt("gold");
+
+            tomato = PlayerPrefs.GetInt("tomato");
+            pepper = PlayerPrefs.GetInt("pepper");
+            crew = PlayerPrefs.GetFloat("crew");
+            nativeGift = PlayerPrefs.GetInt("nativeGift");
+            vanillaPlant = PlayerPrefs.GetInt("vanillaPlant");
+            coconut = PlayerPrefs.GetInt("coconut");
+            wood = PlayerPrefs.GetInt("wood");
+            iron = PlayerPrefs.GetInt("iron");
 
         }
 

@@ -47,6 +47,7 @@ namespace Pelicas
         bool isCrewMenu;
 
         SC_ResourcesManager resource;
+        SC_KingSystem king;
 
         #region - UNITY_FUNCTIONS -
 
@@ -79,6 +80,7 @@ namespace Pelicas
 
         public void YesGoToSea(string levelName)
         {
+            king.PlayerInSea();
             SceneManager.LoadScene(levelName);
         }
 
