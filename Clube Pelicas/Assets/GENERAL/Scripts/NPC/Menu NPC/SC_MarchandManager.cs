@@ -173,8 +173,8 @@ namespace Pelicas
             button_rareItems_SELL.SetActive(true);
             button_items_SELL.SetActive(true);
 
-            button_wasRareItemNowReturn_SELL.SetActive(false);
-            menu_rareItem_SELL.SetActive(false);
+            button_wasItemNowReturn_SELL.SetActive(false);
+            menu_item_SELL.SetActive(false);
         }
         #endregion
 

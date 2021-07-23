@@ -19,11 +19,6 @@ namespace Pelicas
             hull = PlayerPrefs.GetInt("hull");
         }
 
-        private void Start()
-        {
-
-
-        }
 
 
         #endregion

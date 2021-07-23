@@ -35,11 +35,14 @@ namespace Pelicas
         public int waitBetweenResource;
 
         SC_LootedItemSlot lootedItem;
+        SC_UpgradeSystem upgrade;
 
         #region - UNITY_FUNCTIONS -
 
         private void Awake()
         {
+            
+
             #region Check stock
             if (PlayerPrefs.GetInt("stock") == 0)
             {
@@ -61,13 +64,23 @@ namespace Pelicas
             #endregion
 
             lootedItem = FindObjectOfType<SC_LootedItemSlot>();
+            upgrade = FindObjectOfType<SC_UpgradeSystem>();
+
+
+            
+
         }
 
         void Start()
         {
+            upgrade.hull += 1;
+            PlayerPrefs.GetInt("hull", upgrade.hull);
+
+
             #region Check hull
-            if(PlayerPrefs.GetInt("hull") == 0)
+            if (PlayerPrefs.GetInt("hull") == 0)
             {
+                Debug.Log("HULL IS 0 BRO");
                 for (int i = 0; i < itemToSpawn_1.Length; i++)
                 {
 
@@ -87,6 +100,7 @@ namespace Pelicas
 
             if (PlayerPrefs.GetInt("hull") == 1)
             {
+                Debug.Log("HULL IS 1 BRO");
                 for (int i = 0; i < itemToSpawn_2.Length; i++)
                 {
 
@@ -101,12 +115,13 @@ namespace Pelicas
                         itemToSpawn_2[i].maxSpawnProb = itemToSpawn_2[i].minSpawnProb + itemToSpawn_2[i].spawnRate - 1;
                     }
                 }
-                Debug.Log("Hull is 0");
+                Debug.Log("Hull is 1");
             }
 
 
             if (PlayerPrefs.GetInt("hull") == 2)
             {
+                Debug.Log("HULL IS 2 BRO");
                 for (int i = 0; i < itemToSpawn_3.Length; i++)
                 {
 
@@ -122,7 +137,7 @@ namespace Pelicas
                     }
                 }
 
-                Debug.Log("Hull is 0");
+                Debug.Log("Hull is 2");
             }
             #endregion
 
@@ -159,29 +174,6 @@ namespace Pelicas
         }
 
 
-        void Update()
-        {
-            if (Input.GetKeyDown(KeyCode.E))
-            {
-                if(PlayerPrefs.GetInt("hull") == 0)
-                {
-                    SpawnnerHull_1();
-                }
-
-                if (PlayerPrefs.GetInt("hull") == 1)
-                {
-                    SpawnnerHull_2();
-                }
-
-                if (PlayerPrefs.GetInt("hull") == 2)
-                {
-                    SpawnnerHull_3();
-                }
-
-            }
-
-            
-        }
 
         #endregion
 
@@ -350,7 +342,7 @@ namespace Pelicas
                                 if(nbrOfResource < nbrNeeded_1)
                                 {
                                     Instantiate(itemToSpawn_3[i].item, lootedItem.slots_1[e].transform, false);
-                                    Debug.Log("Oh yeah we at 0 from 3");
+                                    Debug.Log("[Hull 2 & Stock 0] Item Spawned");
                                     lootedItem.isFull_1[e] = true;
                                     StartCoroutine(CollectingResources());
                                 }
@@ -370,7 +362,7 @@ namespace Pelicas
                                 if(nbrOfResource < nbrNeeded_2)
                                 {
                                     Instantiate(itemToSpawn_3[i].item, lootedItem.slots_2[e].transform, false);
-                                    Debug.Log("Oh yeah we at 1 from 3");
+                                    Debug.Log("[Hull 2 & Stock 1] Item Spawned");
                                     lootedItem.isFull_2[e] = true;
                                     StartCoroutine(CollectingResources());
                                 }
@@ -390,7 +382,7 @@ namespace Pelicas
                                 if(nbrOfResource < nbrNeeded_3)
                                 {
                                     Instantiate(itemToSpawn_3[i].item, lootedItem.slots_3[e].transform, false);
-                                    Debug.Log("Oh yeah we at 2 from 3");
+                                    Debug.Log("[Hull 2 & Stock 3] Item Spawned");
                                     lootedItem.isFull_3[e] = true;
                                     StartCoroutine(CollectingResources());
                                 }
