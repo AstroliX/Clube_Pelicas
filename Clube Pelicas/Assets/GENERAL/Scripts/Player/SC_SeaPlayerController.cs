@@ -11,12 +11,13 @@ namespace Pelicas
         public bool canMove;
         Rigidbody rb;
 
+        SC_KingSystem king;
 
         #region - UNITY_FUNCTIONS -
 
         private void Awake()
         {
-
+            king = FindObjectOfType<SC_KingSystem>();
             rb = GetComponent<Rigidbody>();
            
         }
@@ -24,6 +25,7 @@ namespace Pelicas
         private void Start()
         {
             canMove = true;
+            king.PlayerInSea();
         }
 
         void Update()

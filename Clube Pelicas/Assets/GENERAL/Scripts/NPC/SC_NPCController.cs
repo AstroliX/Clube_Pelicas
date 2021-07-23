@@ -132,7 +132,7 @@ namespace Pelicas
             }
             
             npcIsTalking.SetActive(false);
-            Debug.Log("Frer");
+
 
             playerCam.SetActive(true);
             npcCam.SetActive(false);

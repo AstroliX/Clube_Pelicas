@@ -6,9 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/GENERAL/Scenes/MA_Scene_Test.unity
-    guid: fdbed5f4466e84d41bae314628084bd0
+    path: Assets/GENERAL/Scenes/Scene_Main.unity
+    guid: 4f916c57810339e489e7e14620c0de17
   - enabled: 1
-    path: Assets/GENERAL/Scenes/MA_OLD/MA_MiniGame_Test.unity
-    guid: 5ec737fbd0b0c744dad1fbc7dc20b20a
+    path: Assets/GENERAL/Scenes/Scene_Sea.unity
+    guid: f67d6acc22642c344a56dcbc6eafd503
   m_configObjects: {}
