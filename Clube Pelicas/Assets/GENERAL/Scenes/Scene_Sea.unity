@@ -6458,6 +6458,10 @@ MonoBehaviour:
   coconutAmount: 10
   woodAmount: 10
   ironAmount: 4
+  limitStack: 99
+  limitReput: 999
+  limitCrew: 100
+  limitGold: 999
 --- !u!4 &1489586720
 Transform:
   m_ObjectHideFlags: 0

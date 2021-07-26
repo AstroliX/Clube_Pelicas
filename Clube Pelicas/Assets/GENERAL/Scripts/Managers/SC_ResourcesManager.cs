@@ -53,6 +53,15 @@ namespace Pelicas
         public int ironAmount;
         #endregion
 
+        [Space]
+        [Header("Limit of resources")]
+        [SerializeField] int limitStack;
+        [SerializeField] int limitReput;
+        [SerializeField] int limitCrew;
+        [SerializeField] int limitGold;
+
+         int notFirstInstance;
+
         #region - UNITY_FUNCTIONS- 
 
         private void Awake()
@@ -75,6 +84,35 @@ namespace Pelicas
             coconut = PlayerPrefs.GetInt("coconut");
             wood = PlayerPrefs.GetInt("wood");
             iron = PlayerPrefs.GetInt("iron");*/
+
+
+            notFirstInstance = PlayerPrefs.GetInt("notFirstInstance");
+
+            if (notFirstInstance == 0)
+            {
+                Debug.Log("Not First Instance is false");
+
+            }
+
+                  
+        }
+
+        private void Start()
+        {
+            if(notFirstInstance == 0)
+            {
+                crew = 100f;
+                PlayerPrefs.SetFloat("crew", 100f);
+                
+                PlayerPrefs.SetInt("notFirstInstance", 1);
+                notFirstInstance += 1;
+                Debug.Log("First Instance");
+
+            }
+            else
+            {
+                Debug.Log("Not first Instance");
+            }
         }
 
         private void Update()
@@ -198,6 +236,127 @@ namespace Pelicas
 
             #endregion
 
+            #region if resource is more than 999 then set the value to 999
+            if (diamond > limitStack)
+            {
+                diamond = limitStack;
+                PlayerPrefs.SetInt("diamond", limitStack);
+
+            }
+
+            if (pearl > limitStack)
+            {
+                pearl = limitStack;
+                PlayerPrefs.SetInt("pearl", limitStack);
+
+            }
+
+            if (exoFruit_1 > limitStack)
+            {
+                exoFruit_1 = limitStack;
+                PlayerPrefs.SetInt("exoFruit_1", limitStack);
+
+            }
+
+            if (exoFruit_2 > limitStack)
+            {
+                exoFruit_2 = limitStack;
+                PlayerPrefs.SetInt("exoFruit_2", limitStack);
+
+            }
+
+            if (exoLeaf_1 > limitStack)
+            {
+                exoLeaf_1 = limitStack;
+                PlayerPrefs.SetInt("exoLeaf_1", limitStack);
+
+            }
+
+            if (exoLeaf_2 > limitStack)
+            {
+                exoLeaf_2 = limitStack;
+                PlayerPrefs.SetInt("exoLeaf_2", limitStack);
+
+            }
+
+            if (reputPoint > limitReput)
+            {
+                reputPoint = limitReput;
+                PlayerPrefs.SetInt("reputPoint", limitReput);
+
+            }
+
+            if (gold > limitGold)
+            {
+                gold = limitGold;
+                PlayerPrefs.SetInt("gold", limitGold);
+
+            }
+
+            if (tomato > limitStack)
+            {
+                tomato = limitStack;
+                PlayerPrefs.SetInt("tomato", limitStack);
+
+            }
+
+            if (pepper > limitStack)
+            {
+                pepper = limitStack;
+                PlayerPrefs.SetInt("pepper", limitStack);
+
+            }
+
+            if (crew > limitCrew)
+            {
+                crew = limitCrew;
+                PlayerPrefs.SetInt("crew", limitCrew);
+
+            }
+
+            if (nativeGift > limitStack)
+            {
+                nativeGift = limitStack;
+                PlayerPrefs.SetInt("nativeGift", limitStack);
+
+            }
+
+            if (vanillaPlant > limitStack)
+            {
+                vanillaPlant = limitStack;
+                PlayerPrefs.SetInt("vanillaPlant", limitStack);
+
+            }
+
+
+            if (coconut > limitStack)
+            {
+                coconut = limitStack;
+                PlayerPrefs.SetInt("coconut", limitStack);
+
+            }
+
+
+            if (wood > limitStack)
+            {
+                wood = limitStack;
+                PlayerPrefs.SetInt("wood", limitStack);
+
+            }
+
+
+
+            if (iron > limitStack)
+            {
+                iron = limitStack;
+                PlayerPrefs.SetInt("iron", limitStack);
+
+            }
+
+            #endregion
+
+            #region Get Int
+
             diamond = PlayerPrefs.GetInt("diamond");
             pearl = PlayerPrefs.GetInt("pearl");
             exoFruit_1 = PlayerPrefs.GetInt("exoFruit_1");
@@ -216,7 +375,9 @@ namespace Pelicas
             coconut = PlayerPrefs.GetInt("coconut");
             wood = PlayerPrefs.GetInt("wood");
             iron = PlayerPrefs.GetInt("iron");
+            #endregion
 
+            
         }
 
         #endregion
