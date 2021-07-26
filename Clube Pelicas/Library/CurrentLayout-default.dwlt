@@ -19,19 +19,39 @@ MonoBehaviour:
     height: 1391
   m_ShowMode: 4
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< develop
+>>>>>>> develop
   m_Title: Scene
 <<<<<<< HEAD
   m_RootView: {fileID: 2}
+<<<<<<< develop
   m_MinSize: {x: 875, y: 392}
 =======
   m_RootView: {fileID: 8}
   m_MinSize: {x: 875, y: 563}
 >>>>>>> develop
 =======
+<<<<<<< HEAD
   m_Title: 
   m_RootView: {fileID: 6}
   m_MinSize: {x: 950, y: 300}
 >>>>>>> MergeCorrectionV2
+=======
+  m_MinSize: {x: 875, y: 300}
+>>>>>>> Simple push
+=======
+  m_Title: 
+  m_RootView: {fileID: 6}
+  m_MinSize: {x: 950, y: 300}
+>>>>>>> Merge Correction
+=======
+  m_Title: Hierarchy
+  m_RootView: {fileID: 8}
+  m_MinSize: {x: 875, y: 542}
+>>>>>>> develop
+>>>>>>> develop
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -42,8 +62,11 @@ MonoBehaviour:
   m_Enabled: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> MergeCorrectionV2
+=======
+>>>>>>> develop
   m_EditorHideFlags: 1
   m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
@@ -66,6 +89,7 @@ MonoBehaviour:
   m_ObjectHideFlags: 52
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
@@ -92,14 +116,13 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+=======
+>>>>>>> develop
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
-  m_Script: {fileID: 12042, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-=======
-  m_EditorHideFlags: 0
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+<<<<<<< develop
   m_Name: GameView
 >>>>>>> develop
   m_EditorClassIdentifier: 
@@ -107,6 +130,10 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> develop
 <<<<<<< HEAD
     y: 977
     width: 1920
@@ -120,6 +147,16 @@ MonoBehaviour:
     height: 316
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
+<<<<<<< HEAD
+=======
+=======
+    y: 384
+    width: 480
+    height: 563
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+>>>>>>> develop
+>>>>>>> develop
   m_ActualView: {fileID: 17}
 =======
     width: 519
@@ -165,7 +202,7 @@ MonoBehaviour:
   m_MinSize: {x: 911, y: 342}
   m_MaxSize: {x: 22006, y: 10021}
   vertical: 0
-  controlID: 35763
+  controlID: 223
 --- !u!114 &6
 =======
   - {fileID: 7}
@@ -229,32 +266,25 @@ MonoBehaviour:
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: SceneHierarchyWindow
   m_EditorClassIdentifier: 
+=======
+  m_Name: 
+  m_EditorClassIdentifier: 
+>>>>>>> Merge Correction
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 0
+    x: 2041
     y: 0
-<<<<<<< HEAD
-    width: 249
-    height: 947
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 13}
-  m_Panes:
-  - {fileID: 13}
-  m_Selected: 0
-  m_LastSelected: 0
---- !u!114 &7
-=======
-    width: 341
-    height: 458
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+    width: 519
+    height: 1341
+  m_MinSize: {x: 277, y: 71}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
   m_Selected: 0
   m_LastSelected: 0
+<<<<<<< develop
 --- !u!114 &6
 >>>>>>> develop
 MonoBehaviour:
@@ -281,7 +311,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 342}
   m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
-  controlID: 35768
+  controlID: 17
 --- !u!114 &8
 =======
   - {fileID: 5}
@@ -298,8 +328,12 @@ MonoBehaviour:
   controlID: 222
 --- !u!114 &7
 >>>>>>> develop
+=======
+--- !u!114 &4
+>>>>>>> Merge Correction
 MonoBehaviour:
   m_ObjectHideFlags: 52
+<<<<<<< HEAD
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -307,11 +341,19 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
 >>>>>>> MergeCorrectionV2
+=======
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+>>>>>>> develop
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< develop
+>>>>>>> develop
 <<<<<<< HEAD
   m_Name: SceneView
 =======
@@ -319,7 +361,11 @@ MonoBehaviour:
 >>>>>>> develop
 =======
   m_Name: 
+<<<<<<< HEAD
 >>>>>>> MergeCorrectionV2
+=======
+>>>>>>> Merge Correction
+>>>>>>> develop
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -328,17 +374,26 @@ MonoBehaviour:
 <<<<<<< HEAD
     y: 0
 <<<<<<< HEAD
+=======
+<<<<<<< develop
+>>>>>>> develop
+<<<<<<< HEAD
     width: 1064
     height: 568
+=======
+    width: 505
+    height: 811
+>>>>>>> Merge Correction
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 17}
+  m_ActualView: {fileID: 15}
   m_Panes:
-  - {fileID: 14}
   - {fileID: 15}
+<<<<<<< develop
   - {fileID: 16}
   - {fileID: 17}
   - {fileID: 12}
+<<<<<<< HEAD
 =======
     y: 811
     width: 2041
@@ -346,6 +401,34 @@ MonoBehaviour:
   m_MinSize: {x: 232, y: 271}
   m_MaxSize: {x: 10002, y: 10021}
   m_ActualView: {fileID: 13}
+=======
+  - {fileID: 18}
+  m_Selected: 3
+  m_LastSelected: 4
+--- !u!114 &9
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: ConsoleWindow
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+<<<<<<< HEAD
+    y: 568
+    width: 1064
+    height: 379
+  m_MinSize: {x: 102, y: 121}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 19}
+>>>>>>> develop
   m_Panes:
   - {fileID: 13}
 >>>>>>> MergeCorrectionV2
@@ -360,6 +443,17 @@ MonoBehaviour:
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
   m_ActualView: {fileID: 16}
+<<<<<<< HEAD
+=======
+=======
+    y: 0
+    width: 480
+    height: 384
+  m_MinSize: {x: 101, y: 121}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 13}
+>>>>>>> develop
+>>>>>>> develop
   m_Panes:
   - {fileID: 16}
   - {fileID: 13}
@@ -424,8 +518,15 @@ MonoBehaviour:
 --- !u!114 &9
 >>>>>>> develop
 =======
+<<<<<<< HEAD
 --- !u!114 &7
 >>>>>>> MergeCorrectionV2
+=======
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &5
+>>>>>>> Merge Correction
+>>>>>>> develop
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_PrefabParentObject: {fileID: 0}
@@ -435,20 +536,24 @@ MonoBehaviour:
   m_EditorHideFlags: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: InspectorWindow
+<<<<<<< HEAD
 =======
-  m_Script: {fileID: 12011, guid: 0000000000000000e000000000000000, type: 0}
+>>>>>>> develop
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
+<<<<<<< HEAD
 >>>>>>> develop
 =======
   m_Script: {fileID: 12011, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
 >>>>>>> MergeCorrectionV2
+=======
+>>>>>>> develop
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< develop
 <<<<<<< HEAD
 <<<<<<< HEAD
     x: 1625
@@ -542,24 +647,24 @@ MonoBehaviour:
     m_DrawArea:
       serializedVersion: 2
       x: 0
-      y: 21
-      width: 1920
-      height: 907
-    m_Scale: {x: 0.83981484, y: 0.83981484}
-    m_Translation: {x: 960, y: 453.5}
+      y: 0
+      width: 1062
+      height: 547
+    m_Scale: {x: 0.50648147, y: 0.50648147}
+    m_Translation: {x: 531, y: 273.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -1143.1091
+      x: -1048.4095
       y: -540
-      width: 2286.2183
+      width: 2096.819
       height: 1080
     m_MinimalGUI: 1
-  m_defaultScale: 0.83981484
-  m_LastWindowPixelSize: {x: 1920, y: 928}
+  m_defaultScale: 0.50648147
+  m_LastWindowPixelSize: {x: 1062, y: 547}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -603,9 +708,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 48d1e9ffd4dbe9ff7a0affff52fbffff
+      m_SelectedIDs: 6a76ffff
+      m_LastClickedID: -35222
+      m_ExpandedIDs: beecffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -3576,6 +3681,73 @@ MonoBehaviour:
   m_AssetMaybeDeleted: 0
 --- !u!114 &17
 =======
+=======
+    x: 0
+    y: 811
+    width: 2041
+    height: 530
+  m_MinSize: {x: 232, y: 271}
+  m_MaxSize: {x: 10002, y: 10021}
+  m_ActualView: {fileID: 13}
+  m_Panes:
+  - {fileID: 13}
+  - {fileID: 18}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &6
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12008, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 7}
+  - {fileID: 2}
+  - {fileID: 8}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 2560
+    height: 1391
+  m_MinSize: {x: 950, y: 300}
+  m_MaxSize: {x: 10000, y: 10000}
+--- !u!114 &7
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12011, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 2560
+    height: 30
+  m_MinSize: {x: 0, y: 0}
+  m_MaxSize: {x: 0, y: 0}
+<<<<<<< HEAD
+  m_LastLoadedLayoutName: Default
+--- !u!114 &8
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+>>>>>>> Merge Correction
   m_Script: {fileID: 12042, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -3583,6 +3755,7 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< develop
     y: 977
     width: 1920
     height: 20
@@ -3625,9 +3798,13 @@ MonoBehaviour:
   - {fileID: 5}
   m_Position:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: -26.48938, y: 3.781374, z: 16.46147}
+=======
+    m_Target: {x: 31.638155, y: -18.140947, z: 27.466455}
+>>>>>>> develop
     speed: 2
-    m_Value: {x: -26.48938, y: 3.781374, z: 16.46147}
+    m_Value: {x: 31.638155, y: -18.140947, z: 27.466455}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -3674,13 +3851,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.058837656, y: -0.5972281, z: 0.043945663, w: 0.7987448}
+    m_Target: {x: -0.2068124, y: -0.40555233, z: 0.09479355, w: -0.88535523}
     speed: 2
-    m_Value: {x: -0.058837656, y: 0.5972281, z: -0.043945666, w: -0.7987448}
+    m_Value: {x: -0.20813146, y: -0.4053927, z: 0.09539787, w: -0.885007}
   m_Size:
-    m_Target: 28.398573
+    m_Target: 30.670732
     speed: 2
-    m_Value: 29.736725
+    m_Value: 28.398573
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -3709,13 +3886,77 @@ MonoBehaviour:
 =======
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: SceneView
+=======
+    y: 1371
+    width: 2560
+    height: 20
+  m_MinSize: {x: 0, y: 0}
+  m_MaxSize: {x: 0, y: 0}
+--- !u!114 &9
+=======
+  m_LoadedToolbars:
+  - {fileID: 19}
+  m_MainToolbar: {fileID: 19}
+  m_LastLoadedLayoutName: 
+--- !u!114 &10
+>>>>>>> develop
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+>>>>>>> Merge Correction
   m_EditorClassIdentifier: 
-  m_Children: []
+  m_Children:
+<<<<<<< HEAD
+  - {fileID: 10}
+  - {fileID: 5}
+=======
+  - {fileID: 6}
+  - {fileID: 12}
+  - {fileID: 3}
   m_Position:
     serializedVersion: 2
-    x: 341
+    x: 0
+    y: 30
+    width: 1920
+    height: 947
+  m_MinSize: {x: 678, y: 321}
+  m_MaxSize: {x: 12004, y: 8042}
+  vertical: 0
+  controlID: 90
+--- !u!114 &11
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12042, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+>>>>>>> develop
+  m_Position:
+    serializedVersion: 2
+    x: 0
     y: 0
+<<<<<<< HEAD
     width: 1348
+=======
+<<<<<<< HEAD
+<<<<<<< develop
+    width: 1348
+=======
+    width: 1099
+>>>>>>> develop
+>>>>>>> develop
     height: 947
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
@@ -3727,9 +3968,12 @@ MonoBehaviour:
 --- !u!114 &13
 >>>>>>> develop
 =======
+<<<<<<< HEAD
     serializedVersion: 2
     x: 0
     y: 0
+=======
+>>>>>>> develop
     width: 2041
     height: 1341
   m_MinSize: {x: 406, y: 492}
@@ -3737,7 +3981,11 @@ MonoBehaviour:
   vertical: 1
   controlID: 547
 --- !u!114 &10
+<<<<<<< HEAD
 >>>>>>> MergeCorrectionV2
+=======
+>>>>>>> Merge Correction
+>>>>>>> develop
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_PrefabParentObject: {fileID: 0}
@@ -3754,6 +4002,10 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< develop
+>>>>>>> develop
 <<<<<<< HEAD
     x: 211
     y: 73
@@ -6000,6 +6252,12 @@ MonoBehaviour:
 --- !u!114 &19
 =======
     x: 1819
+<<<<<<< HEAD
+=======
+=======
+    x: 1440
+>>>>>>> develop
+>>>>>>> develop
     y: 73
     width: 100
     height: 926
@@ -6016,7 +6274,11 @@ MonoBehaviour:
   vertical: 0
   controlID: 548
 --- !u!114 &11
+<<<<<<< HEAD
 >>>>>>> MergeCorrectionV2
+=======
+>>>>>>> Merge Correction
+>>>>>>> develop
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_PrefabParentObject: {fileID: 0}
@@ -6030,6 +6292,7 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< develop
 <<<<<<< HEAD
 <<<<<<< HEAD
     x: 249
@@ -6090,13 +6353,18 @@ MonoBehaviour:
   m_Selected: 0
   m_LastSelected: 1
 --- !u!114 &12
+<<<<<<< HEAD
 >>>>>>> MergeCorrectionV2
+=======
+>>>>>>> Merge Correction
+>>>>>>> develop
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   m_EditorHideFlags: 0
@@ -6109,6 +6377,10 @@ MonoBehaviour:
   m_EditorHideFlags: 1
   m_Script: {fileID: 12111, guid: 0000000000000000e000000000000000, type: 0}
 >>>>>>> MergeCorrectionV2
+=======
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12111, guid: 0000000000000000e000000000000000, type: 0}
+>>>>>>> develop
   m_Name: 
   m_EditorClassIdentifier: 
   m_AutoRepaintOnSceneChange: 0
@@ -6122,6 +6394,7 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
+<<<<<<< develop
 <<<<<<< HEAD
 <<<<<<< HEAD
     x: 1
@@ -6159,7 +6432,11 @@ MonoBehaviour:
     width: 973
     height: 501
 --- !u!114 &13
+<<<<<<< HEAD
 >>>>>>> MergeCorrectionV2
+=======
+>>>>>>> Merge Correction
+>>>>>>> develop
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_PrefabParentObject: {fileID: 0}
@@ -6183,6 +6460,10 @@ MonoBehaviour:
     serializedVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+<<<<<<< develop
+>>>>>>> develop
+<<<<<<< HEAD
     x: 1313
     y: 73
     width: 310
@@ -6193,13 +6474,26 @@ MonoBehaviour:
     width: 230
     height: 610
 >>>>>>> develop
+<<<<<<< HEAD
+=======
+=======
+    x: 1001
+    y: 73
+    width: 918
+    height: 363
+>>>>>>> develop
+>>>>>>> develop
   m_ViewDataDictionary: {fileID: 0}
 =======
     x: 0
     y: 905
     width: 2039
     height: 509
+<<<<<<< HEAD
 >>>>>>> MergeCorrectionV2
+=======
+>>>>>>> Merge Correction
+>>>>>>> develop
   m_SearchFilter:
     m_NameFilter: 
     m_ClassNames: []
@@ -6213,15 +6507,29 @@ MonoBehaviour:
     m_Folders:
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+<<<<<<< develop
+>>>>>>> develop
+<<<<<<< HEAD
     - Assets/GRAPH/Materials/VFX
 =======
     - Assets/Prefab/UI
+>>>>>>> develop
+<<<<<<< HEAD
+=======
+=======
+    - Assets/GENERAL/Scenes
+>>>>>>> develop
 >>>>>>> develop
     m_Globs: []
     m_OriginalText: 
 =======
     - Assets
+<<<<<<< HEAD
 >>>>>>> MergeCorrectionV2
+=======
+>>>>>>> Merge Correction
+>>>>>>> develop
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
@@ -6231,6 +6539,8 @@ MonoBehaviour:
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
+<<<<<<< develop
+<<<<<<< develop
 <<<<<<< HEAD
 <<<<<<< HEAD
     m_SelectedIDs: 22bc0000
@@ -6239,6 +6549,7 @@ MonoBehaviour:
 =======
     m_SelectedIDs: ea3d0000
     m_LastClickedID: 15850
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000e0cc0000e2cc0000e4cc0000e6cc0000e8cc0000eacc0000eccc0000eecc0000f0cc0000f2cc0000f4cc0000f6cc0000f8cc0000facc0000fccc0000fecc000000cd000002cd000004cd000006cd000008cd00000acd00000ccd00000ecd000010cd000012cd000014cd000016cd000000ca9a3b
 >>>>>>> develop
 =======
@@ -6246,6 +6557,24 @@ MonoBehaviour:
     m_LastClickedID: 9136
     m_ExpandedIDs: 00000000b023000000ca9a3bffffff7f
 >>>>>>> MergeCorrectionV2
+=======
+<<<<<<< HEAD
+    m_ExpandedIDs: 00000000e0cc0000e2cc0000e4cc0000e6cc0000e8cc0000eacc0000eccc0000eecc0000f0cc0000f2cc0000f4cc0000f6cc0000f8cc0000facc0000fccc0000fecc000000cd000002cd000004cd000006cd000008cd00000acd00000ccd00000ecd000010cd000012cd000014cd000016cd000000ca9a3b
+>>>>>>> develop
+=======
+    m_SelectedIDs: 80cc0000
+    m_LastClickedID: 52352
+    m_ExpandedIDs: 000000002ccc00002ecc000030cc000032cc000034cc000036cc000038cc00003acc00003ccc00003ecc000040cc000042cc000044cc000046cc000048cc00004acc00004ccc00004ecc000050cc000052cc000054cc000056cc000058cc00005acc00005ccc00005ecc000060cc000062cc000064cc000066cc000068cc00006acc000000ca9a3b
+>>>>>>> Simple push
+=======
+    m_SelectedIDs: b0230000
+    m_LastClickedID: 9136
+    m_ExpandedIDs: 00000000b023000000ca9a3bffffff7f
+>>>>>>> Merge Correction
+=======
+    m_ExpandedIDs: 00000000f6a40000f8a40000faa40000fca40000fea4000000a5000002a5000004a5000006a5000008a500000aa500000ca500000ea5000010a5000012a5000014a5000016a5000018a500001aa500001ca500001ea5000020a5000022a5000024a5000026a5000028a500002aa500002ca50000
+>>>>>>> develop
+>>>>>>> develop
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -6276,13 +6605,29 @@ MonoBehaviour:
     m_LastClickedID: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+<<<<<<< develop
+<<<<<<< develop
+>>>>>>> develop
+<<<<<<< HEAD
     m_ExpandedIDs: 0000000020ba000022ba000024ba000026ba000028ba00002cba00002eba000030ba000032ba000034ba000036ba000038ba00003aba00003cba00003eba000040ba000042ba000046ba000048ba00004aba00004cba00004eba000050ba000052ba000054ba000056ba000058ba00005aba00005cba00005eba000060ba000012bc000000ca9a3b
 =======
     m_ExpandedIDs: ffffffff00000000e0cc0000e2cc0000e4cc0000e6cc0000e8cc0000eacc0000eccc0000eecc0000f0cc0000f2cc0000f4cc0000f6cc0000f8cc0000facc0000fccc0000fecc000000cd000002cd000004cd000006cd000008cd00000acd00000ccd00000ecd000010cd000012cd000014cd000016cd000000ca9a3b
 >>>>>>> develop
 =======
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000b023000000ca9a3bffffff7f
 >>>>>>> MergeCorrectionV2
+=======
+    m_ExpandedIDs: 000000002ccc00002ecc000030cc000032cc000034cc000036cc000038cc00003acc00003ccc00003ecc000040cc000042cc000044cc000046cc000048cc00004acc00004ccc00004ecc000050cc000052cc000054cc000056cc000058cc00005acc00005ccc00005ecc000060cc000062cc000064cc000066cc000068cc00006acc0000
+>>>>>>> Simple push
+=======
+    m_ExpandedIDs: 00000000b023000000ca9a3bffffff7f
+>>>>>>> Merge Correction
+=======
+    m_ExpandedIDs: ffffffff00000000f6a40000f8a40000faa40000fca40000fea4000000a5000002a5000004a5000006a5000008a500000aa500000ca5000012a5000014a5000016a5000018a500001aa500001ea5000020a5000022a5000024a5000026a5000028a500002aa500002ca500004ca5000052a500005ca500006aa500006ea5000070a5000074a5000076a5000078a500007aa500007ca5000000270100ac6001001061010022610100946301009663010098630100a663010094640100966401001e70010046700100487001004a700100
+>>>>>>> develop
+>>>>>>> develop
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -6300,6 +6645,7 @@ MonoBehaviour:
       m_IsRenamingFilename: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       m_ClientGUIView: {fileID: 0}
 =======
       m_ClientGUIView: {fileID: 7}
@@ -6308,6 +6654,9 @@ MonoBehaviour:
 =======
       m_ClientGUIView: {fileID: 0}
 >>>>>>> MergeCorrectionV2
+=======
+      m_ClientGUIView: {fileID: 0}
+>>>>>>> develop
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -6317,20 +6666,41 @@ MonoBehaviour:
     m_SearchString: 
     m_ColumnWidths: []
   m_ListAreaState:
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> develop
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
+<<<<<<< develop
 <<<<<<< HEAD
 <<<<<<< HEAD
     m_HadKeyboardFocusLastEvent: 1
+=======
+    m_HadKeyboardFocusLastEvent: 0
+<<<<<<< develop
+>>>>>>> Simple push
     m_ExpandedInstanceIDs: c623000000000000
 =======
+<<<<<<< HEAD
+=======
+=======
+    m_SelectedInstanceIDs: 04f30400
+    m_LastClickedInstanceID: 324356
+>>>>>>> develop
+>>>>>>> develop
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: 
 >>>>>>> develop
 =======
+<<<<<<< HEAD
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000
 >>>>>>> MergeCorrectionV2
+=======
+    m_ExpandedInstanceIDs: c6230000
+>>>>>>> Merge Correction
+>>>>>>> develop
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -6357,6 +6727,7 @@ MonoBehaviour:
     m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 64
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_SkipHiddenPackages: 0
 <<<<<<< HEAD
   m_DirectoriesAreaWidth: 177
@@ -6369,6 +6740,10 @@ MonoBehaviour:
   m_DirectoriesAreaWidth: 115
 --- !u!114 &14
 >>>>>>> MergeCorrectionV2
+=======
+  m_DirectoriesAreaWidth: 115
+--- !u!114 &14
+>>>>>>> develop
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_PrefabParentObject: {fileID: 0}
@@ -6381,6 +6756,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_AutoRepaintOnSceneChange: 0
   m_MinSize: {x: 275, y: 50}
+<<<<<<< HEAD
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Inspector
@@ -6418,62 +6794,46 @@ MonoBehaviour:
   m_TitleContent:
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+>>>>>>> develop
     m_Text: Inspector
-    m_Image: {fileID: -6905738622615590433, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: -6905738622615590433, guid: 0000000000000000d000000000000000,
+      type: 0}
     m_Tooltip: 
+  m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-    x: 1625
-    y: 73
-    width: 294
-    height: 926
-  m_ViewDataDictionary: {fileID: 0}
-  m_ObjectsLockedBeforeSerialization: []
-  m_InstanceIDsLockedBeforeSerialization: 
+    x: 2043
+    y: 94
+    width: 517
+    height: 1320
+  m_ScrollPosition: {x: 0, y: 0}
+  m_InspectorMode: 0
   m_PreviewResizer:
     m_CachedPref: 160
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
-  m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
-  m_GlobalObjectId: 
-  m_LockTracker:
-    m_IsLocked: 0
   m_PreviewWindow: {fileID: 0}
---- !u!114 &23
+--- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 12079, guid: 0000000000000000e000000000000000, type: 0}
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12061, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_MinSize: {x: 390, y: 390}
+  m_AutoRepaintOnSceneChange: 0
+  m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: Lighting
-    m_Image: {fileID: 8394858894532624064, guid: 0000000000000000d000000000000000, type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 1625
-    y: 73
-    width: 294
-    height: 926
-  m_ViewDataDictionary: {fileID: 0}
---- !u!114 &24
-=======
-    m_Text: Game
-    m_Image: {fileID: -6423792434712278376, guid: 0000000000000000d000000000000000, type: 0}
-=======
     m_Text: Hierarchy
     m_Image: {fileID: -590624980919486359, guid: 0000000000000000d000000000000000,
       type: 0}
->>>>>>> MergeCorrectionV2
     m_Tooltip: 
   m_DepthBufferBits: 0
   m_Pos:
@@ -6541,6 +6901,303 @@ MonoBehaviour:
     y: 94
     width: 1532
     height: 790
+  m_SceneLighting: 1
+  lastFramingTime: 0
+  m_2DMode: 0
+  m_isRotationLocked: 0
+  m_AudioPlay: 0
+  m_Position:
+    m_Target: {x: 0, y: 0, z: 0}
+    speed: 2
+    m_Value: {x: 0, y: 0, z: 0}
+  m_RenderMode: 0
+  m_SceneViewState:
+    showFog: 1
+    showMaterialUpdate: 0
+    showSkybox: 1
+    showFlares: 1
+    showImageEffects: 1
+  grid:
+    xGrid:
+      m_Target: 0
+      speed: 2
+      m_Value: 0
+    yGrid:
+      m_Target: 1
+      speed: 2
+      m_Value: 1
+    zGrid:
+      m_Target: 0
+      speed: 2
+      m_Value: 0
+  m_Rotation:
+    m_Target: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+    speed: 2
+    m_Value: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+  m_Size:
+    m_Target: 10
+    speed: 2
+    m_Value: 10
+  m_Ortho:
+    m_Target: 0
+    speed: 2
+    m_Value: 0
+  m_LastSceneViewRotation: {x: 0, y: 0, z: 0, w: 0}
+  m_LastSceneViewOrtho: 0
+  m_ReplacementShader: {fileID: 0}
+  m_ReplacementString: 
+  m_LastLockedObject: {fileID: 0}
+  m_ViewIsLockedToObject: 0
+--- !u!114 &17
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AutoRepaintOnSceneChange: 1
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Game
+<<<<<<< HEAD
+    m_Image: {fileID: -6423792434712278376, guid: 0000000000000000d000000000000000, type: 0}
+=======
+    m_Text: Hierarchy
+    m_Image: {fileID: -590624980919486359, guid: 0000000000000000d000000000000000,
+      type: 0}
+>>>>>>> MergeCorrectionV2
+    m_Tooltip: 
+  m_DepthBufferBits: 0
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 94
+    width: 503
+    height: 790
+  m_TreeViewState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: 00000000
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 0
+      m_ClientGUIView: {fileID: 0}
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+    m_SearchString: 
+    m_ColumnWidths: []
+  m_ExpandedScenes: []
+  m_CurrenRootInstanceID: 0
+  m_Locked: 0
+  m_CurrentSortingName: TransformSorting
+--- !u!114 &16
+=======
+    m_Image: {fileID: -2087823869225018852, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_DepthBufferBits: 32
+  m_Pos:
+    serializedVersion: 2
+<<<<<<< HEAD
+<<<<<<< develop
+    x: 1689
+    y: 704
+    width: 230
+    height: 295
+=======
+    x: 1440
+    y: 457
+    width: 479
+    height: 542
+>>>>>>> develop
+  m_ViewDataDictionary: {fileID: 0}
+  m_SerializedViewNames: []
+  m_SerializedViewValues: []
+  m_PlayModeViewName: GameView
+  m_ShowGizmos: 0
+  m_TargetDisplay: 0
+  m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
+  m_TargetSize: {x: 479, y: 269}
+  m_TextureFilterMode: 0
+  m_TextureHideFlags: 61
+  m_RenderIMGUI: 1
+=======
+    x: 507
+    y: 94
+    width: 1532
+    height: 790
+>>>>>>> Merge Correction
+  m_MaximizeOnPlay: 0
+  m_Gizmos: 0
+  m_Stats: 0
+  m_SelectedSizes: 000000000000000000000000000000000000000000000000000000000000000000000000
+  m_TargetDisplay: 0
+  m_ZoomArea:
+    m_HRangeLocked: 0
+    m_VRangeLocked: 0
+<<<<<<< develop
+    hZoomLockedByDefault: 0
+    vZoomLockedByDefault: 0
+<<<<<<< HEAD
+    m_HBaseRangeMin: -115
+    m_HBaseRangeMax: 115
+    m_VBaseRangeMin: -64.5
+    m_VBaseRangeMax: 64.5
+=======
+    m_HBaseRangeMin: -383
+    m_HBaseRangeMax: 383
+    m_VBaseRangeMin: -193.25
+    m_VBaseRangeMax: 193.25
+>>>>>>> Merge Correction
+=======
+    m_HBaseRangeMin: -239.5
+    m_HBaseRangeMax: 239.5
+    m_VBaseRangeMin: -134.5
+    m_VBaseRangeMax: 134.5
+>>>>>>> develop
+    m_HAllowExceedBaseRangeMin: 1
+    m_HAllowExceedBaseRangeMax: 1
+    m_VAllowExceedBaseRangeMin: 1
+    m_VAllowExceedBaseRangeMax: 1
+    m_ScaleWithWindow: 0
+    m_HSlider: 0
+    m_VSlider: 0
+    m_IgnoreScrollWheelUntilClicked: 0
+    m_EnableMouseInput: 1
+    m_EnableSliderZoom: 0
+    m_UniformScale: 1
+    m_UpDirection: 1
+    m_DrawArea:
+      serializedVersion: 2
+      x: 0
+<<<<<<< develop
+      y: 21
+      width: 479
+      height: 521
+    m_Scale: {x: 1, y: 1}
+<<<<<<< HEAD
+    m_Translation: {x: 115, y: 137}
+=======
+      y: 17
+      width: 1532
+      height: 773
+    m_Scale: {x: 2, y: 2}
+    m_Translation: {x: 766, y: 386.5}
+>>>>>>> Merge Correction
+=======
+    m_Translation: {x: 239.5, y: 260.5}
+>>>>>>> develop
+    m_MarginLeft: 0
+    m_MarginRight: 0
+    m_MarginTop: 0
+    m_MarginBottom: 0
+    m_LastShownAreaInsideMargins:
+      serializedVersion: 2
+<<<<<<< HEAD
+<<<<<<< develop
+      x: -115
+      y: -137
+      width: 230
+      height: 274
+    m_MinimalGUI: 1
+  m_defaultScale: 1
+  m_LastWindowPixelSize: {x: 230, y: 295}
+=======
+      x: -383
+      y: -193.25
+      width: 766
+      height: 386.5
+    m_MinimalGUI: 1
+  m_defaultScale: 2
+  m_TargetTexture: {fileID: 0}
+  m_CurrentColorSpace: 1
+  m_LastWindowPixelSize: {x: 3064, y: 1580}
+>>>>>>> Merge Correction
+=======
+      x: -239.5
+      y: -260.5
+      width: 479
+      height: 521
+    m_MinimalGUI: 1
+  m_defaultScale: 1
+  m_LastWindowPixelSize: {x: 479, y: 542}
+>>>>>>> develop
+  m_ClearInEditMode: 1
+  m_NoCameraWarning: 1
+--- !u!114 &18
+>>>>>>> develop
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12003, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+<<<<<<< HEAD
+  m_AutoRepaintOnSceneChange: 1
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Scene
+    m_Image: {fileID: 2318424515335265636, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_DepthBufferBits: 32
+  m_Pos:
+    serializedVersion: 2
+    x: 507
+    y: 94
+    width: 1532
+    height: 790
+=======
+  m_AutoRepaintOnSceneChange: 0
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Console
+    m_Image: {fileID: 111653112392082826, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_DepthBufferBits: 0
+  m_Pos:
+    serializedVersion: 2
+<<<<<<< develop
+    x: 341
+    y: 73
+    width: 1097
+    height: 926
+  m_ViewDataDictionary: {fileID: 0}
+  m_ShowContextualTools: 0
+  m_WindowGUID: 7502f89bc3ed53943803673f2f836235
+  m_Gizmos: 1
+  m_OverrideSceneCullingMask: 6917529027641081856
+  m_SceneIsLit: 0
+>>>>>>> develop
   m_SceneLighting: 1
   lastFramingTime: 0
   m_2DMode: 0
@@ -6679,6 +7336,7 @@ MonoBehaviour:
   m_Script: {fileID: 12003, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   m_AutoRepaintOnSceneChange: 0
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
@@ -6690,7 +7348,15 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
+=======
+  m_DontSaveToLayout: 0
+=======
+>>>>>>> develop
     x: 8
     y: 718
     width: 1366
     height: 308
+<<<<<<< HEAD
+=======
+>>>>>>> Merge Correction
+>>>>>>> develop
