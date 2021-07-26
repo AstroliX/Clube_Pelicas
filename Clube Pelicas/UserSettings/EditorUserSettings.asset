@@ -5,6 +5,7 @@ EditorUserSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 4
   m_ConfigSettings:
+<<<<<<< develop
 <<<<<<< HEAD
     RecentlyUsedScenePath-0:
       value: 224247031146467c28202910310f10231512162f3f670b11121a1e36ece50b0ce7f422a7f234362820
@@ -26,6 +27,8 @@ EditorUserSettings:
       flags: 0
 =======
 >>>>>>> develop
+=======
+>>>>>>> Merge Correction
     vcSharedLogLevel:
       value: 0d5e400f0650
       flags: 0
