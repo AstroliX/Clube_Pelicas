@@ -9,13 +9,15 @@ namespace Pelicas
     public class SC_KingManager : MonoBehaviour
     {
         [Header("King Main Menu")]
-        [SerializeField] GameObject text_mainMenu;
-        [SerializeField] GameObject buttonYes_mainMenu;
-        [SerializeField] GameObject buttonNo_mainMenu;
-        [SerializeField] GameObject resourcesAsked_mainMenu;
+        [SerializeField] GameObject mainMenu;
+
+       
 
         [Space]
         [SerializeField] GameObject tradingMenu;
+
+        [Space]
+        [SerializeField] GameObject askingMenu;
 
         [Space]
         [SerializeField] GameObject youDontHaveEnough;
@@ -25,8 +27,50 @@ namespace Pelicas
         [SerializeField] int rareValue;
         [SerializeField] int normalValue;
 
+        [Space]
+        [Header("Setup Resources Asked")]
+        [SerializeField] GameObject setup_1;
+        [SerializeField] GameObject setup_2;
+        [SerializeField] GameObject setup_3;
+        [SerializeField] GameObject setup_4;
+
+
+        [Space]
+        [Header("Setup Resources Asked")]
+        [SerializeField] GameObject setup_1_trade;
+        [SerializeField] GameObject setup_2_trade;
+        [SerializeField] GameObject setup_3_trade;
+        [SerializeField] GameObject setup_4_trade;
+
+
         int reputP;
+        int diamond;
+        int pearl;
+        int erable;
+        int tobacco;
+        int banana;
+        int pineapple;
+
+
+        [Space]
+        [Header("TXT for amount of resource")]
         [SerializeField] TextMeshProUGUI reputAmount;
+        [SerializeField] TextMeshProUGUI diamondAmount;
+        [SerializeField] TextMeshProUGUI pearlAmount;
+        [SerializeField] TextMeshProUGUI erableAmount;
+        [SerializeField] TextMeshProUGUI bananaAmount;
+        [SerializeField] TextMeshProUGUI pineappleAmount;
+        [SerializeField] TextMeshProUGUI tobaccoAmount;
+
+        
+        [SerializeField] TextMeshProUGUI diamondAmount_2;
+        [SerializeField] TextMeshProUGUI erableAmount_2;
+        [SerializeField] TextMeshProUGUI bananaAmount_2;
+        [SerializeField] TextMeshProUGUI pineappleAmount_2;
+        [SerializeField] TextMeshProUGUI tobaccoAmount_2;
+        [SerializeField] TextMeshProUGUI tobaccoAmount_3;
+
+        bool isTrading;
 
 
         SC_ResourcesManager resource;
@@ -40,8 +84,40 @@ namespace Pelicas
 
         private void Update()
         {
+            
+
+            if (isTrading)
+            {
+                diamond = resource.diamond;
+                diamondAmount.text = diamond + "";
+                diamondAmount_2.text = diamond + "";
+
+                pearl = resource.pearl;
+                pearlAmount.text = pearl + "";
+
+
+                erable = resource.exoLeaf_1;
+                erableAmount.text = erable + "";
+                erableAmount_2.text = erable + "";
+
+                banana = resource.exoFruit_1;
+                bananaAmount.text = banana + "";
+                bananaAmount_2.text = banana + "";
+
+                pineapple = resource.exoFruit_2;
+                pineappleAmount.text = pineapple + "";
+                pineappleAmount_2.text = pineapple + "";
+
+                tobacco = resource.exoLeaf_2;
+                tobaccoAmount.text = tobacco + "";
+                tobaccoAmount_2.text = tobacco + "";
+                tobaccoAmount_3.text = tobacco + "";
+            }
+
+
             reputP = resource.reputPoint;
             reputAmount.text = reputP + "";
+
         }
 
         IEnumerator YouDontHaveEnough()
@@ -56,22 +132,151 @@ namespace Pelicas
 
         #region - PUBLIC_FUNCTIONS -
 
+        public void GoAskingMenu()
+        {
+            mainMenu.SetActive(false);
+            askingMenu.SetActive(true);
+
+            if (PlayerPrefs.GetInt("King_Asking") == 0)
+            {
+                setup_1.SetActive(true);
+            }
+
+            if (PlayerPrefs.GetInt("King_Asking") == 1)
+            {
+                setup_2.SetActive(true);
+            }
+
+            if (PlayerPrefs.GetInt("King_Asking") == 2)
+            {
+                setup_3.SetActive(true);
+            }
+
+            if (PlayerPrefs.GetInt("King_Asking") == 3)
+            {
+                setup_4.SetActive(true);
+            }
+        }
+
+        public void LeaveAskingMenu()
+        {
+            mainMenu.SetActive(true);
+            askingMenu.SetActive(false);
+
+            if (PlayerPrefs.GetInt("King_Asking") == 0)
+            {
+                setup_1.SetActive(false);
+            }
+
+            if (PlayerPrefs.GetInt("King_Asking") == 1)
+            {
+                setup_2.SetActive(false);
+            }
+
+            if (PlayerPrefs.GetInt("King_Asking") == 2)
+            {
+                setup_3.SetActive(false);
+            }
+
+            if (PlayerPrefs.GetInt("King_Asking") == 3)
+            {
+                setup_4.SetActive(false);
+            }
+        }
+
         public void GoToTradingMenu()
         {
-            text_mainMenu.SetActive(false);
-            buttonNo_mainMenu.SetActive(false);
-            buttonYes_mainMenu.SetActive(false);
-            resourcesAsked_mainMenu.SetActive(false);
+            isTrading = true;
+            askingMenu.SetActive(false);
+            
+            if (PlayerPrefs.GetInt("King_Asking") == 0)
+            {
+                setup_1.SetActive(false);
+            }
+
+            if (PlayerPrefs.GetInt("King_Asking") == 1)
+            {
+                setup_2.SetActive(false);
+            }
+
+            if (PlayerPrefs.GetInt("King_Asking") == 2)
+            {
+                setup_3.SetActive(false);
+            }
+
+            if (PlayerPrefs.GetInt("King_Asking") == 3)
+            {
+                setup_4.SetActive(false);
+            }
             tradingMenu.SetActive(true);
+
+
+            if (PlayerPrefs.GetInt("King_Asking") == 0)
+            {
+                setup_1_trade.SetActive(true);
+            }
+
+            if (PlayerPrefs.GetInt("King_Asking") == 1)
+            {
+                setup_2_trade.SetActive(true);
+            }
+
+            if (PlayerPrefs.GetInt("King_Asking") == 2)
+            {
+                setup_3_trade.SetActive(true);
+            }
+
+            if (PlayerPrefs.GetInt("King_Asking") == 3)
+            {
+                setup_4_trade.SetActive(true);
+            }
         }
 
         public void LeaveTradingMenu()
         {
+            isTrading = false;
+            if (PlayerPrefs.GetInt("King_Asking") == 0)
+            {
+                setup_1_trade.SetActive(false);
+            }
+
+            if (PlayerPrefs.GetInt("King_Asking") == 1)
+            {
+                setup_2_trade.SetActive(false);
+            }
+
+            if (PlayerPrefs.GetInt("King_Asking") == 2)
+            {
+                setup_3_trade.SetActive(false);
+            }
+
+            if (PlayerPrefs.GetInt("King_Asking") == 3)
+            {
+                setup_4_trade.SetActive(false);
+            }
+
+
             tradingMenu.SetActive(false);
-            text_mainMenu.SetActive(true);
-            buttonNo_mainMenu.SetActive(true);
-            buttonYes_mainMenu.SetActive(true);
-            resourcesAsked_mainMenu.SetActive(true);
+            askingMenu.SetActive(true);
+            if (PlayerPrefs.GetInt("King_Asking") == 0)
+            {
+                setup_1.SetActive(true);
+            }
+
+            if (PlayerPrefs.GetInt("King_Asking") == 1)
+            {
+                setup_2.SetActive(true);
+            }
+
+            if (PlayerPrefs.GetInt("King_Asking") == 2)
+            {
+                setup_3.SetActive(true);
+            }
+
+            if (PlayerPrefs.GetInt("King_Asking") == 3)
+            {
+                setup_4.SetActive(true);
+            }
 
         }
 
