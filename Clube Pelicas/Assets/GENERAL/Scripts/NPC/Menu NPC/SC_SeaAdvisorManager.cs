@@ -9,6 +9,7 @@ namespace Pelicas
 {
     public class SC_SeaAdvisorManager : MonoBehaviour
     {
+
         [Header("Main menu")]
         [SerializeField] GameObject main_main;
         [SerializeField] GameObject areYouSure;
@@ -137,6 +138,10 @@ namespace Pelicas
 
         public void YesGoToSea(string levelName)
         {
+
+            resources.crew -= 20;
+            PlayerPrefs.SetFloat("crew", resources.crew);
+
             SceneManager.LoadScene(levelName);
         }
 

@@ -10,6 +10,7 @@ namespace Pelicas
         private float inputHorizontal;
         public bool canMove;
         Rigidbody rb;
+        bool firstTimeOnSea;
 
         SC_KingSystem king;
 
@@ -26,6 +27,7 @@ namespace Pelicas
         {
             canMove = true;
             king.PlayerInSea();
+            
         }
 
         void Update()
