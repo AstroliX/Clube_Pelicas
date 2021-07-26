@@ -16,18 +16,18 @@ public class IslandManager : MonoBehaviour
     public EnemyBoundary eBoundary;
     [SerializeField] GameObject[] asteroids;
     //[SerializeField] GameObject enemy;
-  
+
     [Space]
-    [Header("Stats")]
-    public float timer = 2f;
-
-
+    [Header("Gap")]
+    private float timer;
+    public float Min = 1f;
+    public float Max = 2f;
 
 
     void Start()
     {
 
-
+        Invoke("Spawner", timer);
 
 
     }
@@ -39,17 +39,18 @@ public class IslandManager : MonoBehaviour
         Vector3 temp = transform.position;
         temp.y = pos_Y;
 
-        if (Random.Range(0, 2) > 0)
-        {
+      // if (Random.Range(0, 2) > 0)
+        //{
             Instantiate(asteroids[Random.Range(0, asteroids.Length)], temp, Quaternion.identity);
-        }
-        /*else
-        {
-            Instantiate(enemy, temp, Quaternion.Euler(0f, 0f, 90f));
-        }*/
+       // }
+       
 
-      //  timer = Random.Range(1f, 2f);
+        Debug.Log(timer);
 
         Invoke("Spawner", timer);
+
+        timer = Random.Range(Min, Max);
+
+    
     }
 }
