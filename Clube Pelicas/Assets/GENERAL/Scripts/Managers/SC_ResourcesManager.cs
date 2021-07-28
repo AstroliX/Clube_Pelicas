@@ -113,6 +113,11 @@ namespace Pelicas
             {
                 Debug.Log("Not first Instance");
             }
+
+            limitCrew = 100;
+            limitGold = 999;
+            limitStack = 99;
+            limitReput = 999;
         }
 
         private void Update()
@@ -236,7 +241,7 @@ namespace Pelicas
 
             #endregion
 
-            #region if resource is more than 999 then set the value to 999
+            #region if resource is more than limit then set the value to limit
             if (diamond > limitStack)
             {
                 diamond = limitStack;

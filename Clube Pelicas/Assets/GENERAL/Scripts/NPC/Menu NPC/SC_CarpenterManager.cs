@@ -265,7 +265,7 @@ namespace Pelicas
                     PlayerPrefs.SetInt("wood", resource.wood);
                     PlayerPrefs.SetInt("iron", resource.iron);
                 }
-                else
+                else if (PlayerPrefs.GetInt("wood") < woodNeeded_1 || PlayerPrefs.GetInt("iron") < ironNeeded_1)
                 {
                     StartCoroutine(YouDontHaveEnough());
                 }
@@ -286,7 +286,7 @@ namespace Pelicas
                     PlayerPrefs.SetInt("wood", resource.wood);
                     PlayerPrefs.SetInt("iron", resource.iron);
                 }
-                else
+                else if (PlayerPrefs.GetInt("wood") < woodNeeded_2 || PlayerPrefs.GetInt("iron") < ironNeeded_2)
                 {
                     StartCoroutine(YouDontHaveEnough());
                 }
@@ -306,7 +306,7 @@ namespace Pelicas
                     PlayerPrefs.SetInt("wood", resource.wood);
                     PlayerPrefs.SetInt("iron", resource.iron);
                 }
-                else
+                else if (PlayerPrefs.GetInt("wood") < woodNeeded_3 || PlayerPrefs.GetInt("iron") < ironNeeded_3)
                 {
                     StartCoroutine(YouDontHaveEnough());
                 }
@@ -318,12 +318,16 @@ namespace Pelicas
             }
         }
 
-
+        
         public void UpgradeStock()
         {
             if (PlayerPrefs.GetInt("stock") == 0)
             {
-                if (resource.wood >= woodNeeded_1 && resource.iron >= ironNeeded_1 && resource.gold >= goldNeeded_1)
+                if ((PlayerPrefs.GetInt("wood") < woodNeeded_1 || PlayerPrefs.GetInt("iron") < ironNeeded_1))
+                {
+                    StartCoroutine(YouDontHaveEnough());
+                }
+                else if (resource.wood >= woodNeeded_1 && resource.iron >= ironNeeded_1 && resource.gold >= goldNeeded_1)
                 {
                     upgrade.stock += 1;
                     PlayerPrefs.SetInt("stock", 1);
@@ -335,10 +339,6 @@ namespace Pelicas
 
                     PlayerPrefs.SetInt("wood", resource.wood);
                     PlayerPrefs.SetInt("iron", resource.iron);
-                }
-                else
-                {
-                    StartCoroutine(YouDontHaveEnough());
                 }
             }
 
@@ -357,7 +357,7 @@ namespace Pelicas
                     PlayerPrefs.SetInt("wood", resource.wood);
                     PlayerPrefs.SetInt("iron", resource.iron);
                 }
-                else
+                else if (PlayerPrefs.GetInt("wood") < woodNeeded_2 || PlayerPrefs.GetInt("iron") < ironNeeded_2)
                 {
                     StartCoroutine(YouDontHaveEnough());
                 }
@@ -372,7 +372,7 @@ namespace Pelicas
                     PlayerPrefs.SetInt("stock", 2);
 
                 }
-                else
+                else if (PlayerPrefs.GetInt("wood") < woodNeeded_3 || PlayerPrefs.GetInt("iron") < ironNeeded_3)
                 {
                     StartCoroutine(YouDontHaveEnough());
                 }
@@ -401,7 +401,7 @@ namespace Pelicas
                     PlayerPrefs.SetInt("wood", resource.wood);
                     PlayerPrefs.SetInt("iron", resource.iron);
                 }
-                else
+                else if (PlayerPrefs.GetInt("wood") < woodNeeded_1 || PlayerPrefs.GetInt("iron") < ironNeeded_1)
                 {
                     StartCoroutine(YouDontHaveEnough());
                 }
@@ -422,7 +422,7 @@ namespace Pelicas
                     PlayerPrefs.SetInt("wood", resource.wood);
                     PlayerPrefs.SetInt("iron", resource.iron);
                 }
-                else
+                else if (PlayerPrefs.GetInt("wood") < woodNeeded_2 || PlayerPrefs.GetInt("iron") < ironNeeded_2)
                 {
                     StartCoroutine(YouDontHaveEnough());
                 }
@@ -442,7 +442,7 @@ namespace Pelicas
                     PlayerPrefs.SetInt("wood", resource.wood);
                     PlayerPrefs.SetInt("iron", resource.iron);
                 }
-                else
+                else if (PlayerPrefs.GetInt("wood") < woodNeeded_3 || PlayerPrefs.GetInt("iron") < ironNeeded_3)
                 {
                     StartCoroutine(YouDontHaveEnough());
                 }

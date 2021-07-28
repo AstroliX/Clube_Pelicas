@@ -125,32 +125,42 @@ namespace Pelicas
 
         public void Pay15()
         {
-            resource.gold -= 15;
-            resource.crew += 10;
+            if (resource.gold >= 15)
+            {
+                resource.gold -= 15;
+                resource.crew += 10;
 
 
-            PlayerPrefs.SetInt("gold", resource.gold);
-            PlayerPrefs.SetFloat("crew", resource.crew);
+                PlayerPrefs.SetInt("gold", resource.gold);
+                PlayerPrefs.SetFloat("crew", resource.crew);
+            }
         }
 
         public void Pay30()
         {
-            resource.gold -= 30;
-            resource.crew += 20;
+            if (resource.gold >= 30)
+            {
+                resource.gold -= 30;
+                resource.crew += 20;
 
 
-            PlayerPrefs.SetInt("gold", resource.gold);
-            PlayerPrefs.SetFloat("crew", resource.crew);
+                PlayerPrefs.SetInt("gold", resource.gold);
+                PlayerPrefs.SetFloat("crew", resource.crew);
+            }
         }
 
         public void Pay50()
-        {
-            resource.gold -= 50;
-            resource.crew += 30;
+        { 
+            if(resource.gold >= 50)
+            {
+                resource.gold -= 50;
+                resource.crew += 30;
 
 
-            PlayerPrefs.SetInt("gold", resource.gold);
-            PlayerPrefs.SetFloat("crew", resource.crew);
+                PlayerPrefs.SetInt("gold", resource.gold);
+                PlayerPrefs.SetFloat("crew", resource.crew);
+            }
+            
         }
 
         #endregion

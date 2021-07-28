@@ -1,55 +1,33 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
 
 namespace Pelicas
 {
     public class SC_MarchandManager : MonoBehaviour
     {
         #region GameObjects Menu
-        [Space]
-        [Header("MENU 1")]
-        [SerializeField] GameObject menu_SELL;
-        [SerializeField] GameObject menu_BUY;
 
-        [Header("MENU 1: BUTTON")]
-        [SerializeField] GameObject button_SELL;
-        [SerializeField] GameObject button_BUY;
+        [SerializeField] GameObject mainMenu;
 
-        [Space]
-        [Header("MENU SELL 1: BUTTON")]
-        [SerializeField] GameObject button_rareItems_SELL;
-        [SerializeField] GameObject button_items_SELL;
+        [SerializeField] GameObject buyMenu;
+        [SerializeField] GameObject sellMenu;
 
-        [Space]
-        [Header("RETURN TO MENU SELL 1")]
-        [SerializeField] GameObject button_wasRareItemNowReturn_SELL;
-        [SerializeField] GameObject button_wasItemNowReturn_SELL;
+        [SerializeField] GameObject sellItemMenu;
+        [SerializeField] GameObject sellRareItemMenu;
 
-        
+        [SerializeField] GameObject goldAmount;
 
-        [Space]
-        [Header("MENU SELL 1")]
-        [SerializeField] GameObject menu_rareItem_SELL;
-        [SerializeField] GameObject menu_item_SELL;
+
         [SerializeField] GameObject fb_YouDontHaveThisItem;
 
-        [Space]
-        [Header("MENU BUY 1")]
-        [SerializeField] GameObject menu_rareItem_BUY;
-        [SerializeField] GameObject menu_item_BUY;
+
         [SerializeField] GameObject fb_YouDontHaveEnoughGold;
 
 
-        [Space]
-        [Header("MENU BUY 1: BUTTON")]
-        [SerializeField] GameObject button_rareItems_BUY;
-        [SerializeField] GameObject button_items_BUY;
-
-        [Space]
-        [Header("RETURN TO MENU BUY 1")]
-        [SerializeField] GameObject button_wasRareItemNowReturn_BUY;
-        [SerializeField] GameObject button_wasItemNowReturn_BUY;
+        RectTransform rectTransform;
 
         #endregion
 
@@ -87,13 +65,107 @@ namespace Pelicas
 
         #endregion
 
-        SC_ResourcesManager resourceManager;
+
+        #region Resources
+
+        [Space]
+        [Header("Amount of rare resources TXT")]
+        [SerializeField] TextMeshProUGUI pearl_TXT;
+        [SerializeField] TextMeshProUGUI pineapple_TXT;
+        [SerializeField] TextMeshProUGUI erable_TXT;
+        [SerializeField] TextMeshProUGUI banana_TXT;
+        [SerializeField] TextMeshProUGUI tobacco_TXT;
+        [SerializeField] TextMeshProUGUI diamond_TXT;
+
+        [Space]
+        [Header("Amount of normal resources TXT")]
+        [SerializeField] TextMeshProUGUI wood_TXT;
+        [SerializeField] TextMeshProUGUI iron_TXT;
+        [SerializeField] TextMeshProUGUI tomato_TXT;
+        [SerializeField] TextMeshProUGUI pepper_TXT;
+        [SerializeField] TextMeshProUGUI vanilla_TXT;
+        [SerializeField] TextMeshProUGUI native_TXT;
+        [SerializeField] TextMeshProUGUI coconut_TXT;
+        [SerializeField] TextMeshProUGUI gold_TXT;
+
+        bool isAtResources;
+
+        int pearl;
+        int pineapple;
+        int erable;
+        int banana;
+        int tobacco;
+        int diamond;
+        int wood;
+        int iron;
+        int tomato;
+        int pepper;
+        int vanilla;
+        int native;
+        int cococnut;
+        int gold;
+
+        #endregion
+
+
+        SC_ResourcesManager resource;
 
         #region - UNITY_FUNCTIONS -
 
         private void Awake()
         {
-            resourceManager = FindObjectOfType<SC_ResourcesManager>();
+            resource = FindObjectOfType<SC_ResourcesManager>();
+        }
+
+        private void Update()
+        {
+            if (isAtResources)
+            {
+                pearl = resource.pearl;
+                pearl_TXT.text = "" + pearl;
+
+                banana = resource.exoFruit_2;
+                banana_TXT.text = "" + banana;
+
+                pineapple = resource.exoFruit_1;
+                pineapple_TXT.text = "" + pineapple;
+
+                erable = resource.exoLeaf_1;
+                erable_TXT.text = "" + erable;
+
+                tobacco = resource.exoLeaf_2;
+                tobacco_TXT.text = "" + tobacco;
+
+                diamond = resource.diamond;
+                diamond_TXT.text = "" + diamond;
+
+
+
+
+                wood = resource.wood;
+                wood_TXT.text = "" + wood;
+
+                iron = resource.iron;
+                iron_TXT.text = "" + iron;
+
+                tomato = resource.tomato;
+                tomato_TXT.text = "" + tomato;
+
+                pepper = resource.pepper;
+                pepper_TXT.text = "" + pepper;
+
+                vanilla = resource.vanillaPlant;
+                vanilla_TXT.text = "" + vanilla;
+
+                cococnut = resource.coconut;
+                coconut_TXT.text = "" + cococnut;
+
+                native = resource.nativeGift;
+                native_TXT.text = "" + native;
+
+                gold = resource.gold;
+                gold_TXT.text = "" + gold;
+            }
         }
 
         IEnumerator YouDontHaveThisItem()
@@ -114,134 +186,68 @@ namespace Pelicas
 
         #region - PUBLIC_FUNCTIONS -
 
-        #region Menu Functions
-
-        public void GoingToSell()
+        public void GoToBuyMenu()
         {
-            button_BUY.SetActive(false);
-            button_SELL.SetActive(false);
-            menu_SELL.SetActive(true);
+            isAtResources = true;
+            mainMenu.SetActive(false);
+            buyMenu.SetActive(true);
+            goldAmount.SetActive(true);
         }
 
-        public void GoingToBuy()
+        public void LeaveBuyMenu()
         {
-            button_BUY.SetActive(false);
-            button_SELL.SetActive(false);
-            menu_BUY.SetActive(true);
+            isAtResources = false;
+            buyMenu.SetActive(false);
+            goldAmount.SetActive(false);
+            mainMenu.SetActive(true);
         }
 
-        #region Menu SELL
-
-        public void WasSellingNowReturn()
+        public void GoToSellMenu()
         {
-            menu_SELL.SetActive(false);
-            button_BUY.SetActive(true);
-            button_SELL.SetActive(true);
+            isAtResources = true;
+            mainMenu.SetActive(false);
+            sellMenu.SetActive(true);
+            goldAmount.SetActive(true);
+
         }
 
-        
-
-        public void GoingToSellRareItems()
+        public void LeaveSell()
         {
-            button_rareItems_SELL.SetActive(false);
-            button_items_SELL.SetActive(false);
-
-            button_wasRareItemNowReturn_SELL.SetActive(true);
-            menu_rareItem_SELL.SetActive(true);
+            isAtResources = false;
+            sellMenu.SetActive(false);
+            sellItemMenu.SetActive(true);
+            sellRareItemMenu.SetActive(false);
+            goldAmount.SetActive(false);
+            mainMenu.SetActive(true);
         }
 
-        public void GoingToSellItems()
+        public void WasItemNowGoRare()
         {
-            button_rareItems_SELL.SetActive(false);
-            button_items_SELL.SetActive(false);
-
-            button_wasItemNowReturn_SELL.SetActive(true);
-            menu_item_SELL.SetActive(true);
+            sellItemMenu.SetActive(false);
+            sellRareItemMenu.SetActive(true);
         }
 
-        public void WasRareItemNowReturn()
+        public void WasRareNowGoItem()
         {
-            button_rareItems_SELL.SetActive(true);
-            button_items_SELL.SetActive(true);
-
-            button_wasRareItemNowReturn_SELL.SetActive(false);
-            menu_rareItem_SELL.SetActive(false);
+            sellRareItemMenu.SetActive(false);
+            sellItemMenu.SetActive(true);
         }
 
-        public void WasItemNowReturn()
-        {
-            button_rareItems_SELL.SetActive(true);
-            button_items_SELL.SetActive(true);
-
-            button_wasItemNowReturn_SELL.SetActive(false);
-            menu_item_SELL.SetActive(false);
-        }
-        #endregion
-
-        #region Menu BUY
-
-        public void WasBuyingNowReturn()
-        {
-            menu_BUY.SetActive(false);
-            button_BUY.SetActive(true);
-            button_SELL.SetActive(true);
-        }
-
-
-
-        public void GoingToBuyRareItems()
-        {
-            button_rareItems_BUY.SetActive(false);
-            button_items_BUY.SetActive(false);
-
-            button_wasRareItemNowReturn_BUY.SetActive(true);
-            menu_rareItem_BUY.SetActive(true);
-        }
-
-        public void GoingToBuyItems()
-        {
-            button_rareItems_BUY.SetActive(false);
-            button_items_BUY.SetActive(false);
-
-            button_wasItemNowReturn_BUY.SetActive(true);
-            menu_item_BUY.SetActive(true);
-        }
-
-        public void WasBuyingRareItemNowReturn()
-        {
-            button_rareItems_BUY.SetActive(true);
-            button_items_BUY.SetActive(true);
-
-            button_wasRareItemNowReturn_BUY.SetActive(false);
-            menu_rareItem_BUY.SetActive(false);
-        }
-
-        public void WasBuyingItemNowReturn()
-        {
-            button_rareItems_BUY.SetActive(true);
-            button_items_BUY.SetActive(true);
-
-            button_wasItemNowReturn_BUY.SetActive(false);
-            menu_item_BUY.SetActive(false);
-        }
-
-        #endregion
-
-        #endregion
+         
 
 
         #region Selling Rare Items Functions
 
         public void SellDiamond()
         {
-            if(resourceManager.diamond != 0)
+            if(resource.diamond != 0)
             {
-                resourceManager.diamond -= 1;
+                resource.diamond -= 1;
 
-                resourceManager.gold += diamondValue;
+                resource.gold += diamondValue;
 
-                PlayerPrefs.SetInt("diamond", resourceManager.diamond);
-                PlayerPrefs.SetInt("gold", resourceManager.gold);
+                PlayerPrefs.SetInt("diamond", resource.diamond);
+                PlayerPrefs.SetInt("gold", resource.gold);
             }
             else
             {
@@ -253,14 +259,14 @@ namespace Pelicas
 
         public void SellPearl()
         {
-            if (resourceManager.pearl != 0)
+            if (resource.pearl != 0)
             {
-                resourceManager.pearl -= 1;
+                resource.pearl -= 1;
 
-                resourceManager.gold += pearlValue;
+                resource.gold += pearlValue;
 
-                PlayerPrefs.SetInt("pearl", resourceManager.pearl);
-                PlayerPrefs.SetInt("gold", resourceManager.gold);
+                PlayerPrefs.SetInt("pearl", resource.pearl);
+                PlayerPrefs.SetInt("gold", resource.gold);
             }
             else
             {
@@ -272,14 +278,14 @@ namespace Pelicas
 
         public void SellExoFruit1()
         {
-            if (resourceManager.exoFruit_1 != 0)
+            if (resource.exoFruit_1 != 0)
             {
-                resourceManager.exoFruit_1 -= 1;
+                resource.exoFruit_1 -= 1;
 
-                resourceManager.gold += exoFruit_1Value;
+                resource.gold += exoFruit_1Value;
 
-                PlayerPrefs.SetInt("exoFruit_1", resourceManager.exoFruit_1);
-                PlayerPrefs.SetInt("gold", resourceManager.gold);
+                PlayerPrefs.SetInt("exoFruit_1", resource.exoFruit_1);
+                PlayerPrefs.SetInt("gold", resource.gold);
             }
             else
             {
@@ -291,14 +297,14 @@ namespace Pelicas
 
         public void SellExoFruit2()
         {
-            if (resourceManager.exoFruit_2 != 0)
+            if (resource.exoFruit_2 != 0)
             {
-                resourceManager.exoFruit_2 -= 1;
+                resource.exoFruit_2 -= 1;
 
-                resourceManager.gold += exoFruit_1Value;
+                resource.gold += exoFruit_1Value;
 
-                PlayerPrefs.SetInt("exoFruit_2", resourceManager.exoFruit_2);
-                PlayerPrefs.SetInt("gold", resourceManager.gold);
+                PlayerPrefs.SetInt("exoFruit_2", resource.exoFruit_2);
+                PlayerPrefs.SetInt("gold", resource.gold);
             }
             else
             {
@@ -310,14 +316,14 @@ namespace Pelicas
 
         public void SellExoLeaf1()
         {
-            if (resourceManager.exoLeaf_1 != 0)
+            if (resource.exoLeaf_1 != 0)
             {
-                resourceManager.exoLeaf_1 -= 1;
+                resource.exoLeaf_1 -= 1;
 
-                resourceManager.gold += exoLeaf_1Value;
+                resource.gold += exoLeaf_1Value;
 
-                PlayerPrefs.SetInt("exoLeaf_1", resourceManager.exoLeaf_1);
-                PlayerPrefs.SetInt("gold", resourceManager.gold);
+                PlayerPrefs.SetInt("exoLeaf_1", resource.exoLeaf_1);
+                PlayerPrefs.SetInt("gold", resource.gold);
             }
             else
             {
@@ -330,14 +336,14 @@ namespace Pelicas
 
         public void SellExoLeaf2()
         {
-            if (resourceManager.exoLeaf_2 != 0)
+            if (resource.exoLeaf_2 != 0)
             {
-                resourceManager.exoLeaf_2 -= 1;
+                resource.exoLeaf_2 -= 1;
 
-                resourceManager.gold += exoLeaf_2Value;
+                resource.gold += exoLeaf_2Value;
 
-                PlayerPrefs.SetInt("exoLeaf_2", resourceManager.exoLeaf_2);
-                PlayerPrefs.SetInt("gold", resourceManager.gold);
+                PlayerPrefs.SetInt("exoLeaf_2", resource.exoLeaf_2);
+                PlayerPrefs.SetInt("gold", resource.gold);
             }
             else
             {
@@ -355,14 +361,14 @@ namespace Pelicas
 
         public void SellTomato()
         {
-            if (resourceManager.tomato != 0)
+            if (resource.tomato != 0)
             {
-                resourceManager.tomato -= 1;
+                resource.tomato -= 1;
 
-                resourceManager.gold += tomatoValue;
+                resource.gold += tomatoValue;
 
-                PlayerPrefs.SetInt("tomato", resourceManager.tomato);
-                PlayerPrefs.SetInt("gold", resourceManager.gold);
+                PlayerPrefs.SetInt("tomato", resource.tomato);
+                PlayerPrefs.SetInt("gold", resource.gold);
             }
             else
             {
@@ -374,14 +380,14 @@ namespace Pelicas
 
         public void SellPepper()
         {
-            if (resourceManager.pepper != 0)
+            if (resource.pepper != 0)
             {
-                resourceManager.pepper -= 1;
+                resource.pepper -= 1;
 
-                resourceManager.gold += pepperValue;
+                resource.gold += pepperValue;
 
-                PlayerPrefs.SetInt("pepper", resourceManager.pepper);
-                PlayerPrefs.SetInt("gold", resourceManager.gold);
+                PlayerPrefs.SetInt("pepper", resource.pepper);
+                PlayerPrefs.SetInt("gold", resource.gold);
             }
             else
             {
@@ -393,14 +399,14 @@ namespace Pelicas
 
         public void SellNativeGift()
         {
-            if (resourceManager.nativeGift != 0)
+            if (resource.nativeGift != 0)
             {
-                resourceManager.nativeGift -= 1;
+                resource.nativeGift -= 1;
 
-                resourceManager.gold += nativeGiftValue;
+                resource.gold += nativeGiftValue;
 
-                PlayerPrefs.SetInt("nativeGift", resourceManager.nativeGift);
-                PlayerPrefs.SetInt("gold", resourceManager.gold);
+                PlayerPrefs.SetInt("nativeGift", resource.nativeGift);
+                PlayerPrefs.SetInt("gold", resource.gold);
             }
             else
             {
@@ -412,14 +418,14 @@ namespace Pelicas
 
         public void SellVanillaPlant()
         {
-            if (resourceManager.vanillaPlant != 0)
+            if (resource.vanillaPlant != 0)
             {
-                resourceManager.vanillaPlant -= 1;
+                resource.vanillaPlant -= 1;
 
-                resourceManager.gold += vanillaPlantValue;
+                resource.gold += vanillaPlantValue;
 
-                PlayerPrefs.SetInt("vanillaPlant", resourceManager.vanillaPlant);
-                PlayerPrefs.SetInt("gold", resourceManager.gold);
+                PlayerPrefs.SetInt("vanillaPlant", resource.vanillaPlant);
+                PlayerPrefs.SetInt("gold", resource.gold);
             }
             else
             {
@@ -431,14 +437,14 @@ namespace Pelicas
 
         public void SellCoconut()
         {
-            if (resourceManager.coconut != 0)
+            if (resource.coconut != 0)
             {
-                resourceManager.coconut -= 1;
+                resource.coconut -= 1;
 
-                resourceManager.gold += coconutValue;
+                resource.gold += coconutValue;
 
-                PlayerPrefs.SetInt("coconut", resourceManager.coconut);
-                PlayerPrefs.SetInt("gold", resourceManager.gold);
+                PlayerPrefs.SetInt("coconut", resource.coconut);
+                PlayerPrefs.SetInt("gold", resource.gold);
             }
             else
             {
@@ -451,14 +457,14 @@ namespace Pelicas
 
         public void SellWood()
         {
-            if (resourceManager.wood != 0)
+            if (resource.wood != 0)
             {
-                resourceManager.wood -= 1;
+                resource.wood -= 1;
 
-                resourceManager.gold += woodValue;
+                resource.gold += woodValue;
 
-                PlayerPrefs.SetInt("wood", resourceManager.wood);
-                PlayerPrefs.SetInt("gold", resourceManager.gold);
+                PlayerPrefs.SetInt("wood", resource.wood);
+                PlayerPrefs.SetInt("gold", resource.gold);
             }
             else
             {
@@ -471,14 +477,14 @@ namespace Pelicas
 
         public void SellIron()
         {
-            if (resourceManager.iron != 0)
+            if (resource.iron != 0)
             {
-                resourceManager.iron -= 1;
+                resource.iron -= 1;
 
-                resourceManager.gold += woodValue;
+                resource.gold += woodValue;
 
-                PlayerPrefs.SetInt("iron", resourceManager.iron);
-                PlayerPrefs.SetInt("gold", resourceManager.gold);
+                PlayerPrefs.SetInt("iron", resource.iron);
+                PlayerPrefs.SetInt("gold", resource.gold);
             }
             else
             {
@@ -497,14 +503,14 @@ namespace Pelicas
 
         public void BuyDiamond()
         {
-            if (resourceManager.gold >= rareValue_Buy)
+            if (resource.gold >= rareValue_Buy)
             {
-                resourceManager.diamond += 1;
+                resource.diamond += 1;
 
-                resourceManager.gold -= rareValue_Buy;
+                resource.gold -= rareValue_Buy;
 
-                PlayerPrefs.SetInt("diamond", resourceManager.diamond);
-                PlayerPrefs.SetInt("gold", resourceManager.gold);
+                PlayerPrefs.SetInt("diamond", resource.diamond);
+                PlayerPrefs.SetInt("gold", resource.gold);
             }
             else
             {
@@ -516,14 +522,14 @@ namespace Pelicas
 
         public void BuyPearl()
         {
-            if (resourceManager.gold >= pearlValue_Buy)
+            if (resource.gold >= pearlValue_Buy)
             {
-                resourceManager.pearl += 1;
+                resource.pearl += 1;
 
-                resourceManager.gold -= pearlValue_Buy;
+                resource.gold -= pearlValue_Buy;
 
-                PlayerPrefs.SetInt("pearl", resourceManager.pearl);
-                PlayerPrefs.SetInt("gold", resourceManager.gold);
+                PlayerPrefs.SetInt("pearl", resource.pearl);
+                PlayerPrefs.SetInt("gold", resource.gold);
             }
             else
             {
@@ -535,14 +541,14 @@ namespace Pelicas
 
         public void BuyExoFruit1()
         {
-            if (resourceManager.gold >= rareValue_Buy)
+            if (resource.gold >= rareValue_Buy)
             {
-                resourceManager.exoFruit_1 += 1;
+                resource.exoFruit_1 += 1;
 
-                resourceManager.gold -= rareValue_Buy;
+                resource.gold -= rareValue_Buy;
 
-                PlayerPrefs.SetInt("exoFruit_1", resourceManager.exoFruit_1);
-                PlayerPrefs.SetInt("gold", resourceManager.gold);
+                PlayerPrefs.SetInt("exoFruit_1", resource.exoFruit_1);
+                PlayerPrefs.SetInt("gold", resource.gold);
             }
             else
             {
@@ -554,14 +560,14 @@ namespace Pelicas
 
         public void BuyExoFruit2()
         {
-            if (resourceManager.gold >= rareValue_Buy)
+            if (resource.gold >= rareValue_Buy)
             {
-                resourceManager.exoFruit_2 += 1;
+                resource.exoFruit_2 += 1;
 
-                resourceManager.gold -= rareValue_Buy;
+                resource.gold -= rareValue_Buy;
 
-                PlayerPrefs.SetInt("exoFruit_2", resourceManager.exoFruit_2);
-                PlayerPrefs.SetInt("gold", resourceManager.gold);
+                PlayerPrefs.SetInt("exoFruit_2", resource.exoFruit_2);
+                PlayerPrefs.SetInt("gold", resource.gold);
             }
             else
             {
@@ -573,14 +579,14 @@ namespace Pelicas
 
         public void BuyExoLeaf_1()
         {
-            if (resourceManager.gold >= rareValue_Buy)
+            if (resource.gold >= rareValue_Buy)
             {
-                resourceManager.exoLeaf_1 += 1;
+                resource.exoLeaf_1 += 1;
 
-                resourceManager.gold -= rareValue_Buy;
+                resource.gold -= rareValue_Buy;
 
-                PlayerPrefs.SetInt("exoLeaf_1", resourceManager.exoLeaf_1);
-                PlayerPrefs.SetInt("gold", resourceManager.gold);
+                PlayerPrefs.SetInt("exoLeaf_1", resource.exoLeaf_1);
+                PlayerPrefs.SetInt("gold", resource.gold);
             }
             else
             {
@@ -592,14 +598,14 @@ namespace Pelicas
 
         public void BuyExoLeaf_2()
         {
-            if (resourceManager.gold >= rareValue_Buy)
+            if (resource.gold >= rareValue_Buy)
             {
-                resourceManager.exoLeaf_2 += 1;
+                resource.exoLeaf_2 += 1;
 
-                resourceManager.gold -= rareValue_Buy;
+                resource.gold -= rareValue_Buy;
 
-                PlayerPrefs.SetInt("exoLeaf_2", resourceManager.exoLeaf_2);
-                PlayerPrefs.SetInt("gold", resourceManager.gold);
+                PlayerPrefs.SetInt("exoLeaf_2", resource.exoLeaf_2);
+                PlayerPrefs.SetInt("gold", resource.gold);
             }
             else
             {
@@ -612,14 +618,14 @@ namespace Pelicas
 
         public void BuyReputPoint()
         {
-            if (resourceManager.gold >= reputPointValue)
+            if (resource.gold >= reputPointValue)
             {
-                resourceManager.reputPoint += 1;
+                resource.reputPoint += 1;
 
-                resourceManager.gold -= reputPointValue;
+                resource.gold -= reputPointValue;
 
-                PlayerPrefs.SetInt("reputPoint", resourceManager.reputPoint);
-                PlayerPrefs.SetInt("gold", resourceManager.gold);
+                PlayerPrefs.SetInt("reputPoint", resource.reputPoint);
+                PlayerPrefs.SetInt("gold", resource.gold);
             }
             else
             {
@@ -637,14 +643,14 @@ namespace Pelicas
 
         public void BuyTomato()
         {
-            if (resourceManager.gold >= tomatoValue)
+            if (resource.gold >= tomatoValue)
             {
-                resourceManager.tomato += 1;
+                resource.tomato += 1;
 
-                resourceManager.gold -= tomatoValue;
+                resource.gold -= tomatoValue;
 
-                PlayerPrefs.SetInt("tomato", resourceManager.tomato);
-                PlayerPrefs.SetInt("gold", resourceManager.gold);
+                PlayerPrefs.SetInt("tomato", resource.tomato);
+                PlayerPrefs.SetInt("gold", resource.gold);
             }
             else
             {
@@ -656,14 +662,14 @@ namespace Pelicas
 
         public void BuyPepper()
         {
-            if (resourceManager.gold >= pepperValue)
+            if (resource.gold >= pepperValue)
             {
-                resourceManager.pepper += 1;
+                resource.pepper += 1;
 
-                resourceManager.gold -= pepperValue;
+                resource.gold -= pepperValue;
 
-                PlayerPrefs.SetInt("pepper", resourceManager.pepper);
-                PlayerPrefs.SetInt("gold", resourceManager.gold);
+                PlayerPrefs.SetInt("pepper", resource.pepper);
+                PlayerPrefs.SetInt("gold", resource.gold);
             }
             else
             {
@@ -676,14 +682,14 @@ namespace Pelicas
 
         public void BuyVanillaPlant()
         {
-            if (resourceManager.gold >= vanillaPlantValue)
+            if (resource.gold >= vanillaPlantValue)
             {
-                resourceManager.vanillaPlant += 1;
+                resource.vanillaPlant += 1;
 
-                resourceManager.gold -= vanillaPlantValue;
+                resource.gold -= vanillaPlantValue;
 
-                PlayerPrefs.SetInt("vanillaPlant", resourceManager.vanillaPlant);
-                PlayerPrefs.SetInt("gold", resourceManager.gold);
+                PlayerPrefs.SetInt("vanillaPlant", resource.vanillaPlant);
+                PlayerPrefs.SetInt("gold", resource.gold);
             }
             else
             {
@@ -695,14 +701,14 @@ namespace Pelicas
 
         public void BuyCoconut()
         {
-            if (resourceManager.gold >= coconutValue)
+            if (resource.gold >= coconutValue)
             {
-                resourceManager.coconut += 1;
+                resource.coconut += 1;
 
-                resourceManager.gold -= coconutValue;
+                resource.gold -= coconutValue;
 
-                PlayerPrefs.SetInt("coconut", resourceManager.coconut);
-                PlayerPrefs.SetInt("gold", resourceManager.gold);
+                PlayerPrefs.SetInt("coconut", resource.coconut);
+                PlayerPrefs.SetInt("gold", resource.gold);
             }
             else
             {
@@ -715,14 +721,14 @@ namespace Pelicas
 
         public void BuyWood()
         {
-            if (resourceManager.gold >= woodValue)
+            if (resource.gold >= woodValue)
             {
-                resourceManager.wood += 1;
+                resource.wood += 1;
 
-                resourceManager.gold -= woodValue;
+                resource.gold -= woodValue;
 
-                PlayerPrefs.SetInt("wood", resourceManager.wood);
-                PlayerPrefs.SetInt("gold", resourceManager.gold);
+                PlayerPrefs.SetInt("wood", resource.wood);
+                PlayerPrefs.SetInt("gold", resource.gold);
             }
             else
             {
@@ -735,14 +741,14 @@ namespace Pelicas
 
         public void BuyIron()
         {
-            if (resourceManager.gold >= ironValue)
+            if (resource.gold >= ironValue)
             {
-                resourceManager.iron += 1;
+                resource.iron += 1;
 
-                resourceManager.gold -= ironValue;
+                resource.gold -= ironValue;
 
-                PlayerPrefs.SetInt("iron", resourceManager.iron);
-                PlayerPrefs.SetInt("gold", resourceManager.gold);
+                PlayerPrefs.SetInt("iron", resource.iron);
+                PlayerPrefs.SetInt("gold", resource.gold);
             }
             else
             {
