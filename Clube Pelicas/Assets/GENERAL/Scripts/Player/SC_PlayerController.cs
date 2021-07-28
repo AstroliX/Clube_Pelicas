@@ -19,11 +19,16 @@ namespace Pelicas
         public bool canMove;
         public bool wonMiniGame;
         public bool lostMiniGame;
+        public bool canDisplay;
 
-
+        [Space]
+        [SerializeField] GameObject resourceDisplay;
+        bool isDisplaying;
+        
 
         private Vector3 currentImpact;
 
+        SC_ResourcesDisplay resourceD;
 
         CharacterController characterController;
         Rigidbody rb;
@@ -40,10 +45,16 @@ namespace Pelicas
         private void Start()
         {
             canMove = true;
+            canDisplay = true;
         }
 
         private void Update()
         {
+
+            if (Input.GetKeyDown(KeyCode.R))
+            {
+                ShowResourceDisplay();
+            }
 
             if (canMove)
             {
@@ -87,7 +98,23 @@ namespace Pelicas
 
         #region - PRIVATE_FUNCTIONS -
 
-
+        void ShowResourceDisplay()
+        {
+            if (canDisplay)
+            {
+                if (!isDisplaying)
+                {
+                    resourceDisplay.SetActive(true);
+                    isDisplaying = true;
+                }
+                else if (isDisplaying)
+                {
+                    resourceDisplay.SetActive(false);
+                    isDisplaying = false;
+                }
+            }
+            
+        }
 
         #endregion
 

@@ -136,7 +136,8 @@ namespace Pelicas
 
             playerCam.SetActive(true);
             npcCam.SetActive(false);
-            
+            playerScript.canDisplay = true;
+
         }
 
         public void GoToPalace()
@@ -205,7 +206,7 @@ namespace Pelicas
             playerCam.SetActive(false);
             npcCam.SetActive(true);
 
-
+            playerScript.canDisplay = false;
 
             npcPreview.SetActive(false);
             npcIsTalking.SetActive(true);
