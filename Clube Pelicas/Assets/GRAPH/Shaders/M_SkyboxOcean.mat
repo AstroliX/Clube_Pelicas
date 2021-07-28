@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Shader Graphs_NormalTest
-  m_Shader: {fileID: -6465566751694194690, guid: efcfda878a2a9b844825f7274063b9d8, type: 3}
+  m_Name: M_SkyboxOcean
+  m_Shader: {fileID: -6465566751694194690, guid: 8d7eed837f39bab4daad876e5231bce1, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -32,7 +32,10 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Boolean_248275d95e0b4f778baae2e268e9defb: 1
-    - Vector1_7f26b46fe93b4425b4045e7e8f22ab35: 0.02
-    m_Colors: []
+    - Vector1_619002f7bac6468d80162b153b8b6175: 1.28
+    - Vector1_8d8cd3023e0449b98f3f31f14b75c13b: 0.8
+    - Vector1_d463ce5c5a764745880d75868043d68a: 26.93
+    m_Colors:
+    - Color_1f484719bb95464e8536fc706fe1b93b: {r: 0.9716981, g: 0.48035365, b: 0.16958882, a: 1}
+    - Color_530b3a63a2eb48a3826da09486edae90: {r: 0, g: 0.8431373, b: 0.9725491, a: 1}
   m_BuildTextureStacks: []

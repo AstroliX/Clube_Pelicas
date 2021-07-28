@@ -30,7 +30,6 @@ public class IslandController : MonoBehaviour
         Rotation_Amount = Random.Range(0, 360);
         Rotation_Vector.y = Rotation_Amount;
         transform.eulerAngles = Rotation_Vector;
-        Debug.Log("Rotation = " + Rotation_Amount);
 
 
         Scale_Amount = Random.Range(0.25f, 1f);
@@ -38,7 +37,7 @@ public class IslandController : MonoBehaviour
         Scale_Vector.y = Scale_Amount;
         Scale_Vector.z = Scale_Amount;
         transform.localScale = Scale_Vector;
-        Debug.Log("Size = " + Scale_Amount);
+
        
     }
 
