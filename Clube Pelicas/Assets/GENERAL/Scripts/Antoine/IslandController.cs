@@ -13,7 +13,7 @@ public class IslandController : MonoBehaviour
     
     [Space]
     [Header("Enemy Stats")]
-    public float bound_z = -110f;
+    public float bound_x = -200f;
 
     private Vector3 Rotation_Vector;
     private float Rotation_Amount;
@@ -52,10 +52,10 @@ public class IslandController : MonoBehaviour
         if (canMove)
         {
             Vector3 temp = transform.position;
-            temp.z -= speed * Time.deltaTime;
+            temp.x -= speed * Time.deltaTime;
             transform.position = temp;
 
-            if (temp.z < bound_z)
+            if (temp.x < bound_x)
                 Destroy(gameObject, 1);
         }
     }
